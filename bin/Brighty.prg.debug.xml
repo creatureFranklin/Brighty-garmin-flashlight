@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\develop\garmin\Brighty\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyDelegate.mc" id="1" lineNum="4" parent="globals/BrightyDelegate" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="2" lineNum="10" parent="globals/FlashlightView" pc="268435472" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="2" lineNum="11" parent="globals/FlashlightView" pc="268435483" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435496" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="4" lineNum="6" parent="globals/BrightyApp" pc="268435516" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyMenuDelegate.mc" id="5" lineNum="5" parent="globals/BrightyMenuDelegate" pc="268435528" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsView.mc" id="6" lineNum="6" parent="globals/SettingsView" pc="268435540" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyDelegate.mc" id="7" lineNum="7" parent="globals/BrightyDelegate" pc="268435552" symbol="initialize"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyDelegate.mc" id="7" lineNum="8" parent="globals/BrightyDelegate" pc="268435554" symbol="initialize"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyDelegate.mc" id="7" lineNum="9" parent="globals/BrightyDelegate" pc="268435570" symbol="initialize"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyDelegate.mc" id="8" lineNum="13" parent="globals/BrightyDelegate" pc="268435580" symbol="onKey"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyDelegate.mc" id="8" lineNum="15" parent="globals/BrightyDelegate" pc="268435582" symbol="onKey"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="10" lineNum="161" parent="globals/FlashlightView" pc="268435603" symbol="contrastColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="10" lineNum="162" parent="globals/FlashlightView" pc="268435605" symbol="contrastColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="10" lineNum="164" parent="globals/FlashlightView" pc="268435616" symbol="contrastColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="10" lineNum="165" parent="globals/FlashlightView" pc="268435621" symbol="contrastColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="10" lineNum="167" parent="globals/FlashlightView" pc="268435632" symbol="contrastColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="10" lineNum="168" parent="globals/FlashlightView" pc="268435637" symbol="contrastColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="10" lineNum="170" parent="globals/FlashlightView" pc="268435648" symbol="contrastColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="10" lineNum="171" parent="globals/FlashlightView" pc="268435657" symbol="contrastColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="10" lineNum="172" parent="globals/FlashlightView" pc="268435668" symbol="contrastColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="10" lineNum="173" parent="globals/FlashlightView" pc="268435677" symbol="contrastColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="10" lineNum="174" parent="globals/FlashlightView" pc="268435684" symbol="contrastColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="10" lineNum="177" parent="globals/FlashlightView" pc="268435693" symbol="contrastColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="11" lineNum="66" parent="globals/FlashlightView" pc="268435699" symbol="onKey"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="11" lineNum="67" parent="globals/FlashlightView" pc="268435701" symbol="onKey"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="11" lineNum="68" parent="globals/FlashlightView" pc="268435709" symbol="onKey"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="11" lineNum="69" parent="globals/FlashlightView" pc="268435727" symbol="onKey"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="11" lineNum="70" parent="globals/FlashlightView" pc="268435734" symbol="onKey"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="11" lineNum="72" parent="globals/FlashlightView" pc="268435739" symbol="onKey"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="11" lineNum="73" parent="globals/FlashlightView" pc="268435747" symbol="onKey"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="11" lineNum="74" parent="globals/FlashlightView" pc="268435765" symbol="onKey"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="11" lineNum="75" parent="globals/FlashlightView" pc="268435772" symbol="onKey"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="11" lineNum="77" parent="globals/FlashlightView" pc="268435777" symbol="onKey"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="11" lineNum="78" parent="globals/FlashlightView" pc="268435785" symbol="onKey"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="11" lineNum="79" parent="globals/FlashlightView" pc="268435803" symbol="onKey"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="11" lineNum="80" parent="globals/FlashlightView" pc="268435810" symbol="onKey"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="11" lineNum="83" parent="globals/FlashlightView" pc="268435815" symbol="onKey"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="12" lineNum="96" parent="globals/FlashlightView" pc="268435817" symbol="nextColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="12" lineNum="97" parent="globals/FlashlightView" pc="268435819" symbol="nextColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="12" lineNum="98" parent="globals/FlashlightView" pc="268435846" symbol="nextColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="13" lineNum="157" parent="globals/FlashlightView" pc="268435858" symbol="min"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="13" lineNum="158" parent="globals/FlashlightView" pc="268435860" symbol="min"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="14" lineNum="27" parent="globals/FlashlightView" pc="268435876" symbol="initialize"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="14" lineNum="28" parent="globals/FlashlightView" pc="268435878" symbol="initialize"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="14" lineNum="29" parent="globals/FlashlightView" pc="268435890" symbol="initialize"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="16" lineNum="136" parent="globals/FlashlightView" pc="268435909" symbol="drawLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="16" lineNum="148" parent="globals/FlashlightView" pc="268435912" symbol="drawLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="16" lineNum="149" parent="globals/FlashlightView" pc="268435928" symbol="drawLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="16" lineNum="150" parent="globals/FlashlightView" pc="268435935" symbol="drawLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="16" lineNum="151" parent="globals/FlashlightView" pc="268435957" symbol="drawLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="16" lineNum="153" parent="globals/FlashlightView" pc="268435979" symbol="drawLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="16" lineNum="154" parent="globals/FlashlightView" pc="268435993" symbol="drawLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="17" lineNum="101" parent="globals/FlashlightView" pc="268436014" symbol="prevColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="17" lineNum="102" parent="globals/FlashlightView" pc="268436016" symbol="prevColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="17" lineNum="103" parent="globals/FlashlightView" pc="268436055" symbol="prevColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="18" lineNum="34" parent="globals/FlashlightView" pc="268436067" symbol="onUpdate"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="18" lineNum="36" parent="globals/FlashlightView" pc="268436070" symbol="onUpdate"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="18" lineNum="37" parent="globals/FlashlightView" pc="268436083" symbol="onUpdate"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="18" lineNum="38" parent="globals/FlashlightView" pc="268436095" symbol="onUpdate"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="18" lineNum="39" parent="globals/FlashlightView" pc="268436112" symbol="onUpdate"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="18" lineNum="42" parent="globals/FlashlightView" pc="268436120" symbol="onUpdate"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="18" lineNum="44" parent="globals/FlashlightView" pc="268436138" symbol="onUpdate"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="18" lineNum="46" parent="globals/FlashlightView" pc="268436158" symbol="onUpdate"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="18" lineNum="49" parent="globals/FlashlightView" pc="268436187" symbol="onUpdate"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="18" lineNum="51" parent="globals/FlashlightView" pc="268436214" symbol="onUpdate"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="18" lineNum="52" parent="globals/FlashlightView" pc="268436242" symbol="onUpdate"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="18" lineNum="53" parent="globals/FlashlightView" pc="268436275" symbol="onUpdate"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="18" lineNum="54" parent="globals/FlashlightView" pc="268436303" symbol="onUpdate"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="19" lineNum="107" parent="globals/FlashlightView" pc="268436337" symbol="openSettings"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="19" lineNum="108" parent="globals/FlashlightView" pc="268436339" symbol="openSettings"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="20" lineNum="116" parent="globals/FlashlightView" pc="268436373" symbol="drawSoftKeyStrip"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="20" lineNum="127" parent="globals/FlashlightView" pc="268436376" symbol="drawSoftKeyStrip"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="20" lineNum="128" parent="globals/FlashlightView" pc="268436389" symbol="drawSoftKeyStrip"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="20" lineNum="131" parent="globals/FlashlightView" pc="268436402" symbol="drawSoftKeyStrip"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="20" lineNum="132" parent="globals/FlashlightView" pc="268436414" symbol="drawSoftKeyStrip"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyView.mc" id="20" lineNum="133" parent="globals/FlashlightView" pc="268436428" symbol="drawSoftKeyStrip"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="21" lineNum="11" parent="globals/BrightyApp" pc="268436450" symbol="onStart"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="22" lineNum="13" parent="globals/BrightyApp" pc="268436453" symbol="getInitialView"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="22" lineNum="14" parent="globals/BrightyApp" pc="268436456" symbol="getInitialView"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="22" lineNum="15" parent="globals/BrightyApp" pc="268436476" symbol="getInitialView"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="22" lineNum="16" parent="globals/BrightyApp" pc="268436498" symbol="getInitialView"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="23" lineNum="7" parent="globals/BrightyApp" pc="268436513" symbol="initialize"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="23" lineNum="8" parent="globals/BrightyApp" pc="268436515" symbol="initialize"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyMenuDelegate.mc" id="24" lineNum="11" parent="globals/BrightyMenuDelegate" pc="268436528" symbol="onMenuItem"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyMenuDelegate.mc" id="24" lineNum="12" parent="globals/BrightyMenuDelegate" pc="268436530" symbol="onMenuItem"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyMenuDelegate.mc" id="24" lineNum="13" parent="globals/BrightyMenuDelegate" pc="268436541" symbol="onMenuItem"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyMenuDelegate.mc" id="24" lineNum="14" parent="globals/BrightyMenuDelegate" pc="268436562" symbol="onMenuItem"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyMenuDelegate.mc" id="24" lineNum="15" parent="globals/BrightyMenuDelegate" pc="268436573" symbol="onMenuItem"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyMenuDelegate.mc" id="25" lineNum="7" parent="globals/BrightyMenuDelegate" pc="268436595" symbol="initialize"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyMenuDelegate.mc" id="25" lineNum="8" parent="globals/BrightyMenuDelegate" pc="268436597" symbol="initialize"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsView.mc" id="28" lineNum="9" parent="globals/SettingsView" pc="268436610" symbol="onUpdate"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsView.mc" id="28" lineNum="10" parent="globals/SettingsView" pc="268436613" symbol="onUpdate"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsView.mc" id="28" lineNum="12" parent="globals/SettingsView" pc="268436631" symbol="onUpdate"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsView.mc" id="28" lineNum="13" parent="globals/SettingsView" pc="268436647" symbol="onUpdate"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsView.mc" id="28" lineNum="14" parent="globals/SettingsView" pc="268436655" symbol="onUpdate"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsView.mc" id="28" lineNum="15" parent="globals/SettingsView" pc="268436684" symbol="onUpdate"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsView.mc" id="29" lineNum="18" parent="globals/SettingsView" pc="268436714" symbol="onKey"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsView.mc" id="29" lineNum="19" parent="globals/SettingsView" pc="268436716" symbol="onKey"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsView.mc" id="29" lineNum="20" parent="globals/SettingsView" pc="268436724" symbol="onKey"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsView.mc" id="29" lineNum="21" parent="globals/SettingsView" pc="268436738" symbol="onKey"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsView.mc" id="29" lineNum="23" parent="globals/SettingsView" pc="268436743" symbol="onKey"/>
+        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="30" lineNum="14" parent="globals/Rez/Layouts" pc="268436745" symbol="MainLayout"/>
+        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="30" lineNum="15" parent="globals/Rez/Layouts" pc="268436756" symbol="MainLayout"/>
+        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="30" lineNum="17" parent="globals/Rez/Layouts" pc="268436856" symbol="MainLayout"/>
+        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="30" lineNum="18" parent="globals/Rez/Layouts" pc="268436940" symbol="MainLayout"/>
+        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="30" lineNum="20" parent="globals/Rez/Layouts" pc="268436972" symbol="MainLayout"/>
+        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="31" lineNum="25" parent="globals/Rez/Menus/MainMenu" pc="268436987" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="32" lineNum="26" parent="globals/Rez/Menus/MainMenu" pc="268436999" symbol="initialize"/>
+        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="32" lineNum="27" parent="globals/Rez/Menus/MainMenu" pc="268437001" symbol="initialize"/>
+        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="32" lineNum="28" parent="globals/Rez/Menus/MainMenu" pc="268437013" symbol="initialize"/>
+        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="32" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268437058" symbol="initialize"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8389346" symbol="text"/>
+        <entry id="14" symbol="_colors"/>
+        <entry field="true" id="17" symbol="_icoUp"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="5" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="29" method="true" symbol="MainLayout"/>
+        <entry id="19" method="true" symbol="contrastColor"/>
+        <entry id="7" object="true" symbol="BrightyApp"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="16" symbol="_icoDown"/>
+        <entry field="true" id="13" symbol="_color"/>
+        <entry field="true" id="31" symbol="AppName"/>
+        <entry id="6" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8389345" symbol="rezId"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="34" symbol="prompt"/>
+        <entry field="true" id="28" symbol="id_monkey"/>
+        <entry field="true" id="18" symbol="_index"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry field="true" id="8388721" method="true" symbol="min"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="36" symbol="item_2"/>
+        <entry id="35" symbol="item_1"/>
+        <entry id="26" module="true" symbol="Menus"/>
+        <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+        <entry id="20" method="true" symbol="drawLabel"/>
+        <entry id="23" method="true" symbol="openSettings"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="24" method="true" symbol="prevColor"/>
+        <entry id="30" object="true" symbol="MainMenu"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="27" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="21" method="true" symbol="drawSoftKeyStrip"/>
+        <entry id="8" object="true" symbol="BrightyDelegate"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="12" symbol="_view"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry field="true" id="15" symbol="_counter"/>
+        <entry id="9" object="true" symbol="BrightyMenuDelegate"/>
+        <entry id="8389109" method="true" symbol="onMenuItem"/>
+        <entry field="true" id="8389347" symbol="color"/>
+        <entry id="8389097" method="true" symbol="onKey"/>
+        <entry id="25" module="true" symbol="Layouts"/>
+        <entry id="10" object="true" symbol="FlashlightView"/>
+        <entry id="11" object="true" symbol="SettingsView"/>
+        <entry id="22" method="true" symbol="nextColor"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="33" symbol="menu_label_2"/>
+        <entry field="true" id="32" symbol="menu_label_1"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435579" name="v" stackId="1" startPc="268435552"/>
+        <entry arg="true" endPc="268435602" name="keyEvent" stackId="1" startPc="268435580"/>
+        <entry arg="true" endPc="268435698" name="bg" stackId="1" startPc="268435603"/>
+        <entry arg="true" endPc="268435816" name="key" stackId="1" startPc="268435699"/>
+        <entry arg="true" endPc="268435875" name="a" stackId="1" startPc="268435858"/>
+        <entry arg="true" endPc="268435875" name="b" stackId="2" startPc="268435858"/>
+        <entry arg="true" endPc="268436013" name="dc" stackId="1" startPc="268435909"/>
+        <entry arg="true" endPc="268436013" name="cx" stackId="2" startPc="268435909"/>
+        <entry arg="true" endPc="268436013" name="cy" stackId="3" startPc="268435909"/>
+        <entry arg="true" endPc="268436013" name="angleDeg" stackId="4" startPc="268435909"/>
+        <entry arg="true" endPc="268436013" name="r" stackId="5" startPc="268435909"/>
+        <entry arg="true" endPc="268436013" name="text" stackId="6" startPc="268435909"/>
+        <entry arg="true" endPc="268436013" name="fg" stackId="7" startPc="268435909"/>
+        <entry arg="true" endPc="268436013" name="bg" stackId="8" startPc="268435909"/>
+        <entry arg="true" endPc="268436013" name="font" stackId="9" startPc="268435909"/>
+        <entry arg="true" endPc="268436013" name="offset" stackId="10" startPc="268435909"/>
+        <entry endPc="268436012" name="rad" stackId="11" startPc="268435912"/>
+        <entry endPc="268436012" name="rIcon" stackId="12" startPc="268435912"/>
+        <entry endPc="268436012" name="x" stackId="13" startPc="268435912"/>
+        <entry endPc="268436012" name="y" stackId="14" startPc="268435912"/>
+        <entry arg="true" endPc="268436336" name="dc" stackId="1" startPc="268436067"/>
+        <entry endPc="268436335" name="bg" stackId="2" startPc="268436070"/>
+        <entry endPc="268436335" name="fg" stackId="3" startPc="268436070"/>
+        <entry endPc="268436335" name="w" stackId="4" startPc="268436070"/>
+        <entry endPc="268436335" name="h" stackId="5" startPc="268436070"/>
+        <entry endPc="268436335" name="cx" stackId="6" startPc="268436070"/>
+        <entry endPc="268436335" name="cy" stackId="7" startPc="268436070"/>
+        <entry endPc="268436335" name="rOuter" stackId="8" startPc="268436070"/>
+        <entry arg="true" endPc="268436449" name="dc" stackId="1" startPc="268436373"/>
+        <entry arg="true" endPc="268436449" name="cx" stackId="2" startPc="268436373"/>
+        <entry arg="true" endPc="268436449" name="cy" stackId="3" startPc="268436373"/>
+        <entry arg="true" endPc="268436449" name="r" stackId="4" startPc="268436373"/>
+        <entry arg="true" endPc="268436449" name="angleDeg" stackId="5" startPc="268436373"/>
+        <entry arg="true" endPc="268436449" name="arcLenDeg" stackId="6" startPc="268436373"/>
+        <entry arg="true" endPc="268436449" name="ringWidth" stackId="7" startPc="268436373"/>
+        <entry arg="true" endPc="268436449" name="bgColor" stackId="8" startPc="268436373"/>
+        <entry arg="true" endPc="268436449" name="segColor" stackId="9" startPc="268436373"/>
+        <entry endPc="268436448" name="startDeg" stackId="10" startPc="268436376"/>
+        <entry endPc="268436448" name="endDeg" stackId="11" startPc="268436376"/>
+        <entry endPc="268436512" name="v" stackId="1" startPc="268436456"/>
+        <entry endPc="268436512" name="d" stackId="2" startPc="268436456"/>
+        <entry arg="true" endPc="268436594" name="item" stackId="1" startPc="268436528"/>
+        <entry arg="true" endPc="268436713" name="dc" stackId="1" startPc="268436610"/>
+        <entry endPc="268436712" name="w" stackId="2" startPc="268436613"/>
+        <entry endPc="268436712" name="h" stackId="3" startPc="268436613"/>
+        <entry arg="true" endPc="268436744" name="key" stackId="1" startPc="268436714"/>
+        <entry arg="true" endPc="268436986" name="dc" stackId="1" startPc="268436745"/>
+        <entry endPc="268436986" name="rez_cmp_local_text_1193959466" stackId="2" startPc="268436756"/>
+        <entry endPc="268436986" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268436756"/>
+    </localVars>
+    <deviceInfo deviceVersion="973370c5a9d96fc81efa2ce7024844f7f8431e75" partNumber="006-B4666-00"/>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_monkey"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/BrightyDelegate" offset="152" parentId="globals" symbolId="BrightyDelegate" type="class"/>
+        <dataEntry label="globals/FlashlightView" offset="214" parentId="globals" symbolId="FlashlightView" type="class"/>
+        <dataEntry label="globals/Rez" offset="411" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/BrightyApp" offset="473" parentId="globals" symbolId="BrightyApp" type="class"/>
+        <dataEntry label="globals/BrightyMenuDelegate" offset="535" parentId="globals" symbolId="BrightyMenuDelegate" type="class"/>
+        <dataEntry label="globals/SettingsView" offset="588" parentId="globals" symbolId="SettingsView" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="659" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="703" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="738" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="773" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="835" parentId="Menus" symbolId="MainMenu" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="BrightyDelegate" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435495" name="&lt;init&gt;" parent="FlashlightView" startPc="268435472">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435515" name="&lt;init&gt;" parent="Rez" startPc="268435496">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435527" name="&lt;init&gt;" parent="BrightyApp" startPc="268435516">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435539" name="&lt;init&gt;" parent="BrightyMenuDelegate" startPc="268435528">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435551" name="&lt;init&gt;" parent="SettingsView" startPc="268435540">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435579" name="initialize" parent="BrightyDelegate" startPc="268435552">
+            <param id="v"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435602" name="onKey" parent="BrightyDelegate" startPc="268435580">
+            <param id="keyEvent"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="FlashlightView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435698" name="contrastColor" parent="FlashlightView" startPc="268435603">
+            <param id="bg"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435816" name="onKey" parent="FlashlightView" startPc="268435699">
+            <param id="key"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435857" name="nextColor" parent="FlashlightView" startPc="268435817">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435875" name="min" parent="FlashlightView" startPc="268435858">
+            <param id="a"/>
+            <param id="b"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435908" name="initialize" parent="FlashlightView" startPc="268435876">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="FlashlightView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436013" name="drawLabel" parent="FlashlightView" startPc="268435909">
+            <param id="dc"/>
+            <param id="cx"/>
+            <param id="cy"/>
+            <param id="angleDeg"/>
+            <param id="r"/>
+            <param id="text"/>
+            <param id="fg"/>
+            <param id="bg"/>
+            <param id="font"/>
+            <param id="offset"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436066" name="prevColor" parent="FlashlightView" startPc="268436014">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436336" name="onUpdate" parent="FlashlightView" startPc="268436067">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436372" name="openSettings" parent="FlashlightView" startPc="268436337">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436449" name="drawSoftKeyStrip" parent="FlashlightView" startPc="268436373">
+            <param id="dc"/>
+            <param id="cx"/>
+            <param id="cy"/>
+            <param id="r"/>
+            <param id="angleDeg"/>
+            <param id="arcLenDeg"/>
+            <param id="ringWidth"/>
+            <param id="bgColor"/>
+            <param id="segColor"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436452" name="onStart" parent="BrightyApp" startPc="268436450">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436512" name="getInitialView" parent="BrightyApp" startPc="268436453">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436527" name="initialize" parent="BrightyApp" startPc="268436513">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436594" name="onMenuItem" parent="BrightyMenuDelegate" startPc="268436528">
+            <param id="item"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436609" name="initialize" parent="BrightyMenuDelegate" startPc="268436595">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="SettingsView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="SettingsView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436713" name="onUpdate" parent="SettingsView" startPc="268436610">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436744" name="onKey" parent="SettingsView" startPc="268436714">
+            <param id="key"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436986" name="MainLayout" parent="Layouts" startPc="268436745">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436998" name="&lt;init&gt;" parent="MainMenu" startPc="268436987">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437103" name="initialize" parent="MainMenu" startPc="268436999">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
