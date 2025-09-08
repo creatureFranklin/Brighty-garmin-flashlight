@@ -55,9 +55,6 @@ class FlashlightView extends WatchUi.View {
         // 3) hints
         var showHintsFlag = SettingsService.getHintsEnabled();
 
-        System.println("DEBUG setting: " + showHintsFlag);
-        System.println("DEBUG raw setting: " + Application.getApp().getProperty("showHints"));
-
         if (showHintsFlag == true) {
             var last = _colors.size() - 1;
             var canGoNext = _index > 0; // KEY_UP
@@ -107,7 +104,6 @@ class FlashlightView extends WatchUi.View {
     }
 
     function setActiveColor(colorIndex as Number) as Void {
-        System.println("DEBUG setActiveColor: " + colorIndex);
         _index = colorIndex;
         _color = _colors[_index];
         WatchUi.requestUpdate();

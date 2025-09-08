@@ -1,0 +1,12 @@
+<properties>
+    <!-- Barvy jako booleany (zdroj pravdy z mobilu i z hodinek) -->
+    <property id="colorWhite" type="boolean">true</property>
+    <property id="colorRed" type="boolean">true</property>
+    <property id="colorGreen" type="boolean">false</property>
+
+    <!-- Hinty -->
+    <property id="showHints" type="boolean">true</property>
+
+    <!-- Auto-off (v sekundách) -->
+    <property id="autoOffSec" type="number">0</property>
+</properties>

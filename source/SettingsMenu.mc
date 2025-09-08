@@ -399,37 +399,98 @@ class SettingsMenu {
 }
 
 class SettingsService {
-    // Vrátí pole vybraných barev (nikdy prázdné)
-    static function getSelectedColors() as Array {
-        var arr = Application.getApp().getProperty("mainColors");
-        if (arr == null || arr.size() == 0) {
-            arr = [Graphics.COLOR_WHITE];
+    // --- Pomoc: bezpečné čtení boolean/number s defaultem ---
+    static function _getBool(key as String, def as Boolean) as Boolean {
+        try {
+            return Application.Properties.getValue(key);
+        } catch (e) {
+            return def;
         }
-        return arr;
     }
 
-    // „Primární“ barva – první z vybraných (pro místa, kde čekáš jednu barvu)
+    static function _getNum(key as String, def as Number) as Number {
+        try {
+            return Application.Properties.getValue(key);
+        } catch (e) {
+            return def;
+        }
+    }
+
+    static function _set(key as String, val) {
+        try {
+            Application.Properties.setValue(key, val);
+        } catch (e) {
+            // ignore on very old firmwares or background process
+        }
+    }
+
+    // --- Bridge: booleany -> pole barev ---
+    static function _composeSelectedColors() as Array {
+        var res = [];
+        if (_getBool("colorWhite", true)) {
+            res.add(Graphics.COLOR_WHITE);
+        }
+        if (_getBool("colorGreen", false)) {
+            res.add(Graphics.COLOR_GREEN);
+        }
+        if (_getBool("colorRed", false)) {
+            res.add(Graphics.COLOR_RED);
+        }
+        // Bezpečnost: vždy aspoň 1 barva
+        if (res.size() == 0) {
+            res.add(Graphics.COLOR_WHITE);
+        }
+        return res;
+    }
+
+    // --- Veřejné API (shodné s tím, co už voláš ve své app) ---
+
+    static function getSelectedColors() as Array {
+        return _composeSelectedColors();
+    }
+
     static function getPrimaryColor() {
         var arr = getSelectedColors();
         return arr[0];
     }
 
-    // Zda zobrazovat hinty
     static function getHintsEnabled() as Boolean {
-        var v = Application.getApp().getProperty("showHints");
-        System.println("DEBUG getHintsEnabled: " + v);
-        if (v == null) {
-            v = true;
-        }
-        return v;
+        return _getBool("showHints", true);
     }
 
-    // Auto-off v sekundách (0 = nikdy)
-    static function getAutoOffSeconds() {
-        var v = Application.getApp().getProperty("autoOffSec");
-        if (v == null) {
-            v = 0;
+    static function getAutoOffSeconds() as Number {
+        return _getNum("autoOffSec", 0);
+    }
+
+    // --- Zápisy z on-device menu (udržuj stejné klíče jako v settings.xml) ---
+
+    // Přepnutí jedné barvy
+    static function toggleColor(color as Number) {
+        if (color == Graphics.COLOR_WHITE) {
+            _set("colorWhite", !_getBool("colorWhite", true));
+        } else if (color == Graphics.COLOR_GREEN) {
+            _set("colorGreen", !_getBool("colorGreen", false));
+        } else if (color == Graphics.COLOR_RED) {
+            _set("colorRed", !_getBool("colorRed", false));
         }
-        return v;
+
+        // Zajisti aspoň jednu zapnutou
+        var arr = _composeSelectedColors();
+        if (arr.size() == 0) {
+            _set("colorWhite", true);
+        }
+    }
+
+    static function setHintsEnabled(on as Boolean) {
+        _set("showHints", on);
+    }
+
+    static function setAutoOffSeconds(sec as Number) {
+        _set("autoOffSec", sec);
+    }
+
+    // Pokud si chceš udržovat cokoliv v cache, sem si to dej a volej z onSettingsChanged()
+    static function refreshCacheFromProperties() {
+        // pro jednoduchost nic neděláme – čteme vždy přímo z Properties
     }
 }

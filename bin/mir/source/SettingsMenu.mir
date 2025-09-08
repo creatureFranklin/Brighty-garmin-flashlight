@@ -557,7 +557,7 @@ C__develop_garmin_Brighty_source_SettingsMenu_mc_85_8_87_8_if_stmt:
 C__develop_garmin_Brighty_source_SettingsMenu_mc_85_8_87_8_if_true:
 C__develop_garmin_Brighty_source_SettingsMenu_mc_85_31_87_8_start:
 [ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 86 12 ]
-        %tmp.47 = "‚Äî";
+        %tmp.47 = "ó";
         ret %tmp.47;
 C__develop_garmin_Brighty_source_SettingsMenu_mc_85_31_87_8_stop:
         goto @C__develop_garmin_Brighty_source_SettingsMenu_mc_85_8_87_8_if_end;
@@ -593,7 +593,7 @@ C__develop_garmin_Brighty_source_SettingsMenu_mc_88_8_90_8_if_end:
         symbol [ size %tmp.60 92 21 25 ];
         %tmp.60 = getv function %tmp.59 :size;
         %tmp.61 = invoke %tmp.59 %tmp.60();
-        %tmp.62 = " vybran√©";
+        %tmp.62 = " vybranÈ";
         %tmp.63 = add %tmp.61 %tmp.62;
         ret %tmp.63;
 C__develop_garmin_Brighty_source_SettingsMenu_mc_69_34_93_4_stop:
@@ -871,7 +871,7 @@ C__develop_garmin_Brighty_source_SettingsMenu_mc_147_29_164_4_start:
         symbol [ m %tmp.5 149 8 9 ];
         symbol [ setTitle %tmp.6 149 10 18 ];
         %tmp.6 = getv function %tmp.5 :setTitle;
-        %tmp.7 = "Nastaven√≠";
+        %tmp.7 = "NastavenÌ";
         invoke %tmp.5 %tmp.6(%tmp.7);
 [ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 152 8 ]
         %tmp.8 = lgetv %m.1;
@@ -917,7 +917,7 @@ C__develop_garmin_Brighty_source_SettingsMenu_mc_155_23_155_49_end:
         symbol [ m %tmp.26 156 8 9 ];
         symbol [ addItem %tmp.27 156 10 17 ];
         %tmp.27 = getv function %tmp.26 :addItem;
-        %tmp.28 = "Hinty u tlaƒç√≠tek: ";
+        %tmp.28 = "Hinty u tla?Ìtek: ";
         %tmp.29 = lgetv %hintsTxt.2;
         symbol [ hintsTxt %tmp.29 156 41 49 ];
         %tmp.30 = add %tmp.28 %tmp.29;
@@ -951,7 +951,7 @@ C__develop_garmin_Brighty_source_SettingsMenu_mc_155_23_155_49_end:
         symbol [ m %tmp.45 160 8 9 ];
         symbol [ addItem %tmp.46 160 10 17 ];
         %tmp.46 = getv function %tmp.45 :addItem;
-        %tmp.47 = "Auto-vypnut√≠: ";
+        %tmp.47 = "Auto-vypnutÌ: ";
         symbol [ model %tmp.49 160 37 42 ];
         %tmp.49 = getv ? :model;
         symbol [ timeoutLabels %tmp.50 160 43 56 ];
@@ -970,7 +970,7 @@ C__develop_garmin_Brighty_source_SettingsMenu_mc_155_23_155_49_end:
         symbol [ m %tmp.57 162 8 9 ];
         symbol [ addItem %tmp.58 162 10 17 ];
         %tmp.58 = getv function %tmp.57 :addItem;
-        %tmp.59 = "Zpƒõt";
+        %tmp.59 = "Zp?t";
         symbol [ SettingsIds %tmp.61 162 26 37 ];
         %tmp.61 = getv ? :SettingsIds;
         symbol [ ID_BACK %tmp.62 162 38 45 ];
@@ -1001,7 +1001,7 @@ C__develop_garmin_Brighty_source_SettingsMenu_mc_166_49_193_4_start:
         symbol [ m %tmp.5 168 8 9 ];
         symbol [ setTitle %tmp.6 168 10 18 ];
         %tmp.6 = getv function %tmp.5 :setTitle;
-        %tmp.7 = "Barvy (v√≠ce v√Ωbƒõr≈Ø)";
+        %tmp.7 = "Barvy (vÌce v˝b?r?)";
         invoke %tmp.5 %tmp.6(%tmp.7);
 [ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 170 8 ]
         [ "C__develop_garmin_Brighty_source_SettingsMenu_mc_166_49_193_4_start" "C__develop_garmin_Brighty_source_SettingsMenu_mc_166_49_193_4_stop" ]
@@ -1194,7 +1194,7 @@ C__develop_garmin_Brighty_source_SettingsMenu_mc_175_8_187_8_for_end:
         symbol [ m %tmp.71 190 8 9 ];
         symbol [ addItem %tmp.72 190 10 17 ];
         %tmp.72 = getv function %tmp.71 :addItem;
-        %tmp.73 = "Ulo≈æit";
+        %tmp.73 = "Uloûit";
         symbol [ SettingsIds %tmp.75 190 28 39 ];
         %tmp.75 = getv ? :SettingsIds;
         symbol [ ID_SAVE_COLORS %tmp.76 190 40 54 ];
@@ -1205,7 +1205,7 @@ C__develop_garmin_Brighty_source_SettingsMenu_mc_175_8_187_8_for_end:
         symbol [ m %tmp.77 191 8 9 ];
         symbol [ addItem %tmp.78 191 10 17 ];
         %tmp.78 = getv function %tmp.77 :addItem;
-        %tmp.79 = "Zpƒõt";
+        %tmp.79 = "Zp?t";
         symbol [ SettingsIds %tmp.81 191 26 37 ];
         %tmp.81 = getv ? :SettingsIds;
         symbol [ ID_BACK %tmp.82 191 38 45 ];
@@ -1236,7 +1236,7 @@ C__develop_garmin_Brighty_source_SettingsMenu_mc_195_32_209_4_start:
         symbol [ m %tmp.5 197 8 9 ];
         symbol [ setTitle %tmp.6 197 10 18 ];
         %tmp.6 = getv function %tmp.5 :setTitle;
-        %tmp.7 = "Auto-vypnut√≠";
+        %tmp.7 = "Auto-vypnutÌ";
         invoke %tmp.5 %tmp.6(%tmp.7);
 [ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 199 8 ]
         [ "C__develop_garmin_Brighty_source_SettingsMenu_mc_195_32_209_4_start" "C__develop_garmin_Brighty_source_SettingsMenu_mc_195_32_209_4_stop" ]
@@ -1333,7 +1333,7 @@ C__develop_garmin_Brighty_source_SettingsMenu_mc_204_8_206_8_for_end:
         symbol [ m %tmp.44 207 8 9 ];
         symbol [ addItem %tmp.45 207 10 17 ];
         %tmp.45 = getv function %tmp.44 :addItem;
-        %tmp.46 = "Zpƒõt";
+        %tmp.46 = "Zp?t";
         symbol [ SettingsIds %tmp.48 207 26 37 ];
         %tmp.48 = getv ? :SettingsIds;
         symbol [ ID_BACK %tmp.49 207 38 45 ];
@@ -2432,180 +2432,491 @@ class SettingsService {
     static
     <init> {
     }
-    [ @file = "C:\develop\garmin\Brighty\source\SettingsMenu.mc"; @line = 403; @symbol_functiondef = [getSelectedColors,403,20,37]; @symbol_return<0> = [Array,403,43,48]; ]
+    [ @file = "C:\develop\garmin\Brighty\source\SettingsMenu.mc"; @line = 403; @symbol_functiondef = [_getBool,403,20,28]; @symbol_param<0> = [key,403,29,32]; @symbol_param<0>_type<0> = [String,403,36,42]; @symbol_param<1> = [def,403,44,47]; @symbol_param<1>_type<0> = [Boolean,403,51,58]; @symbol_return<0> = [Boolean,403,63,70]; ]
     static
-    function getSelectedColors() as Array {
-C__develop_garmin_Brighty_source_SettingsMenu_mc_403_49_409_4_start:
+    function _getBool(key as String, def as Boolean) as Boolean {
+C__develop_garmin_Brighty_source_SettingsMenu_mc_403_71_409_4_start:
 [ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 404 8 ]
-        [ "C__develop_garmin_Brighty_source_SettingsMenu_mc_403_49_409_4_start" "C__develop_garmin_Brighty_source_SettingsMenu_mc_403_49_409_4_stop" ]
-        %arr.1 = local;
-        symbol [ arr %arr.1 404 12 15 ];
-        symbol [ Application %tmp.1 404 18 29 ];
+        try @C__develop_garmin_Brighty_source_SettingsMenu_mc_404_8_408_8_beginTry @C__develop_garmin_Brighty_source_SettingsMenu_mc_404_8_408_8_endTry @C__develop_garmin_Brighty_source_SettingsMenu_mc_404_8_408_8_catch @C__develop_garmin_Brighty_source_SettingsMenu_mc_404_8_408_8_finally;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_404_8_408_8_beginTry:
+C__develop_garmin_Brighty_source_SettingsMenu_mc_404_12_406_8_start:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 405 12 ]
+        symbol [ Application %tmp.1 405 19 30 ];
         %tmp.1 = getm $.Toybox.Application;
-        symbol [ getApp %tmp.2 404 30 36 ];
-        %tmp.2 = getv function %tmp.1 :getApp;
-        %tmp.3 = invoke %tmp.1 %tmp.2();
-        symbol [ getProperty %tmp.4 404 39 50 ];
-        %tmp.4 = getv function %tmp.3 :getProperty;
-        %tmp.5 = "mainColors";
-        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
-        lputv %arr.1 %tmp.6;
-        symbol [ arr %arr.1 404 12 15 ];
-[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 405 8 ]
-C__develop_garmin_Brighty_source_SettingsMenu_mc_405_8_407_8_if_stmt:
-C__develop_garmin_Brighty_source_SettingsMenu_mc_405_12_405_41_begin:
-        %tmp.7 = lgetv %arr.1;
-        symbol [ arr %tmp.7 405 12 15 ];
-        %tmp.8 = null;
-        %tmp.9 = eq %tmp.7 %tmp.8;
-        bt %tmp.9 @C__develop_garmin_Brighty_source_SettingsMenu_mc_405_8_407_8_if_true;
-C__develop_garmin_Brighty_source_SettingsMenu_mc_405_27_405_41_false:
-        %tmp.10 = lgetv %arr.1;
-        symbol [ arr %tmp.10 405 27 30 ];
-        %tmp.11 = as %tmp.10 { (!Null) };
-        symbol [ size %tmp.12 405 31 35 ];
-        %tmp.12 = getv function %tmp.11 :size;
-        %tmp.13 = invoke %tmp.11 %tmp.12();
-        %tmp.14 = 0;
-        %tmp.15 = eq %tmp.13 %tmp.14;
-        push %tmp.15;
-C__develop_garmin_Brighty_source_SettingsMenu_mc_405_27_405_41_end:
-        %tmp.16 = phi [%tmp.9 @C__develop_garmin_Brighty_source_SettingsMenu_mc_405_12_405_41_begin] [%tmp.15 @C__develop_garmin_Brighty_source_SettingsMenu_mc_405_27_405_41_false] [%tmp.16 @C__develop_garmin_Brighty_source_SettingsMenu_mc_405_27_405_41_end];
-        bf %tmp.16 @C__develop_garmin_Brighty_source_SettingsMenu_mc_405_8_407_8_if_end;
-C__develop_garmin_Brighty_source_SettingsMenu_mc_405_8_407_8_if_true:
-C__develop_garmin_Brighty_source_SettingsMenu_mc_405_44_407_8_start:
-[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 406 12 ]
-        %tmp.17 = newa 1;
-        symbol [ Graphics %tmp.18 406 19 27 ];
-        %tmp.18 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.19 406 28 39 ];
-        %tmp.19 = getv %tmp.18 :COLOR_WHITE;
-        %tmp.20 = dup %tmp.17;
-        %tmp.21 = aputv %tmp.20 0 %tmp.19;
-        lputv %arr.1 %tmp.21;
-        symbol [ arr %arr.1 406 12 15 ];
-C__develop_garmin_Brighty_source_SettingsMenu_mc_405_44_407_8_stop:
-        goto @C__develop_garmin_Brighty_source_SettingsMenu_mc_405_8_407_8_if_end;
-C__develop_garmin_Brighty_source_SettingsMenu_mc_405_8_407_8_if_end:
-[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 408 8 ]
-        %tmp.22 = lgetv %arr.1;
-        symbol [ arr %tmp.22 408 15 18 ];
-        ret %tmp.22;
-C__develop_garmin_Brighty_source_SettingsMenu_mc_403_49_409_4_stop:
+        symbol [ Properties %tmp.2 405 31 41 ];
+        %tmp.2 = getv %tmp.1 :Properties;
+        symbol [ getValue %tmp.3 405 42 50 ];
+        %tmp.3 = getv function %tmp.2 :getValue;
+        %tmp.4 = lgetv %key;
+        symbol [ key %tmp.4 405 51 54 ];
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        jsr @C__develop_garmin_Brighty_source_SettingsMenu_mc_404_8_408_8_finally;
+        ret %tmp.5;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_404_12_406_8_stop:
+C__develop_garmin_Brighty_source_SettingsMenu_mc_404_8_408_8_endTry:
+        jsr @C__develop_garmin_Brighty_source_SettingsMenu_mc_404_8_408_8_finally;
+        goto @C__develop_garmin_Brighty_source_SettingsMenu_mc_404_8_408_8_end;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_404_8_408_8_catch:
+        %tmp.6 = exception;
+        push %tmp.6;
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 406 10 ]
+        [ "C__develop_garmin_Brighty_source_SettingsMenu_mc_404_8_408_8_catch" "C__develop_garmin_Brighty_source_SettingsMenu_mc_406_10_408_8_end" ]
+        %e.1 = local;
+        symbol [ e %e.1 406 17 18 ];
+        %tmp.7 = dup %tmp.6;
+        lputv %e.1 %tmp.7;
+        symbol [ e %e.1 406 17 18 ];
+C__develop_garmin_Brighty_source_SettingsMenu_mc_406_20_408_8_start:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 407 12 ]
+        pop;
+        %tmp.8 = lgetv %def;
+        symbol [ def %tmp.8 407 19 22 ];
+        jsr @C__develop_garmin_Brighty_source_SettingsMenu_mc_404_8_408_8_finally;
+        ret %tmp.8;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_406_20_408_8_stop:
+        jsr @C__develop_garmin_Brighty_source_SettingsMenu_mc_404_8_408_8_finally;
+        pop;
+        goto @C__develop_garmin_Brighty_source_SettingsMenu_mc_404_8_408_8_end;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_406_10_408_8_end:
+        try @C__develop_garmin_Brighty_source_SettingsMenu_mc_404_8_408_8_catch @C__develop_garmin_Brighty_source_SettingsMenu_mc_406_10_408_8_end @C__develop_garmin_Brighty_source_SettingsMenu_mc_406_10_408_8_end @C__develop_garmin_Brighty_source_SettingsMenu_mc_404_8_408_8_finally;
+        jsr @C__develop_garmin_Brighty_source_SettingsMenu_mc_404_8_408_8_finally;
+        throw %tmp.6;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_404_8_408_8_finally:
+        jsrret;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_404_8_408_8_end:
+C__develop_garmin_Brighty_source_SettingsMenu_mc_403_71_409_4_stop:
     }
-    [ @file = "C:\develop\garmin\Brighty\source\SettingsMenu.mc"; @line = 412; @symbol_functiondef = [getPrimaryColor,412,20,35]; ]
+    [ @file = "C:\develop\garmin\Brighty\source\SettingsMenu.mc"; @line = 411; @symbol_functiondef = [_getNum,411,20,27]; @symbol_param<0> = [key,411,28,31]; @symbol_param<0>_type<0> = [String,411,35,41]; @symbol_param<1> = [def,411,43,46]; @symbol_param<1>_type<0> = [Number,411,50,56]; @symbol_return<0> = [Number,411,61,67]; ]
     static
-    function getPrimaryColor() {
-C__develop_garmin_Brighty_source_SettingsMenu_mc_412_38_415_4_start:
-[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 413 8 ]
-        [ "C__develop_garmin_Brighty_source_SettingsMenu_mc_412_38_415_4_start" "C__develop_garmin_Brighty_source_SettingsMenu_mc_412_38_415_4_stop" ]
-        %arr.1 = local;
-        symbol [ arr %arr.1 413 12 15 ];
-        %tmp.1 = self;
-        symbol [ getSelectedColors %tmp.2 413 18 35 ];
-        %tmp.2 = getv function %tmp.1 :getSelectedColors;
-        %tmp.3 = invoke %tmp.1 %tmp.2();
-        lputv %arr.1 %tmp.3;
-        symbol [ arr %arr.1 413 12 15 ];
-[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 414 8 ]
-        %tmp.4 = lgetv %arr.1;
-        symbol [ arr %tmp.4 414 15 18 ];
-        %tmp.5 = 0;
-        %tmp.6 = agetv %tmp.4 %tmp.5;
-        ret %tmp.6;
-C__develop_garmin_Brighty_source_SettingsMenu_mc_412_38_415_4_stop:
-    }
-    [ @file = "C:\develop\garmin\Brighty\source\SettingsMenu.mc"; @line = 418; @symbol_functiondef = [getHintsEnabled,418,20,35]; @symbol_return<0> = [Boolean,418,41,48]; ]
-    static
-    function getHintsEnabled() as Boolean {
-C__develop_garmin_Brighty_source_SettingsMenu_mc_418_49_425_4_start:
-[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 419 8 ]
-        [ "C__develop_garmin_Brighty_source_SettingsMenu_mc_418_49_425_4_start" "C__develop_garmin_Brighty_source_SettingsMenu_mc_418_49_425_4_stop" ]
-        %v.1 = local;
-        symbol [ v %v.1 419 12 13 ];
-        symbol [ Application %tmp.1 419 16 27 ];
+    function _getNum(key as String, def as Number) as Number {
+C__develop_garmin_Brighty_source_SettingsMenu_mc_411_68_417_4_start:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 412 8 ]
+        try @C__develop_garmin_Brighty_source_SettingsMenu_mc_412_8_416_8_beginTry @C__develop_garmin_Brighty_source_SettingsMenu_mc_412_8_416_8_endTry @C__develop_garmin_Brighty_source_SettingsMenu_mc_412_8_416_8_catch @C__develop_garmin_Brighty_source_SettingsMenu_mc_412_8_416_8_finally;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_412_8_416_8_beginTry:
+C__develop_garmin_Brighty_source_SettingsMenu_mc_412_12_414_8_start:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 413 12 ]
+        symbol [ Application %tmp.1 413 19 30 ];
         %tmp.1 = getm $.Toybox.Application;
-        symbol [ getApp %tmp.2 419 28 34 ];
-        %tmp.2 = getv function %tmp.1 :getApp;
-        %tmp.3 = invoke %tmp.1 %tmp.2();
-        symbol [ getProperty %tmp.4 419 37 48 ];
-        %tmp.4 = getv function %tmp.3 :getProperty;
-        %tmp.5 = "showHints";
-        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
-        lputv %v.1 %tmp.6;
-        symbol [ v %v.1 419 12 13 ];
+        symbol [ Properties %tmp.2 413 31 41 ];
+        %tmp.2 = getv %tmp.1 :Properties;
+        symbol [ getValue %tmp.3 413 42 50 ];
+        %tmp.3 = getv function %tmp.2 :getValue;
+        %tmp.4 = lgetv %key;
+        symbol [ key %tmp.4 413 51 54 ];
+        %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
+        jsr @C__develop_garmin_Brighty_source_SettingsMenu_mc_412_8_416_8_finally;
+        ret %tmp.5;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_412_12_414_8_stop:
+C__develop_garmin_Brighty_source_SettingsMenu_mc_412_8_416_8_endTry:
+        jsr @C__develop_garmin_Brighty_source_SettingsMenu_mc_412_8_416_8_finally;
+        goto @C__develop_garmin_Brighty_source_SettingsMenu_mc_412_8_416_8_end;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_412_8_416_8_catch:
+        %tmp.6 = exception;
+        push %tmp.6;
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 414 10 ]
+        [ "C__develop_garmin_Brighty_source_SettingsMenu_mc_412_8_416_8_catch" "C__develop_garmin_Brighty_source_SettingsMenu_mc_414_10_416_8_end" ]
+        %e.1 = local;
+        symbol [ e %e.1 414 17 18 ];
+        %tmp.7 = dup %tmp.6;
+        lputv %e.1 %tmp.7;
+        symbol [ e %e.1 414 17 18 ];
+C__develop_garmin_Brighty_source_SettingsMenu_mc_414_20_416_8_start:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 415 12 ]
+        pop;
+        %tmp.8 = lgetv %def;
+        symbol [ def %tmp.8 415 19 22 ];
+        jsr @C__develop_garmin_Brighty_source_SettingsMenu_mc_412_8_416_8_finally;
+        ret %tmp.8;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_414_20_416_8_stop:
+        jsr @C__develop_garmin_Brighty_source_SettingsMenu_mc_412_8_416_8_finally;
+        pop;
+        goto @C__develop_garmin_Brighty_source_SettingsMenu_mc_412_8_416_8_end;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_414_10_416_8_end:
+        try @C__develop_garmin_Brighty_source_SettingsMenu_mc_412_8_416_8_catch @C__develop_garmin_Brighty_source_SettingsMenu_mc_414_10_416_8_end @C__develop_garmin_Brighty_source_SettingsMenu_mc_414_10_416_8_end @C__develop_garmin_Brighty_source_SettingsMenu_mc_412_8_416_8_finally;
+        jsr @C__develop_garmin_Brighty_source_SettingsMenu_mc_412_8_416_8_finally;
+        throw %tmp.6;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_412_8_416_8_finally:
+        jsrret;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_412_8_416_8_end:
+C__develop_garmin_Brighty_source_SettingsMenu_mc_411_68_417_4_stop:
+    }
+    [ @file = "C:\develop\garmin\Brighty\source\SettingsMenu.mc"; @line = 419; @symbol_functiondef = [_set,419,20,24]; @symbol_param<0> = [key,419,25,28]; @symbol_param<0>_type<0> = [String,419,32,38]; @symbol_param<1> = [val,419,40,43]; ]
+    static
+    function _set(key as String, val) {
+C__develop_garmin_Brighty_source_SettingsMenu_mc_419_45_425_4_start:
 [ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 420 8 ]
-        symbol [ System %tmp.7 420 8 14 ];
-        %tmp.7 = getm $.Toybox.System;
-        symbol [ println %tmp.8 420 15 22 ];
-        %tmp.8 = getv function %tmp.7 :println;
-        %tmp.9 = "DEBUG getHintsEnabled: ";
-        %tmp.10 = lgetv %v.1;
-        symbol [ v %tmp.10 420 51 52 ];
-        %tmp.11 = add %tmp.9 %tmp.10;
-        invoke %tmp.7 %tmp.8(%tmp.11);
-[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 421 8 ]
-C__develop_garmin_Brighty_source_SettingsMenu_mc_421_8_423_8_if_stmt:
-        %tmp.12 = lgetv %v.1;
-        symbol [ v %tmp.12 421 12 13 ];
-        %tmp.13 = null;
-        %tmp.14 = eq %tmp.12 %tmp.13;
-        bf %tmp.14 @C__develop_garmin_Brighty_source_SettingsMenu_mc_421_8_423_8_if_end;
-C__develop_garmin_Brighty_source_SettingsMenu_mc_421_8_423_8_if_true:
-C__develop_garmin_Brighty_source_SettingsMenu_mc_421_23_423_8_start:
-[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 422 12 ]
-        %tmp.15 = true;
-        lputv %v.1 %tmp.15;
-        symbol [ v %v.1 422 12 13 ];
-C__develop_garmin_Brighty_source_SettingsMenu_mc_421_23_423_8_stop:
-        goto @C__develop_garmin_Brighty_source_SettingsMenu_mc_421_8_423_8_if_end;
-C__develop_garmin_Brighty_source_SettingsMenu_mc_421_8_423_8_if_end:
-[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 424 8 ]
-        %tmp.16 = lgetv %v.1;
-        symbol [ v %tmp.16 424 15 16 ];
-        ret %tmp.16;
-C__develop_garmin_Brighty_source_SettingsMenu_mc_418_49_425_4_stop:
-    }
-    [ @file = "C:\develop\garmin\Brighty\source\SettingsMenu.mc"; @line = 428; @symbol_functiondef = [getAutoOffSeconds,428,20,37]; ]
-    static
-    function getAutoOffSeconds() {
-C__develop_garmin_Brighty_source_SettingsMenu_mc_428_40_434_4_start:
-[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 429 8 ]
-        [ "C__develop_garmin_Brighty_source_SettingsMenu_mc_428_40_434_4_start" "C__develop_garmin_Brighty_source_SettingsMenu_mc_428_40_434_4_stop" ]
-        %v.1 = local;
-        symbol [ v %v.1 429 12 13 ];
-        symbol [ Application %tmp.1 429 16 27 ];
+        try @C__develop_garmin_Brighty_source_SettingsMenu_mc_420_8_424_8_beginTry @C__develop_garmin_Brighty_source_SettingsMenu_mc_420_8_424_8_endTry @C__develop_garmin_Brighty_source_SettingsMenu_mc_420_8_424_8_catch @C__develop_garmin_Brighty_source_SettingsMenu_mc_420_8_424_8_finally;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_420_8_424_8_beginTry:
+C__develop_garmin_Brighty_source_SettingsMenu_mc_420_12_422_8_start:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 421 12 ]
+        symbol [ Application %tmp.1 421 12 23 ];
         %tmp.1 = getm $.Toybox.Application;
-        symbol [ getApp %tmp.2 429 28 34 ];
-        %tmp.2 = getv function %tmp.1 :getApp;
-        %tmp.3 = invoke %tmp.1 %tmp.2();
-        symbol [ getProperty %tmp.4 429 37 48 ];
-        %tmp.4 = getv function %tmp.3 :getProperty;
-        %tmp.5 = "autoOffSec";
-        %tmp.6 = invoke %tmp.3 %tmp.4(%tmp.5);
-        lputv %v.1 %tmp.6;
-        symbol [ v %v.1 429 12 13 ];
+        symbol [ Properties %tmp.2 421 24 34 ];
+        %tmp.2 = getv %tmp.1 :Properties;
+        symbol [ setValue %tmp.3 421 35 43 ];
+        %tmp.3 = getv function %tmp.2 :setValue;
+        %tmp.4 = lgetv %key;
+        symbol [ key %tmp.4 421 44 47 ];
+        %tmp.5 = lgetv %val;
+        symbol [ val %tmp.5 421 49 52 ];
+        invoke %tmp.2 %tmp.3(%tmp.4, %tmp.5);
+C__develop_garmin_Brighty_source_SettingsMenu_mc_420_12_422_8_stop:
+C__develop_garmin_Brighty_source_SettingsMenu_mc_420_8_424_8_endTry:
+        jsr @C__develop_garmin_Brighty_source_SettingsMenu_mc_420_8_424_8_finally;
+        goto @C__develop_garmin_Brighty_source_SettingsMenu_mc_420_8_424_8_end;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_420_8_424_8_catch:
+        %tmp.6 = exception;
+        push %tmp.6;
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 422 10 ]
+        [ "C__develop_garmin_Brighty_source_SettingsMenu_mc_420_8_424_8_catch" "C__develop_garmin_Brighty_source_SettingsMenu_mc_422_10_424_8_end" ]
+        %e.1 = local;
+        symbol [ e %e.1 422 17 18 ];
+        %tmp.7 = dup %tmp.6;
+        lputv %e.1 %tmp.7;
+        symbol [ e %e.1 422 17 18 ];
+        jsr @C__develop_garmin_Brighty_source_SettingsMenu_mc_420_8_424_8_finally;
+        pop;
+        goto @C__develop_garmin_Brighty_source_SettingsMenu_mc_420_8_424_8_end;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_422_10_424_8_end:
+        try @C__develop_garmin_Brighty_source_SettingsMenu_mc_420_8_424_8_catch @C__develop_garmin_Brighty_source_SettingsMenu_mc_422_10_424_8_end @C__develop_garmin_Brighty_source_SettingsMenu_mc_422_10_424_8_end @C__develop_garmin_Brighty_source_SettingsMenu_mc_420_8_424_8_finally;
+        jsr @C__develop_garmin_Brighty_source_SettingsMenu_mc_420_8_424_8_finally;
+        throw %tmp.6;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_420_8_424_8_finally:
+        jsrret;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_420_8_424_8_end:
+C__develop_garmin_Brighty_source_SettingsMenu_mc_419_45_425_4_stop:
+    }
+    [ @file = "C:\develop\garmin\Brighty\source\SettingsMenu.mc"; @line = 428; @symbol_functiondef = [_composeSelectedColors,428,20,42]; @symbol_return<0> = [Array,428,48,53]; ]
+    static
+    function _composeSelectedColors() as Array {
+C__develop_garmin_Brighty_source_SettingsMenu_mc_428_54_444_4_start:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 429 8 ]
+        [ "C__develop_garmin_Brighty_source_SettingsMenu_mc_428_54_444_4_start" "C__develop_garmin_Brighty_source_SettingsMenu_mc_428_54_444_4_stop" ]
+        %res.1 = local;
+        symbol [ res %res.1 429 12 15 ];
+        %tmp.1 = newa 0;
+        lputv %res.1 %tmp.1;
+        symbol [ res %res.1 429 12 15 ];
 [ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 430 8 ]
 C__develop_garmin_Brighty_source_SettingsMenu_mc_430_8_432_8_if_stmt:
-        %tmp.7 = lgetv %v.1;
-        symbol [ v %tmp.7 430 12 13 ];
-        %tmp.8 = null;
-        %tmp.9 = eq %tmp.7 %tmp.8;
-        bf %tmp.9 @C__develop_garmin_Brighty_source_SettingsMenu_mc_430_8_432_8_if_end;
+        %tmp.2 = self;
+        symbol [ _getBool %tmp.3 430 12 20 ];
+        %tmp.3 = getv function %tmp.2 :_getBool;
+        %tmp.4 = "colorWhite";
+        %tmp.5 = true;
+        %tmp.6 = invoke %tmp.2 %tmp.3(%tmp.4, %tmp.5);
+        bf %tmp.6 @C__develop_garmin_Brighty_source_SettingsMenu_mc_430_8_432_8_if_end;
 C__develop_garmin_Brighty_source_SettingsMenu_mc_430_8_432_8_if_true:
-C__develop_garmin_Brighty_source_SettingsMenu_mc_430_23_432_8_start:
+C__develop_garmin_Brighty_source_SettingsMenu_mc_430_42_432_8_start:
 [ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 431 12 ]
-        %tmp.10 = 0;
-        lputv %v.1 %tmp.10;
-        symbol [ v %v.1 431 12 13 ];
-C__develop_garmin_Brighty_source_SettingsMenu_mc_430_23_432_8_stop:
+        %tmp.7 = lgetv %res.1;
+        symbol [ res %tmp.7 431 12 15 ];
+        symbol [ add %tmp.8 431 16 19 ];
+        %tmp.8 = getv function %tmp.7 :add;
+        symbol [ Graphics %tmp.9 431 20 28 ];
+        %tmp.9 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.10 431 29 40 ];
+        %tmp.10 = getv %tmp.9 :COLOR_WHITE;
+        invoke %tmp.7 %tmp.8(%tmp.10);
+C__develop_garmin_Brighty_source_SettingsMenu_mc_430_42_432_8_stop:
         goto @C__develop_garmin_Brighty_source_SettingsMenu_mc_430_8_432_8_if_end;
 C__develop_garmin_Brighty_source_SettingsMenu_mc_430_8_432_8_if_end:
 [ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 433 8 ]
-        %tmp.11 = lgetv %v.1;
-        symbol [ v %tmp.11 433 15 16 ];
-        ret %tmp.11;
-C__develop_garmin_Brighty_source_SettingsMenu_mc_428_40_434_4_stop:
+C__develop_garmin_Brighty_source_SettingsMenu_mc_433_8_435_8_if_stmt:
+        %tmp.11 = self;
+        symbol [ _getBool %tmp.12 433 12 20 ];
+        %tmp.12 = getv function %tmp.11 :_getBool;
+        %tmp.13 = "colorGreen";
+        %tmp.14 = false;
+        %tmp.15 = invoke %tmp.11 %tmp.12(%tmp.13, %tmp.14);
+        bf %tmp.15 @C__develop_garmin_Brighty_source_SettingsMenu_mc_433_8_435_8_if_end;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_433_8_435_8_if_true:
+C__develop_garmin_Brighty_source_SettingsMenu_mc_433_43_435_8_start:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 434 12 ]
+        %tmp.16 = lgetv %res.1;
+        symbol [ res %tmp.16 434 12 15 ];
+        symbol [ add %tmp.17 434 16 19 ];
+        %tmp.17 = getv function %tmp.16 :add;
+        symbol [ Graphics %tmp.18 434 20 28 ];
+        %tmp.18 = getm $.Toybox.Graphics;
+        symbol [ COLOR_GREEN %tmp.19 434 29 40 ];
+        %tmp.19 = getv %tmp.18 :COLOR_GREEN;
+        invoke %tmp.16 %tmp.17(%tmp.19);
+C__develop_garmin_Brighty_source_SettingsMenu_mc_433_43_435_8_stop:
+        goto @C__develop_garmin_Brighty_source_SettingsMenu_mc_433_8_435_8_if_end;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_433_8_435_8_if_end:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 436 8 ]
+C__develop_garmin_Brighty_source_SettingsMenu_mc_436_8_438_8_if_stmt:
+        %tmp.20 = self;
+        symbol [ _getBool %tmp.21 436 12 20 ];
+        %tmp.21 = getv function %tmp.20 :_getBool;
+        %tmp.22 = "colorRed";
+        %tmp.23 = false;
+        %tmp.24 = invoke %tmp.20 %tmp.21(%tmp.22, %tmp.23);
+        bf %tmp.24 @C__develop_garmin_Brighty_source_SettingsMenu_mc_436_8_438_8_if_end;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_436_8_438_8_if_true:
+C__develop_garmin_Brighty_source_SettingsMenu_mc_436_41_438_8_start:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 437 12 ]
+        %tmp.25 = lgetv %res.1;
+        symbol [ res %tmp.25 437 12 15 ];
+        symbol [ add %tmp.26 437 16 19 ];
+        %tmp.26 = getv function %tmp.25 :add;
+        symbol [ Graphics %tmp.27 437 20 28 ];
+        %tmp.27 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.28 437 29 38 ];
+        %tmp.28 = getv %tmp.27 :COLOR_RED;
+        invoke %tmp.25 %tmp.26(%tmp.28);
+C__develop_garmin_Brighty_source_SettingsMenu_mc_436_41_438_8_stop:
+        goto @C__develop_garmin_Brighty_source_SettingsMenu_mc_436_8_438_8_if_end;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_436_8_438_8_if_end:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 440 8 ]
+C__develop_garmin_Brighty_source_SettingsMenu_mc_440_8_442_8_if_stmt:
+        %tmp.29 = lgetv %res.1;
+        symbol [ res %tmp.29 440 12 15 ];
+        symbol [ size %tmp.30 440 16 20 ];
+        %tmp.30 = getv function %tmp.29 :size;
+        %tmp.31 = invoke %tmp.29 %tmp.30();
+        %tmp.32 = 0;
+        %tmp.33 = eq %tmp.31 %tmp.32;
+        bf %tmp.33 @C__develop_garmin_Brighty_source_SettingsMenu_mc_440_8_442_8_if_end;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_440_8_442_8_if_true:
+C__develop_garmin_Brighty_source_SettingsMenu_mc_440_29_442_8_start:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 441 12 ]
+        %tmp.34 = lgetv %res.1;
+        symbol [ res %tmp.34 441 12 15 ];
+        symbol [ add %tmp.35 441 16 19 ];
+        %tmp.35 = getv function %tmp.34 :add;
+        symbol [ Graphics %tmp.36 441 20 28 ];
+        %tmp.36 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.37 441 29 40 ];
+        %tmp.37 = getv %tmp.36 :COLOR_WHITE;
+        invoke %tmp.34 %tmp.35(%tmp.37);
+C__develop_garmin_Brighty_source_SettingsMenu_mc_440_29_442_8_stop:
+        goto @C__develop_garmin_Brighty_source_SettingsMenu_mc_440_8_442_8_if_end;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_440_8_442_8_if_end:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 443 8 ]
+        %tmp.38 = lgetv %res.1;
+        symbol [ res %tmp.38 443 15 18 ];
+        ret %tmp.38;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_428_54_444_4_stop:
+    }
+    [ @file = "C:\develop\garmin\Brighty\source\SettingsMenu.mc"; @line = 448; @symbol_functiondef = [getSelectedColors,448,20,37]; @symbol_return<0> = [Array,448,43,48]; ]
+    static
+    function getSelectedColors() as Array {
+C__develop_garmin_Brighty_source_SettingsMenu_mc_448_49_450_4_start:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 449 8 ]
+        %tmp.1 = self;
+        symbol [ _composeSelectedColors %tmp.2 449 15 37 ];
+        %tmp.2 = getv function %tmp.1 :_composeSelectedColors;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        ret %tmp.3;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_448_49_450_4_stop:
+    }
+    [ @file = "C:\develop\garmin\Brighty\source\SettingsMenu.mc"; @line = 452; @symbol_functiondef = [getPrimaryColor,452,20,35]; ]
+    static
+    function getPrimaryColor() {
+C__develop_garmin_Brighty_source_SettingsMenu_mc_452_38_455_4_start:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 453 8 ]
+        [ "C__develop_garmin_Brighty_source_SettingsMenu_mc_452_38_455_4_start" "C__develop_garmin_Brighty_source_SettingsMenu_mc_452_38_455_4_stop" ]
+        %arr.1 = local;
+        symbol [ arr %arr.1 453 12 15 ];
+        %tmp.1 = self;
+        symbol [ getSelectedColors %tmp.2 453 18 35 ];
+        %tmp.2 = getv function %tmp.1 :getSelectedColors;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %arr.1 %tmp.3;
+        symbol [ arr %arr.1 453 12 15 ];
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 454 8 ]
+        %tmp.4 = lgetv %arr.1;
+        symbol [ arr %tmp.4 454 15 18 ];
+        %tmp.5 = 0;
+        %tmp.6 = agetv %tmp.4 %tmp.5;
+        ret %tmp.6;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_452_38_455_4_stop:
+    }
+    [ @file = "C:\develop\garmin\Brighty\source\SettingsMenu.mc"; @line = 457; @symbol_functiondef = [getHintsEnabled,457,20,35]; @symbol_return<0> = [Boolean,457,41,48]; ]
+    static
+    function getHintsEnabled() as Boolean {
+C__develop_garmin_Brighty_source_SettingsMenu_mc_457_49_459_4_start:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 458 8 ]
+        %tmp.1 = self;
+        symbol [ _getBool %tmp.2 458 15 23 ];
+        %tmp.2 = getv function %tmp.1 :_getBool;
+        %tmp.3 = "showHints";
+        %tmp.4 = true;
+        %tmp.5 = invoke %tmp.1 %tmp.2(%tmp.3, %tmp.4);
+        ret %tmp.5;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_457_49_459_4_stop:
+    }
+    [ @file = "C:\develop\garmin\Brighty\source\SettingsMenu.mc"; @line = 461; @symbol_functiondef = [getAutoOffSeconds,461,20,37]; @symbol_return<0> = [Number,461,43,49]; ]
+    static
+    function getAutoOffSeconds() as Number {
+C__develop_garmin_Brighty_source_SettingsMenu_mc_461_50_463_4_start:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 462 8 ]
+        %tmp.1 = self;
+        symbol [ _getNum %tmp.2 462 15 22 ];
+        %tmp.2 = getv function %tmp.1 :_getNum;
+        %tmp.3 = "autoOffSec";
+        %tmp.4 = 0;
+        %tmp.5 = invoke %tmp.1 %tmp.2(%tmp.3, %tmp.4);
+        ret %tmp.5;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_461_50_463_4_stop:
+    }
+    [ @file = "C:\develop\garmin\Brighty\source\SettingsMenu.mc"; @line = 468; @symbol_functiondef = [toggleColor,468,20,31]; @symbol_param<0> = [color,468,32,37]; @symbol_param<0>_type<0> = [Number,468,41,47]; ]
+    static
+    function toggleColor(color as Number) {
+C__develop_garmin_Brighty_source_SettingsMenu_mc_468_49_482_4_start:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 469 8 ]
+C__develop_garmin_Brighty_source_SettingsMenu_mc_469_8_475_8_if_stmt:
+        %tmp.1 = lgetv %color;
+        symbol [ color %tmp.1 469 12 17 ];
+        symbol [ Graphics %tmp.2 469 21 29 ];
+        %tmp.2 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.3 469 30 41 ];
+        %tmp.3 = getv %tmp.2 :COLOR_WHITE;
+        %tmp.4 = eq %tmp.1 %tmp.3;
+        bf %tmp.4 @C__develop_garmin_Brighty_source_SettingsMenu_mc_469_8_475_8_if_false;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_469_8_475_8_if_true:
+C__develop_garmin_Brighty_source_SettingsMenu_mc_469_43_471_8_start:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 470 12 ]
+        %tmp.5 = self;
+        symbol [ _set %tmp.6 470 12 16 ];
+        %tmp.6 = getv function %tmp.5 :_set;
+        %tmp.7 = "colorWhite";
+        %tmp.8 = self;
+        symbol [ _getBool %tmp.9 470 32 40 ];
+        %tmp.9 = getv function %tmp.8 :_getBool;
+        %tmp.10 = "colorWhite";
+        %tmp.11 = true;
+        %tmp.12 = invoke %tmp.8 %tmp.9(%tmp.10, %tmp.11);
+        %tmp.13 = not %tmp.12;
+        invoke %tmp.5 %tmp.6(%tmp.7, %tmp.13);
+C__develop_garmin_Brighty_source_SettingsMenu_mc_469_43_471_8_stop:
+        goto @C__develop_garmin_Brighty_source_SettingsMenu_mc_469_8_475_8_if_end;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_469_8_475_8_if_false:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 471 15 ]
+C__develop_garmin_Brighty_source_SettingsMenu_mc_471_15_475_8_if_stmt:
+        %tmp.14 = lgetv %color;
+        symbol [ color %tmp.14 471 19 24 ];
+        symbol [ Graphics %tmp.15 471 28 36 ];
+        %tmp.15 = getm $.Toybox.Graphics;
+        symbol [ COLOR_GREEN %tmp.16 471 37 48 ];
+        %tmp.16 = getv %tmp.15 :COLOR_GREEN;
+        %tmp.17 = eq %tmp.14 %tmp.16;
+        bf %tmp.17 @C__develop_garmin_Brighty_source_SettingsMenu_mc_471_15_475_8_if_false;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_471_15_475_8_if_true:
+C__develop_garmin_Brighty_source_SettingsMenu_mc_471_50_473_8_start:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 472 12 ]
+        %tmp.18 = self;
+        symbol [ _set %tmp.19 472 12 16 ];
+        %tmp.19 = getv function %tmp.18 :_set;
+        %tmp.20 = "colorGreen";
+        %tmp.21 = self;
+        symbol [ _getBool %tmp.22 472 32 40 ];
+        %tmp.22 = getv function %tmp.21 :_getBool;
+        %tmp.23 = "colorGreen";
+        %tmp.24 = false;
+        %tmp.25 = invoke %tmp.21 %tmp.22(%tmp.23, %tmp.24);
+        %tmp.26 = not %tmp.25;
+        invoke %tmp.18 %tmp.19(%tmp.20, %tmp.26);
+C__develop_garmin_Brighty_source_SettingsMenu_mc_471_50_473_8_stop:
+        goto @C__develop_garmin_Brighty_source_SettingsMenu_mc_471_15_475_8_if_end;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_471_15_475_8_if_false:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 473 15 ]
+C__develop_garmin_Brighty_source_SettingsMenu_mc_473_15_475_8_if_stmt:
+        %tmp.27 = lgetv %color;
+        symbol [ color %tmp.27 473 19 24 ];
+        symbol [ Graphics %tmp.28 473 28 36 ];
+        %tmp.28 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.29 473 37 46 ];
+        %tmp.29 = getv %tmp.28 :COLOR_RED;
+        %tmp.30 = eq %tmp.27 %tmp.29;
+        bf %tmp.30 @C__develop_garmin_Brighty_source_SettingsMenu_mc_473_15_475_8_if_end;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_473_15_475_8_if_true:
+C__develop_garmin_Brighty_source_SettingsMenu_mc_473_48_475_8_start:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 474 12 ]
+        %tmp.31 = self;
+        symbol [ _set %tmp.32 474 12 16 ];
+        %tmp.32 = getv function %tmp.31 :_set;
+        %tmp.33 = "colorRed";
+        %tmp.34 = self;
+        symbol [ _getBool %tmp.35 474 30 38 ];
+        %tmp.35 = getv function %tmp.34 :_getBool;
+        %tmp.36 = "colorRed";
+        %tmp.37 = false;
+        %tmp.38 = invoke %tmp.34 %tmp.35(%tmp.36, %tmp.37);
+        %tmp.39 = not %tmp.38;
+        invoke %tmp.31 %tmp.32(%tmp.33, %tmp.39);
+C__develop_garmin_Brighty_source_SettingsMenu_mc_473_48_475_8_stop:
+        goto @C__develop_garmin_Brighty_source_SettingsMenu_mc_473_15_475_8_if_end;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_473_15_475_8_if_end:
+C__develop_garmin_Brighty_source_SettingsMenu_mc_471_15_475_8_if_end:
+C__develop_garmin_Brighty_source_SettingsMenu_mc_469_8_475_8_if_end:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 478 8 ]
+        [ "C__develop_garmin_Brighty_source_SettingsMenu_mc_468_49_482_4_start" "C__develop_garmin_Brighty_source_SettingsMenu_mc_468_49_482_4_stop" ]
+        %arr.1 = local;
+        symbol [ arr %arr.1 478 12 15 ];
+        %tmp.40 = self;
+        symbol [ _composeSelectedColors %tmp.41 478 18 40 ];
+        %tmp.41 = getv function %tmp.40 :_composeSelectedColors;
+        %tmp.42 = invoke %tmp.40 %tmp.41();
+        lputv %arr.1 %tmp.42;
+        symbol [ arr %arr.1 478 12 15 ];
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 479 8 ]
+C__develop_garmin_Brighty_source_SettingsMenu_mc_479_8_481_8_if_stmt:
+        %tmp.43 = lgetv %arr.1;
+        symbol [ arr %tmp.43 479 12 15 ];
+        symbol [ size %tmp.44 479 16 20 ];
+        %tmp.44 = getv function %tmp.43 :size;
+        %tmp.45 = invoke %tmp.43 %tmp.44();
+        %tmp.46 = 0;
+        %tmp.47 = eq %tmp.45 %tmp.46;
+        bf %tmp.47 @C__develop_garmin_Brighty_source_SettingsMenu_mc_479_8_481_8_if_end;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_479_8_481_8_if_true:
+C__develop_garmin_Brighty_source_SettingsMenu_mc_479_29_481_8_start:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 480 12 ]
+        %tmp.48 = self;
+        symbol [ _set %tmp.49 480 12 16 ];
+        %tmp.49 = getv function %tmp.48 :_set;
+        %tmp.50 = "colorWhite";
+        %tmp.51 = true;
+        invoke %tmp.48 %tmp.49(%tmp.50, %tmp.51);
+C__develop_garmin_Brighty_source_SettingsMenu_mc_479_29_481_8_stop:
+        goto @C__develop_garmin_Brighty_source_SettingsMenu_mc_479_8_481_8_if_end;
+C__develop_garmin_Brighty_source_SettingsMenu_mc_479_8_481_8_if_end:
+C__develop_garmin_Brighty_source_SettingsMenu_mc_468_49_482_4_stop:
+    }
+    [ @file = "C:\develop\garmin\Brighty\source\SettingsMenu.mc"; @line = 484; @symbol_functiondef = [setHintsEnabled,484,20,35]; @symbol_param<0> = [on,484,36,38]; @symbol_param<0>_type<0> = [Boolean,484,42,49]; ]
+    static
+    function setHintsEnabled(on as Boolean) {
+C__develop_garmin_Brighty_source_SettingsMenu_mc_484_51_486_4_start:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 485 8 ]
+        %tmp.1 = self;
+        symbol [ _set %tmp.2 485 8 12 ];
+        %tmp.2 = getv function %tmp.1 :_set;
+        %tmp.3 = "showHints";
+        %tmp.4 = lgetv %on;
+        symbol [ on %tmp.4 485 26 28 ];
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.4);
+C__develop_garmin_Brighty_source_SettingsMenu_mc_484_51_486_4_stop:
+    }
+    [ @file = "C:\develop\garmin\Brighty\source\SettingsMenu.mc"; @line = 488; @symbol_functiondef = [setAutoOffSeconds,488,20,37]; @symbol_param<0> = [sec,488,38,41]; @symbol_param<0>_type<0> = [Number,488,45,51]; ]
+    static
+    function setAutoOffSeconds(sec as Number) {
+C__develop_garmin_Brighty_source_SettingsMenu_mc_488_53_490_4_start:
+[ "C:\develop\garmin\Brighty\source\SettingsMenu.mc" 489 8 ]
+        %tmp.1 = self;
+        symbol [ _set %tmp.2 489 8 12 ];
+        %tmp.2 = getv function %tmp.1 :_set;
+        %tmp.3 = "autoOffSec";
+        %tmp.4 = lgetv %sec;
+        symbol [ sec %tmp.4 489 27 30 ];
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.4);
+C__develop_garmin_Brighty_source_SettingsMenu_mc_488_53_490_4_stop:
+    }
+    [ @file = "C:\develop\garmin\Brighty\source\SettingsMenu.mc"; @line = 493; @symbol_functiondef = [refreshCacheFromProperties,493,20,46]; ]
+    static
+    function refreshCacheFromProperties() {
     }
 }
 [ @file = "C:\develop\garmin\Brighty\source\SettingsMenu.mc"; @line = 1; ]

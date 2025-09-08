@@ -282,137 +282,170 @@
         <entry filename="C:\\develop\\garmin\\Brighty\\source\\Utils.mc" id="48" lineNum="16" parent="globals/Utils" pc="268439396" symbol="joinArray"/>
         <entry filename="C:\\develop\\garmin\\Brighty\\source\\Utils.mc" id="48" lineNum="18" parent="globals/Utils" pc="268439416" symbol="joinArray"/>
         <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="49" lineNum="11" parent="globals/BrightyApp" pc="268439419" symbol="onStart"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="50" lineNum="13" parent="globals/BrightyApp" pc="268439422" symbol="getInitialView"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="50" lineNum="14" parent="globals/BrightyApp" pc="268439425" symbol="getInitialView"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="50" lineNum="15" parent="globals/BrightyApp" pc="268439445" symbol="getInitialView"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="50" lineNum="16" parent="globals/BrightyApp" pc="268439467" symbol="getInitialView"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="51" lineNum="7" parent="globals/BrightyApp" pc="268439482" symbol="initialize"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="51" lineNum="8" parent="globals/BrightyApp" pc="268439484" symbol="initialize"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="52" lineNum="125" parent="globals/SettingsModel" pc="268439497" symbol="setAutoOff"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="52" lineNum="126" parent="globals/SettingsModel" pc="268439499" symbol="setAutoOff"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="53" lineNum="28" parent="globals/SettingsModel" pc="268439526" symbol="getSelectedColors"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="53" lineNum="29" parent="globals/SettingsModel" pc="268439529" symbol="getSelectedColors"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="53" lineNum="30" parent="globals/SettingsModel" pc="268439554" symbol="getSelectedColors"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="53" lineNum="32" parent="globals/SettingsModel" pc="268439560" symbol="getSelectedColors"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="53" lineNum="34" parent="globals/SettingsModel" pc="268439570" symbol="getSelectedColors"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="54" lineNum="96" parent="globals/SettingsModel" pc="268439573" symbol="getColor"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="54" lineNum="98" parent="globals/SettingsModel" pc="268439576" symbol="getColor"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="54" lineNum="99" parent="globals/SettingsModel" pc="268439584" symbol="getColor"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="55" lineNum="41" parent="globals/SettingsModel" pc="268439609" symbol="isColorSelected"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="55" lineNum="42" parent="globals/SettingsModel" pc="268439612" symbol="isColorSelected"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="55" lineNum="43" parent="globals/SettingsModel" pc="268439620" symbol="isColorSelected"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="55" lineNum="44" parent="globals/SettingsModel" pc="268439636" symbol="isColorSelected"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="55" lineNum="45" parent="globals/SettingsModel" pc="268439647" symbol="isColorSelected"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="55" lineNum="48" parent="globals/SettingsModel" pc="268439662" symbol="isColorSelected"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="56" lineNum="69" parent="globals/SettingsModel" pc="268439664" symbol="colorsSummaryLabel"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="56" lineNum="70" parent="globals/SettingsModel" pc="268439667" symbol="colorsSummaryLabel"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="56" lineNum="71" parent="globals/SettingsModel" pc="268439675" symbol="colorsSummaryLabel"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="56" lineNum="72" parent="globals/SettingsModel" pc="268439679" symbol="colorsSummaryLabel"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="56" lineNum="73" parent="globals/SettingsModel" pc="268439699" symbol="colorsSummaryLabel"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="56" lineNum="74" parent="globals/SettingsModel" pc="268439709" symbol="colorsSummaryLabel"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="56" lineNum="75" parent="globals/SettingsModel" pc="268439712" symbol="colorsSummaryLabel"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="56" lineNum="76" parent="globals/SettingsModel" pc="268439728" symbol="colorsSummaryLabel"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="56" lineNum="77" parent="globals/SettingsModel" pc="268439739" symbol="colorsSummaryLabel"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="56" lineNum="78" parent="globals/SettingsModel" pc="268439742" symbol="colorsSummaryLabel"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="56" lineNum="81" parent="globals/SettingsModel" pc="268439758" symbol="colorsSummaryLabel"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="56" lineNum="82" parent="globals/SettingsModel" pc="268439763" symbol="colorsSummaryLabel"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="56" lineNum="85" parent="globals/SettingsModel" pc="268439794" symbol="colorsSummaryLabel"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="56" lineNum="86" parent="globals/SettingsModel" pc="268439806" symbol="colorsSummaryLabel"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="56" lineNum="88" parent="globals/SettingsModel" pc="268439815" symbol="colorsSummaryLabel"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="56" lineNum="89" parent="globals/SettingsModel" pc="268439828" symbol="colorsSummaryLabel"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="56" lineNum="92" parent="globals/SettingsModel" pc="268439851" symbol="colorsSummaryLabel"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="57" lineNum="129" parent="globals/SettingsModel" pc="268439865" symbol="indexOfValue"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="57" lineNum="130" parent="globals/SettingsModel" pc="268439868" symbol="indexOfValue"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="57" lineNum="131" parent="globals/SettingsModel" pc="268439884" symbol="indexOfValue"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="57" lineNum="132" parent="globals/SettingsModel" pc="268439895" symbol="indexOfValue"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="57" lineNum="135" parent="globals/SettingsModel" pc="268439911" symbol="indexOfValue"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="58" lineNum="37" parent="globals/SettingsModel" pc="268439913" symbol="setSelectedColors"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="58" lineNum="38" parent="globals/SettingsModel" pc="268439915" symbol="setSelectedColors"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="59" lineNum="118" parent="globals/SettingsModel" pc="268439942" symbol="getAutoOff"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="59" lineNum="119" parent="globals/SettingsModel" pc="268439945" symbol="getAutoOff"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="59" lineNum="120" parent="globals/SettingsModel" pc="268439970" symbol="getAutoOff"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="59" lineNum="121" parent="globals/SettingsModel" pc="268439976" symbol="getAutoOff"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="59" lineNum="123" parent="globals/SettingsModel" pc="268439982" symbol="getAutoOff"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="60" lineNum="101" parent="globals/SettingsModel" pc="268439985" symbol="setColor"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="60" lineNum="103" parent="globals/SettingsModel" pc="268439987" symbol="setColor"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="61" lineNum="51" parent="globals/SettingsModel" pc="268440006" symbol="toggleColor"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="61" lineNum="52" parent="globals/SettingsModel" pc="268440009" symbol="toggleColor"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="61" lineNum="54" parent="globals/SettingsModel" pc="268440017" symbol="toggleColor"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="61" lineNum="55" parent="globals/SettingsModel" pc="268440030" symbol="toggleColor"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="61" lineNum="57" parent="globals/SettingsModel" pc="268440045" symbol="toggleColor"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="61" lineNum="61" parent="globals/SettingsModel" pc="268440057" symbol="toggleColor"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="61" lineNum="62" parent="globals/SettingsModel" pc="268440069" symbol="toggleColor"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="61" lineNum="65" parent="globals/SettingsModel" pc="268440087" symbol="toggleColor"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="63" lineNum="114" parent="globals/SettingsModel" pc="268440099" symbol="setHints"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="63" lineNum="115" parent="globals/SettingsModel" pc="268440101" symbol="setHints"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="64" lineNum="107" parent="globals/SettingsModel" pc="268440128" symbol="getHints"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="64" lineNum="108" parent="globals/SettingsModel" pc="268440131" symbol="getHints"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="64" lineNum="109" parent="globals/SettingsModel" pc="268440156" symbol="getHints"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="64" lineNum="110" parent="globals/SettingsModel" pc="268440162" symbol="getHints"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="64" lineNum="112" parent="globals/SettingsModel" pc="268440168" symbol="getHints"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="66" lineNum="418" parent="globals/SettingsService" pc="268440171" symbol="getHintsEnabled"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="66" lineNum="419" parent="globals/SettingsService" pc="268440174" symbol="getHintsEnabled"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="66" lineNum="420" parent="globals/SettingsService" pc="268440199" symbol="getHintsEnabled"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="66" lineNum="421" parent="globals/SettingsService" pc="268440220" symbol="getHintsEnabled"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="66" lineNum="422" parent="globals/SettingsService" pc="268440226" symbol="getHintsEnabled"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="66" lineNum="424" parent="globals/SettingsService" pc="268440232" symbol="getHintsEnabled"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="67" lineNum="428" parent="globals/SettingsService" pc="268440235" symbol="getAutoOffSeconds"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="67" lineNum="429" parent="globals/SettingsService" pc="268440238" symbol="getAutoOffSeconds"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="67" lineNum="430" parent="globals/SettingsService" pc="268440263" symbol="getAutoOffSeconds"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="67" lineNum="431" parent="globals/SettingsService" pc="268440269" symbol="getAutoOffSeconds"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="67" lineNum="433" parent="globals/SettingsService" pc="268440275" symbol="getAutoOffSeconds"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="68" lineNum="403" parent="globals/SettingsService" pc="268440278" symbol="getSelectedColors"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="68" lineNum="404" parent="globals/SettingsService" pc="268440281" symbol="getSelectedColors"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="68" lineNum="405" parent="globals/SettingsService" pc="268440306" symbol="getSelectedColors"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="68" lineNum="406" parent="globals/SettingsService" pc="268440325" symbol="getSelectedColors"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="68" lineNum="408" parent="globals/SettingsService" pc="268440335" symbol="getSelectedColors"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="70" lineNum="412" parent="globals/SettingsService" pc="268440338" symbol="getPrimaryColor"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="70" lineNum="413" parent="globals/SettingsService" pc="268440341" symbol="getPrimaryColor"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="70" lineNum="414" parent="globals/SettingsService" pc="268440349" symbol="getPrimaryColor"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyMenuDelegate.mc" id="71" lineNum="11" parent="globals/BrightyMenuDelegate" pc="268440354" symbol="onMenuItem"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyMenuDelegate.mc" id="71" lineNum="12" parent="globals/BrightyMenuDelegate" pc="268440356" symbol="onMenuItem"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyMenuDelegate.mc" id="71" lineNum="13" parent="globals/BrightyMenuDelegate" pc="268440367" symbol="onMenuItem"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyMenuDelegate.mc" id="71" lineNum="14" parent="globals/BrightyMenuDelegate" pc="268440388" symbol="onMenuItem"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyMenuDelegate.mc" id="71" lineNum="15" parent="globals/BrightyMenuDelegate" pc="268440399" symbol="onMenuItem"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyMenuDelegate.mc" id="72" lineNum="7" parent="globals/BrightyMenuDelegate" pc="268440421" symbol="initialize"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyMenuDelegate.mc" id="72" lineNum="8" parent="globals/BrightyMenuDelegate" pc="268440423" symbol="initialize"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="73" lineNum="30" parent="globals/UiUtils" pc="268440436" symbol="drawLabel"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="73" lineNum="42" parent="globals/UiUtils" pc="268440447" symbol="drawLabel"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="73" lineNum="43" parent="globals/UiUtils" pc="268440463" symbol="drawLabel"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="73" lineNum="44" parent="globals/UiUtils" pc="268440470" symbol="drawLabel"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="73" lineNum="45" parent="globals/UiUtils" pc="268440492" symbol="drawLabel"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="73" lineNum="47" parent="globals/UiUtils" pc="268440514" symbol="drawLabel"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="73" lineNum="48" parent="globals/UiUtils" pc="268440528" symbol="drawLabel"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="74" lineNum="11" parent="globals/UiUtils" pc="268440549" symbol="drawSoftKeyStrip"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="74" lineNum="22" parent="globals/UiUtils" pc="268440560" symbol="drawSoftKeyStrip"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="74" lineNum="23" parent="globals/UiUtils" pc="268440573" symbol="drawSoftKeyStrip"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="74" lineNum="25" parent="globals/UiUtils" pc="268440586" symbol="drawSoftKeyStrip"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="74" lineNum="26" parent="globals/UiUtils" pc="268440598" symbol="drawSoftKeyStrip"/>
-        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="74" lineNum="27" parent="globals/UiUtils" pc="268440612" symbol="drawSoftKeyStrip"/>
-        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="75" lineNum="13" parent="globals/Rez/Layouts" pc="268440634" symbol="MainLayout"/>
-        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="75" lineNum="14" parent="globals/Rez/Layouts" pc="268440644" symbol="MainLayout"/>
-        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="76" lineNum="19" parent="globals/Rez/Menus/MainMenu" pc="268440647" symbol="&lt;init&gt;"/>
-        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="77" lineNum="20" parent="globals/Rez/Menus/MainMenu" pc="268440659" symbol="initialize"/>
-        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="77" lineNum="21" parent="globals/Rez/Menus/MainMenu" pc="268440661" symbol="initialize"/>
-        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="77" lineNum="22" parent="globals/Rez/Menus/MainMenu" pc="268440673" symbol="initialize"/>
-        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="77" lineNum="23" parent="globals/Rez/Menus/MainMenu" pc="268440718" symbol="initialize"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="50" lineNum="19" parent="globals/BrightyApp" pc="268439422" symbol="onSettingsChanged"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="50" lineNum="20" parent="globals/BrightyApp" pc="268439424" symbol="onSettingsChanged"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="50" lineNum="22" parent="globals/BrightyApp" pc="268439442" symbol="onSettingsChanged"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="50" lineNum="25" parent="globals/BrightyApp" pc="268439454" symbol="onSettingsChanged"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="51" lineNum="13" parent="globals/BrightyApp" pc="268439466" symbol="getInitialView"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="51" lineNum="14" parent="globals/BrightyApp" pc="268439469" symbol="getInitialView"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="51" lineNum="15" parent="globals/BrightyApp" pc="268439489" symbol="getInitialView"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="51" lineNum="16" parent="globals/BrightyApp" pc="268439511" symbol="getInitialView"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="52" lineNum="7" parent="globals/BrightyApp" pc="268439526" symbol="initialize"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyApp.mc" id="52" lineNum="8" parent="globals/BrightyApp" pc="268439528" symbol="initialize"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="53" lineNum="125" parent="globals/SettingsModel" pc="268439541" symbol="setAutoOff"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="53" lineNum="126" parent="globals/SettingsModel" pc="268439543" symbol="setAutoOff"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="54" lineNum="28" parent="globals/SettingsModel" pc="268439570" symbol="getSelectedColors"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="54" lineNum="29" parent="globals/SettingsModel" pc="268439573" symbol="getSelectedColors"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="54" lineNum="30" parent="globals/SettingsModel" pc="268439598" symbol="getSelectedColors"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="54" lineNum="32" parent="globals/SettingsModel" pc="268439604" symbol="getSelectedColors"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="54" lineNum="34" parent="globals/SettingsModel" pc="268439614" symbol="getSelectedColors"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="55" lineNum="96" parent="globals/SettingsModel" pc="268439617" symbol="getColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="55" lineNum="98" parent="globals/SettingsModel" pc="268439620" symbol="getColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="55" lineNum="99" parent="globals/SettingsModel" pc="268439628" symbol="getColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="56" lineNum="41" parent="globals/SettingsModel" pc="268439653" symbol="isColorSelected"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="56" lineNum="42" parent="globals/SettingsModel" pc="268439656" symbol="isColorSelected"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="56" lineNum="43" parent="globals/SettingsModel" pc="268439664" symbol="isColorSelected"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="56" lineNum="44" parent="globals/SettingsModel" pc="268439680" symbol="isColorSelected"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="56" lineNum="45" parent="globals/SettingsModel" pc="268439691" symbol="isColorSelected"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="56" lineNum="48" parent="globals/SettingsModel" pc="268439706" symbol="isColorSelected"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="57" lineNum="69" parent="globals/SettingsModel" pc="268439708" symbol="colorsSummaryLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="57" lineNum="70" parent="globals/SettingsModel" pc="268439711" symbol="colorsSummaryLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="57" lineNum="71" parent="globals/SettingsModel" pc="268439719" symbol="colorsSummaryLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="57" lineNum="72" parent="globals/SettingsModel" pc="268439723" symbol="colorsSummaryLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="57" lineNum="73" parent="globals/SettingsModel" pc="268439743" symbol="colorsSummaryLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="57" lineNum="74" parent="globals/SettingsModel" pc="268439753" symbol="colorsSummaryLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="57" lineNum="75" parent="globals/SettingsModel" pc="268439756" symbol="colorsSummaryLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="57" lineNum="76" parent="globals/SettingsModel" pc="268439772" symbol="colorsSummaryLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="57" lineNum="77" parent="globals/SettingsModel" pc="268439783" symbol="colorsSummaryLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="57" lineNum="78" parent="globals/SettingsModel" pc="268439786" symbol="colorsSummaryLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="57" lineNum="81" parent="globals/SettingsModel" pc="268439802" symbol="colorsSummaryLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="57" lineNum="82" parent="globals/SettingsModel" pc="268439807" symbol="colorsSummaryLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="57" lineNum="85" parent="globals/SettingsModel" pc="268439838" symbol="colorsSummaryLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="57" lineNum="86" parent="globals/SettingsModel" pc="268439850" symbol="colorsSummaryLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="57" lineNum="88" parent="globals/SettingsModel" pc="268439859" symbol="colorsSummaryLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="57" lineNum="89" parent="globals/SettingsModel" pc="268439872" symbol="colorsSummaryLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="57" lineNum="92" parent="globals/SettingsModel" pc="268439895" symbol="colorsSummaryLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="58" lineNum="129" parent="globals/SettingsModel" pc="268439909" symbol="indexOfValue"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="58" lineNum="130" parent="globals/SettingsModel" pc="268439912" symbol="indexOfValue"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="58" lineNum="131" parent="globals/SettingsModel" pc="268439928" symbol="indexOfValue"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="58" lineNum="132" parent="globals/SettingsModel" pc="268439939" symbol="indexOfValue"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="58" lineNum="135" parent="globals/SettingsModel" pc="268439955" symbol="indexOfValue"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="59" lineNum="37" parent="globals/SettingsModel" pc="268439957" symbol="setSelectedColors"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="59" lineNum="38" parent="globals/SettingsModel" pc="268439959" symbol="setSelectedColors"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="60" lineNum="118" parent="globals/SettingsModel" pc="268439986" symbol="getAutoOff"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="60" lineNum="119" parent="globals/SettingsModel" pc="268439989" symbol="getAutoOff"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="60" lineNum="120" parent="globals/SettingsModel" pc="268440014" symbol="getAutoOff"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="60" lineNum="121" parent="globals/SettingsModel" pc="268440020" symbol="getAutoOff"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="60" lineNum="123" parent="globals/SettingsModel" pc="268440026" symbol="getAutoOff"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="61" lineNum="101" parent="globals/SettingsModel" pc="268440029" symbol="setColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="61" lineNum="103" parent="globals/SettingsModel" pc="268440031" symbol="setColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="62" lineNum="51" parent="globals/SettingsModel" pc="268440050" symbol="toggleColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="62" lineNum="52" parent="globals/SettingsModel" pc="268440053" symbol="toggleColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="62" lineNum="54" parent="globals/SettingsModel" pc="268440061" symbol="toggleColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="62" lineNum="55" parent="globals/SettingsModel" pc="268440074" symbol="toggleColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="62" lineNum="57" parent="globals/SettingsModel" pc="268440089" symbol="toggleColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="62" lineNum="61" parent="globals/SettingsModel" pc="268440101" symbol="toggleColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="62" lineNum="62" parent="globals/SettingsModel" pc="268440113" symbol="toggleColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="62" lineNum="65" parent="globals/SettingsModel" pc="268440131" symbol="toggleColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="64" lineNum="114" parent="globals/SettingsModel" pc="268440143" symbol="setHints"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="64" lineNum="115" parent="globals/SettingsModel" pc="268440145" symbol="setHints"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="65" lineNum="107" parent="globals/SettingsModel" pc="268440172" symbol="getHints"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="65" lineNum="108" parent="globals/SettingsModel" pc="268440175" symbol="getHints"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="65" lineNum="109" parent="globals/SettingsModel" pc="268440200" symbol="getHints"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="65" lineNum="110" parent="globals/SettingsModel" pc="268440206" symbol="getHints"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="65" lineNum="112" parent="globals/SettingsModel" pc="268440212" symbol="getHints"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="67" lineNum="457" parent="globals/SettingsService" pc="268440215" symbol="getHintsEnabled"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="67" lineNum="458" parent="globals/SettingsService" pc="268440217" symbol="getHintsEnabled"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="68" lineNum="461" parent="globals/SettingsService" pc="268440232" symbol="getAutoOffSeconds"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="68" lineNum="462" parent="globals/SettingsService" pc="268440234" symbol="getAutoOffSeconds"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="69" lineNum="518" parent="globals/SettingsService" pc="268440249" symbol="setHintsEnabled"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="69" lineNum="519" parent="globals/SettingsService" pc="268440251" symbol="setHintsEnabled"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="70" lineNum="448" parent="globals/SettingsService" pc="268440268" symbol="getSelectedColors"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="70" lineNum="449" parent="globals/SettingsService" pc="268440270" symbol="getSelectedColors"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="71" lineNum="452" parent="globals/SettingsService" pc="268440277" symbol="getPrimaryColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="71" lineNum="453" parent="globals/SettingsService" pc="268440280" symbol="getPrimaryColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="71" lineNum="454" parent="globals/SettingsService" pc="268440288" symbol="getPrimaryColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="72" lineNum="403" parent="globals/SettingsService" pc="268440293" symbol="_getBool"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="72" lineNum="405" parent="globals/SettingsService" pc="268440296" symbol="_getBool"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="72" lineNum="406" parent="globals/SettingsService" pc="268440320" symbol="_getBool"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="72" lineNum="407" parent="globals/SettingsService" pc="268440324" symbol="_getBool"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="73" lineNum="522" parent="globals/SettingsService" pc="268440344" symbol="setAutoOffSeconds"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="73" lineNum="523" parent="globals/SettingsService" pc="268440346" symbol="setAutoOffSeconds"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="75" lineNum="419" parent="globals/SettingsService" pc="268440363" symbol="_set"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="75" lineNum="421" parent="globals/SettingsService" pc="268440366" symbol="_set"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="75" lineNum="422" parent="globals/SettingsService" pc="268440389" symbol="_set"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="76" lineNum="502" parent="globals/SettingsService" pc="268440406" symbol="toggleColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="76" lineNum="503" parent="globals/SettingsService" pc="268440409" symbol="toggleColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="76" lineNum="504" parent="globals/SettingsService" pc="268440420" symbol="toggleColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="76" lineNum="505" parent="globals/SettingsService" pc="268440452" symbol="toggleColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="76" lineNum="506" parent="globals/SettingsService" pc="268440462" symbol="toggleColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="76" lineNum="507" parent="globals/SettingsService" pc="268440494" symbol="toggleColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="76" lineNum="508" parent="globals/SettingsService" pc="268440505" symbol="toggleColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="76" lineNum="512" parent="globals/SettingsService" pc="268440537" symbol="toggleColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="76" lineNum="513" parent="globals/SettingsService" pc="268440545" symbol="toggleColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="76" lineNum="514" parent="globals/SettingsService" pc="268440557" symbol="toggleColor"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="77" lineNum="411" parent="globals/SettingsService" pc="268440576" symbol="_getNum"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="77" lineNum="413" parent="globals/SettingsService" pc="268440579" symbol="_getNum"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="77" lineNum="414" parent="globals/SettingsService" pc="268440603" symbol="_getNum"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="77" lineNum="415" parent="globals/SettingsService" pc="268440607" symbol="_getNum"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="78" lineNum="428" parent="globals/SettingsService" pc="268440627" symbol="_composeSelectedColors"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="78" lineNum="429" parent="globals/SettingsService" pc="268440630" symbol="_composeSelectedColors"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="78" lineNum="430" parent="globals/SettingsService" pc="268440634" symbol="_composeSelectedColors"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="78" lineNum="431" parent="globals/SettingsService" pc="268440651" symbol="_composeSelectedColors"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="78" lineNum="433" parent="globals/SettingsService" pc="268440669" symbol="_composeSelectedColors"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="78" lineNum="434" parent="globals/SettingsService" pc="268440686" symbol="_composeSelectedColors"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="78" lineNum="436" parent="globals/SettingsService" pc="268440703" symbol="_composeSelectedColors"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="78" lineNum="437" parent="globals/SettingsService" pc="268440720" symbol="_composeSelectedColors"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="78" lineNum="440" parent="globals/SettingsService" pc="268440738" symbol="_composeSelectedColors"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="78" lineNum="441" parent="globals/SettingsService" pc="268440750" symbol="_composeSelectedColors"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\SettingsMenu.mc" id="78" lineNum="443" parent="globals/SettingsService" pc="268440768" symbol="_composeSelectedColors"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyMenuDelegate.mc" id="80" lineNum="11" parent="globals/BrightyMenuDelegate" pc="268440771" symbol="onMenuItem"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyMenuDelegate.mc" id="80" lineNum="12" parent="globals/BrightyMenuDelegate" pc="268440773" symbol="onMenuItem"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyMenuDelegate.mc" id="80" lineNum="13" parent="globals/BrightyMenuDelegate" pc="268440784" symbol="onMenuItem"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyMenuDelegate.mc" id="80" lineNum="14" parent="globals/BrightyMenuDelegate" pc="268440805" symbol="onMenuItem"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyMenuDelegate.mc" id="80" lineNum="15" parent="globals/BrightyMenuDelegate" pc="268440816" symbol="onMenuItem"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyMenuDelegate.mc" id="81" lineNum="7" parent="globals/BrightyMenuDelegate" pc="268440838" symbol="initialize"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\BrightyMenuDelegate.mc" id="81" lineNum="8" parent="globals/BrightyMenuDelegate" pc="268440840" symbol="initialize"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="82" lineNum="30" parent="globals/UiUtils" pc="268440853" symbol="drawLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="82" lineNum="42" parent="globals/UiUtils" pc="268440864" symbol="drawLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="82" lineNum="43" parent="globals/UiUtils" pc="268440880" symbol="drawLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="82" lineNum="44" parent="globals/UiUtils" pc="268440887" symbol="drawLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="82" lineNum="45" parent="globals/UiUtils" pc="268440909" symbol="drawLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="82" lineNum="47" parent="globals/UiUtils" pc="268440931" symbol="drawLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="82" lineNum="48" parent="globals/UiUtils" pc="268440945" symbol="drawLabel"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="83" lineNum="11" parent="globals/UiUtils" pc="268440966" symbol="drawSoftKeyStrip"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="83" lineNum="22" parent="globals/UiUtils" pc="268440977" symbol="drawSoftKeyStrip"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="83" lineNum="23" parent="globals/UiUtils" pc="268440990" symbol="drawSoftKeyStrip"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="83" lineNum="25" parent="globals/UiUtils" pc="268441003" symbol="drawSoftKeyStrip"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="83" lineNum="26" parent="globals/UiUtils" pc="268441015" symbol="drawSoftKeyStrip"/>
+        <entry filename="C:\\develop\\garmin\\Brighty\\source\\UiUtils.mc" id="83" lineNum="27" parent="globals/UiUtils" pc="268441029" symbol="drawSoftKeyStrip"/>
+        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="84" lineNum="13" parent="globals/Rez/Layouts" pc="268441051" symbol="MainLayout"/>
+        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="84" lineNum="14" parent="globals/Rez/Layouts" pc="268441061" symbol="MainLayout"/>
+        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="85" lineNum="19" parent="globals/Rez/Menus/MainMenu" pc="268441064" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="86" lineNum="20" parent="globals/Rez/Menus/MainMenu" pc="268441076" symbol="initialize"/>
+        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="86" lineNum="21" parent="globals/Rez/Menus/MainMenu" pc="268441078" symbol="initialize"/>
+        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="86" lineNum="22" parent="globals/Rez/Menus/MainMenu" pc="268441090" symbol="initialize"/>
+        <entry filename="c:\\develop\\garmin\\Brighty\\bin\\gen\\006-B4666-00\\source\\Rez.mcgen" id="86" lineNum="23" parent="globals/Rez/Menus/MainMenu" pc="268441135" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry field="true" id="52" symbol="&lt;globals/TimeoutMenuDelegate/&lt;&gt;model&gt;"/>
         <entry field="true" id="36" symbol="_colors"/>
-        <entry id="106" symbol="back"/>
+        <entry id="113" symbol="back"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="42" method="true" symbol="setActiveColor"/>
         <entry id="5" module="true" symbol="globals/Rez/Menus"/>
         <entry id="22" object="true" symbol="SettingsModel"/>
-        <entry id="84" method="true" symbol="MainLayout"/>
+        <entry id="91" method="true" symbol="MainLayout"/>
+        <entry id="8389683" method="true" symbol="onSettingsChanged"/>
         <entry id="23" object="true" symbol="SettingsService"/>
         <entry id="74" symbol="timeoutValues"/>
+        <entry id="85" method="true" symbol="refreshCacheFromProperties"/>
         <entry field="true" id="34" symbol="_autoOff"/>
         <entry field="true" id="31" symbol="&lt;globals/ColorsMenuDelegate/&lt;&gt;model&gt;"/>
         <entry id="19" object="true" symbol="SettingsMenu"/>
         <entry id="21" object="true" symbol="SettingsMenuDelegate"/>
+        <entry id="86" method="true" symbol="setAutoOffSeconds"/>
         <entry id="25" module="true" symbol="UiUtils"/>
         <entry id="38" method="true" symbol="contrastColor"/>
         <entry id="13" object="true" symbol="BrightyApp"/>
@@ -424,21 +457,23 @@
         <entry field="true" id="35" symbol="_color"/>
         <entry field="true" id="56" symbol="&lt;globals/AutoOffController/&lt;&gt;_vibrateOnExp&gt;"/>
         <entry id="72" method="true" symbol="setSelectedColors"/>
-        <entry id="80" method="true" symbol="getPrimaryColor"/>
+        <entry id="84" method="true" symbol="getPrimaryColor"/>
         <entry id="24" object="true" symbol="TimeoutMenuDelegate"/>
-        <entry field="true" id="86" symbol="AppName"/>
+        <entry field="true" id="93" symbol="AppName"/>
         <entry field="true" id="51" symbol="&lt;globals/TimeoutMenuDelegate/&lt;&gt;builder&gt;"/>
         <entry id="6" module="true" symbol="globals/Rez/Strings"/>
         <entry field="true" id="32" symbol="&lt;globals/ColorsMenuDelegate/&lt;&gt;tempSel&gt;"/>
-        <entry field="true" id="90" symbol="SettingsTitle"/>
+        <entry field="true" id="97" symbol="SettingsTitle"/>
         <entry id="69" method="true" symbol="isColorSelected"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
         <entry id="8389081" method="true" symbol="onBack"/>
         <entry id="54" method="true" symbol="_onExpire"/>
-        <entry field="true" id="87" symbol="ColorLabel"/>
+        <entry field="true" id="94" symbol="ColorLabel"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="79" method="true" symbol="_getBool"/>
+        <entry id="87" method="true" symbol="setHintsEnabled"/>
         <entry field="true" id="37" symbol="_index"/>
-        <entry id="105" symbol="timeout"/>
+        <entry id="112" symbol="timeout"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="53" symbol="&lt;globals/AutoOffController/&lt;&gt;_applyColor&gt;"/>
         <entry field="true" id="8388721" method="true" symbol="min"/>
@@ -447,18 +482,18 @@
         <entry id="62" symbol="colorValues"/>
         <entry field="true" id="55" symbol="&lt;globals/AutoOffController/&lt;&gt;_timer&gt;"/>
         <entry id="47" method="true" symbol="buildTimeoutMenu"/>
-        <entry id="108" symbol="item_2"/>
-        <entry id="107" symbol="item_1"/>
+        <entry id="115" symbol="item_2"/>
+        <entry id="114" symbol="item_1"/>
         <entry id="44" module="true" symbol="Menus"/>
         <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
-        <entry id="81" method="true" symbol="drawLabel"/>
+        <entry id="88" method="true" symbol="drawLabel"/>
         <entry id="40" method="true" symbol="openSettings"/>
-        <entry id="96" symbol="color5"/>
-        <entry id="95" symbol="color4"/>
-        <entry id="94" symbol="color3"/>
-        <entry id="93" symbol="color2"/>
-        <entry id="92" symbol="color1"/>
-        <entry id="91" symbol="color0"/>
+        <entry id="103" symbol="color5"/>
+        <entry id="102" symbol="color4"/>
+        <entry id="101" symbol="color3"/>
+        <entry id="100" symbol="color2"/>
+        <entry id="99" symbol="color1"/>
+        <entry id="98" symbol="color0"/>
         <entry id="68" method="true" symbol="indexOfValue"/>
         <entry id="46" method="true" symbol="buildMainMenu"/>
         <entry id="8388882" method="true" symbol="save"/>
@@ -466,10 +501,11 @@
         <entry id="50" method="true" symbol="refreshMainMenu"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
         <entry id="41" method="true" symbol="prevColor"/>
-        <entry id="85" object="true" symbol="MainMenu"/>
+        <entry id="92" object="true" symbol="MainMenu"/>
+        <entry id="78" method="true" symbol="_composeSelectedColors"/>
         <entry id="8389823" method="true" symbol="indexOf"/>
         <entry id="71" method="true" symbol="setHints"/>
-        <entry id="78" method="true" symbol="getAutoOffSeconds"/>
+        <entry id="82" method="true" symbol="getAutoOffSeconds"/>
         <entry id="73" symbol="timeoutLabels"/>
         <entry field="true" id="77" symbol="TIMEOUT_IDS"/>
         <entry id="33" method="true" symbol="toggleInTemp"/>
@@ -481,14 +517,14 @@
         <entry id="8389256" method="true" symbol="open"/>
         <entry id="67" method="true" symbol="getSelectedColors"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry id="79" method="true" symbol="getHintsEnabled"/>
-        <entry field="true" id="83" symbol="LauncherIcon"/>
+        <entry id="83" method="true" symbol="getHintsEnabled"/>
+        <entry field="true" id="90" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
-        <entry id="82" method="true" symbol="drawSoftKeyStrip"/>
+        <entry id="89" method="true" symbol="drawSoftKeyStrip"/>
         <entry field="true" id="28" symbol="&lt;globals/SettingsMenuDelegate/&lt;&gt;builder&gt;"/>
-        <entry field="true" id="89" symbol="MenuOption2"/>
-        <entry field="true" id="88" symbol="MenuOption1"/>
+        <entry field="true" id="96" symbol="MenuOption2"/>
+        <entry field="true" id="95" symbol="MenuOption1"/>
         <entry id="14" object="true" symbol="BrightyDelegate"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="10" module="true" symbol="globals/UiUtils"/>
@@ -496,6 +532,7 @@
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry field="true" id="27" symbol="_view"/>
         <entry field="true" id="48" symbol="&lt;globals/SettingsMenuBuilder/&lt;&gt;model&gt;"/>
+        <entry id="81" method="true" symbol="_set"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
         <entry field="true" id="76" symbol="COLOR_IDS"/>
@@ -505,13 +542,13 @@
         <entry id="66" method="true" symbol="getHints"/>
         <entry id="8" module="true" symbol="globals/SettingsMenu/&lt;statics&gt;"/>
         <entry id="63" method="true" symbol="colorsSummaryLabel"/>
-        <entry id="103" symbol="timeout6"/>
-        <entry id="102" symbol="timeout5"/>
-        <entry id="101" symbol="timeout4"/>
-        <entry id="100" symbol="timeout3"/>
-        <entry id="99" symbol="timeout2"/>
-        <entry id="98" symbol="timeout1"/>
-        <entry id="97" symbol="timeout0"/>
+        <entry id="110" symbol="timeout6"/>
+        <entry id="109" symbol="timeout5"/>
+        <entry id="108" symbol="timeout4"/>
+        <entry id="107" symbol="timeout3"/>
+        <entry id="106" symbol="timeout2"/>
+        <entry id="105" symbol="timeout1"/>
+        <entry id="104" symbol="timeout0"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="16" object="true" symbol="ColorsMenuDelegate"/>
         <entry id="15" object="true" symbol="BrightyMenuDelegate"/>
@@ -526,9 +563,10 @@
         <entry id="43" module="true" symbol="Layouts"/>
         <entry id="17" object="true" symbol="FlashlightView"/>
         <entry id="8388636" module="true" symbol="Attention"/>
-        <entry id="104" symbol="hints"/>
+        <entry id="111" symbol="hints"/>
         <entry id="39" method="true" symbol="nextColor"/>
         <entry id="64" method="true" symbol="getAutoOff"/>
+        <entry id="80" method="true" symbol="_getNum"/>
         <entry id="60" method="true" symbol="joinArray"/>
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry id="8388635" module="true" symbol="Application"/>
@@ -617,61 +655,72 @@
         <entry arg="true" endPc="268439418" name="sep" stackId="2" startPc="268439345"/>
         <entry endPc="268439418" name="out" stackId="3" startPc="268439356"/>
         <entry endPc="268439415" name="i" stackId="4" startPc="268439379"/>
-        <entry endPc="268439481" name="v" stackId="1" startPc="268439425"/>
-        <entry endPc="268439481" name="d" stackId="2" startPc="268439425"/>
-        <entry arg="true" endPc="268439525" name="sec" stackId="1" startPc="268439497"/>
-        <entry endPc="268439572" name="arr" stackId="1" startPc="268439529"/>
-        <entry endPc="268439608" name="sel" stackId="1" startPc="268439576"/>
-        <entry arg="true" endPc="268439663" name="val" stackId="1" startPc="268439609"/>
-        <entry endPc="268439663" name="sel" stackId="2" startPc="268439612"/>
-        <entry endPc="268439661" name="i" stackId="3" startPc="268439636"/>
-        <entry endPc="268439864" name="sel" stackId="1" startPc="268439667"/>
-        <entry endPc="268439864" name="names" stackId="2" startPc="268439667"/>
-        <entry endPc="268439793" name="i" stackId="3" startPc="268439699"/>
-        <entry endPc="268439783" name="cv" stackId="4" startPc="268439699"/>
-        <entry endPc="268439783" name="picked" stackId="5" startPc="268439699"/>
-        <entry endPc="268439757" name="j" stackId="6" startPc="268439728"/>
-        <entry arg="true" endPc="268439912" name="arr" stackId="1" startPc="268439865"/>
-        <entry arg="true" endPc="268439912" name="value" stackId="2" startPc="268439865"/>
-        <entry endPc="268439910" name="i" stackId="3" startPc="268439884"/>
-        <entry arg="true" endPc="268439941" name="list" stackId="1" startPc="268439913"/>
-        <entry endPc="268439984" name="v" stackId="1" startPc="268439945"/>
-        <entry arg="true" endPc="268440005" name="c" stackId="1" startPc="268439985"/>
-        <entry arg="true" endPc="268440098" name="val" stackId="1" startPc="268440006"/>
-        <entry endPc="268440097" name="sel" stackId="2" startPc="268440009"/>
-        <entry arg="true" endPc="268440127" name="on" stackId="1" startPc="268440099"/>
-        <entry endPc="268440170" name="v" stackId="1" startPc="268440131"/>
-        <entry endPc="268440234" name="v" stackId="1" startPc="268440174"/>
-        <entry endPc="268440277" name="v" stackId="1" startPc="268440238"/>
-        <entry endPc="268440337" name="arr" stackId="1" startPc="268440281"/>
-        <entry endPc="268440353" name="arr" stackId="1" startPc="268440341"/>
-        <entry arg="true" endPc="268440420" name="item" stackId="1" startPc="268440354"/>
-        <entry arg="true" endPc="268440548" name="dc" stackId="1" startPc="268440436"/>
-        <entry arg="true" endPc="268440548" name="cx" stackId="2" startPc="268440436"/>
-        <entry arg="true" endPc="268440548" name="cy" stackId="3" startPc="268440436"/>
-        <entry arg="true" endPc="268440548" name="angleDeg" stackId="4" startPc="268440436"/>
-        <entry arg="true" endPc="268440548" name="r" stackId="5" startPc="268440436"/>
-        <entry arg="true" endPc="268440548" name="text" stackId="6" startPc="268440436"/>
-        <entry arg="true" endPc="268440548" name="fg" stackId="7" startPc="268440436"/>
-        <entry arg="true" endPc="268440548" name="bg" stackId="8" startPc="268440436"/>
-        <entry arg="true" endPc="268440548" name="font" stackId="9" startPc="268440436"/>
-        <entry arg="true" endPc="268440548" name="offset" stackId="10" startPc="268440436"/>
-        <entry endPc="268440547" name="rad" stackId="11" startPc="268440447"/>
-        <entry endPc="268440547" name="rIcon" stackId="12" startPc="268440447"/>
-        <entry endPc="268440547" name="x" stackId="13" startPc="268440447"/>
-        <entry endPc="268440547" name="y" stackId="14" startPc="268440447"/>
-        <entry arg="true" endPc="268440633" name="dc" stackId="1" startPc="268440549"/>
-        <entry arg="true" endPc="268440633" name="cx" stackId="2" startPc="268440549"/>
-        <entry arg="true" endPc="268440633" name="cy" stackId="3" startPc="268440549"/>
-        <entry arg="true" endPc="268440633" name="r" stackId="4" startPc="268440549"/>
-        <entry arg="true" endPc="268440633" name="angleDeg" stackId="5" startPc="268440549"/>
-        <entry arg="true" endPc="268440633" name="arcLenDeg" stackId="6" startPc="268440549"/>
-        <entry arg="true" endPc="268440633" name="ringWidth" stackId="7" startPc="268440549"/>
-        <entry arg="true" endPc="268440633" name="bgColor" stackId="8" startPc="268440549"/>
-        <entry arg="true" endPc="268440633" name="segColor" stackId="9" startPc="268440549"/>
-        <entry endPc="268440632" name="startDeg" stackId="10" startPc="268440560"/>
-        <entry endPc="268440632" name="endDeg" stackId="11" startPc="268440560"/>
-        <entry arg="true" endPc="268440646" name="dc" stackId="1" startPc="268440634"/>
+        <entry endPc="268439525" name="v" stackId="1" startPc="268439469"/>
+        <entry endPc="268439525" name="d" stackId="2" startPc="268439469"/>
+        <entry arg="true" endPc="268439569" name="sec" stackId="1" startPc="268439541"/>
+        <entry endPc="268439616" name="arr" stackId="1" startPc="268439573"/>
+        <entry endPc="268439652" name="sel" stackId="1" startPc="268439620"/>
+        <entry arg="true" endPc="268439707" name="val" stackId="1" startPc="268439653"/>
+        <entry endPc="268439707" name="sel" stackId="2" startPc="268439656"/>
+        <entry endPc="268439705" name="i" stackId="3" startPc="268439680"/>
+        <entry endPc="268439908" name="sel" stackId="1" startPc="268439711"/>
+        <entry endPc="268439908" name="names" stackId="2" startPc="268439711"/>
+        <entry endPc="268439837" name="i" stackId="3" startPc="268439743"/>
+        <entry endPc="268439827" name="cv" stackId="4" startPc="268439743"/>
+        <entry endPc="268439827" name="picked" stackId="5" startPc="268439743"/>
+        <entry endPc="268439801" name="j" stackId="6" startPc="268439772"/>
+        <entry arg="true" endPc="268439956" name="arr" stackId="1" startPc="268439909"/>
+        <entry arg="true" endPc="268439956" name="value" stackId="2" startPc="268439909"/>
+        <entry endPc="268439954" name="i" stackId="3" startPc="268439928"/>
+        <entry arg="true" endPc="268439985" name="list" stackId="1" startPc="268439957"/>
+        <entry endPc="268440028" name="v" stackId="1" startPc="268439989"/>
+        <entry arg="true" endPc="268440049" name="c" stackId="1" startPc="268440029"/>
+        <entry arg="true" endPc="268440142" name="val" stackId="1" startPc="268440050"/>
+        <entry endPc="268440141" name="sel" stackId="2" startPc="268440053"/>
+        <entry arg="true" endPc="268440171" name="on" stackId="1" startPc="268440143"/>
+        <entry endPc="268440214" name="v" stackId="1" startPc="268440175"/>
+        <entry arg="true" endPc="268440267" name="on" stackId="1" startPc="268440249"/>
+        <entry endPc="268440292" name="arr" stackId="1" startPc="268440280"/>
+        <entry arg="true" endPc="268440343" name="key" stackId="1" startPc="268440293"/>
+        <entry arg="true" endPc="268440343" name="def" stackId="2" startPc="268440293"/>
+        <entry endPc="268440337" name="e" stackId="3" startPc="268440320"/>
+        <entry arg="true" endPc="268440362" name="sec" stackId="1" startPc="268440344"/>
+        <entry arg="true" endPc="268440405" name="key" stackId="1" startPc="268440363"/>
+        <entry arg="true" endPc="268440405" name="val" stackId="2" startPc="268440363"/>
+        <entry endPc="268440399" name="e" stackId="3" startPc="268440389"/>
+        <entry arg="true" endPc="268440575" name="color" stackId="1" startPc="268440406"/>
+        <entry endPc="268440574" name="arr" stackId="2" startPc="268440409"/>
+        <entry arg="true" endPc="268440626" name="key" stackId="1" startPc="268440576"/>
+        <entry arg="true" endPc="268440626" name="def" stackId="2" startPc="268440576"/>
+        <entry endPc="268440620" name="e" stackId="3" startPc="268440603"/>
+        <entry endPc="268440770" name="res" stackId="1" startPc="268440630"/>
+        <entry arg="true" endPc="268440837" name="item" stackId="1" startPc="268440771"/>
+        <entry arg="true" endPc="268440965" name="dc" stackId="1" startPc="268440853"/>
+        <entry arg="true" endPc="268440965" name="cx" stackId="2" startPc="268440853"/>
+        <entry arg="true" endPc="268440965" name="cy" stackId="3" startPc="268440853"/>
+        <entry arg="true" endPc="268440965" name="angleDeg" stackId="4" startPc="268440853"/>
+        <entry arg="true" endPc="268440965" name="r" stackId="5" startPc="268440853"/>
+        <entry arg="true" endPc="268440965" name="text" stackId="6" startPc="268440853"/>
+        <entry arg="true" endPc="268440965" name="fg" stackId="7" startPc="268440853"/>
+        <entry arg="true" endPc="268440965" name="bg" stackId="8" startPc="268440853"/>
+        <entry arg="true" endPc="268440965" name="font" stackId="9" startPc="268440853"/>
+        <entry arg="true" endPc="268440965" name="offset" stackId="10" startPc="268440853"/>
+        <entry endPc="268440964" name="rad" stackId="11" startPc="268440864"/>
+        <entry endPc="268440964" name="rIcon" stackId="12" startPc="268440864"/>
+        <entry endPc="268440964" name="x" stackId="13" startPc="268440864"/>
+        <entry endPc="268440964" name="y" stackId="14" startPc="268440864"/>
+        <entry arg="true" endPc="268441050" name="dc" stackId="1" startPc="268440966"/>
+        <entry arg="true" endPc="268441050" name="cx" stackId="2" startPc="268440966"/>
+        <entry arg="true" endPc="268441050" name="cy" stackId="3" startPc="268440966"/>
+        <entry arg="true" endPc="268441050" name="r" stackId="4" startPc="268440966"/>
+        <entry arg="true" endPc="268441050" name="angleDeg" stackId="5" startPc="268440966"/>
+        <entry arg="true" endPc="268441050" name="arcLenDeg" stackId="6" startPc="268440966"/>
+        <entry arg="true" endPc="268441050" name="ringWidth" stackId="7" startPc="268440966"/>
+        <entry arg="true" endPc="268441050" name="bgColor" stackId="8" startPc="268440966"/>
+        <entry arg="true" endPc="268441050" name="segColor" stackId="9" startPc="268440966"/>
+        <entry endPc="268441049" name="startDeg" stackId="10" startPc="268440977"/>
+        <entry endPc="268441049" name="endDeg" stackId="11" startPc="268440977"/>
+        <entry arg="true" endPc="268441063" name="dc" stackId="1" startPc="268441051"/>
     </localVars>
     <deviceInfo deviceVersion="973370c5a9d96fc81efa2ce7024844f7f8431e75" partNumber="006-B4666-00"/>
     <annotations>
@@ -696,18 +745,18 @@
         <dataEntry label="globals/AutoOffController" offset="1016" parentId="globals" symbolId="AutoOffController" type="class"/>
         <dataEntry label="globals/Utils" offset="1114" parentId="globals" symbolId="Utils" type="module"/>
         <dataEntry label="globals/BrightyApp" offset="1167" parentId="globals" symbolId="BrightyApp" type="class"/>
-        <dataEntry label="globals/SettingsModel" offset="1229" parentId="globals" symbolId="SettingsModel" type="class"/>
-        <dataEntry label="globals/SettingsIds" offset="1417" parentId="globals" symbolId="SettingsIds" type="class"/>
-        <dataEntry label="globals/SettingsIds/&lt;statics&gt;" offset="1465" parentId="SettingsIds" symbolId="&lt;statics&gt;" type="module"/>
-        <dataEntry label="globals/SettingsService" offset="1505" parentId="globals" symbolId="SettingsService" type="class"/>
-        <dataEntry label="globals/SettingsService/&lt;statics&gt;" offset="1553" parentId="SettingsService" symbolId="&lt;statics&gt;" type="module"/>
-        <dataEntry label="globals/BrightyMenuDelegate" offset="1611" parentId="globals" symbolId="BrightyMenuDelegate" type="class"/>
-        <dataEntry label="globals/UiUtils" offset="1664" parentId="globals" symbolId="UiUtils" type="module"/>
-        <dataEntry label="globals/Rez/Drawables" offset="1708" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="1743" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="1778" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="1813" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/Menus/MainMenu" offset="1884" parentId="Menus" symbolId="MainMenu" type="class"/>
+        <dataEntry label="globals/SettingsModel" offset="1238" parentId="globals" symbolId="SettingsModel" type="class"/>
+        <dataEntry label="globals/SettingsIds" offset="1426" parentId="globals" symbolId="SettingsIds" type="class"/>
+        <dataEntry label="globals/SettingsIds/&lt;statics&gt;" offset="1474" parentId="SettingsIds" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/SettingsService" offset="1514" parentId="globals" symbolId="SettingsService" type="class"/>
+        <dataEntry label="globals/SettingsService/&lt;statics&gt;" offset="1562" parentId="SettingsService" symbolId="&lt;statics&gt;" type="module"/>
+        <dataEntry label="globals/BrightyMenuDelegate" offset="1692" parentId="globals" symbolId="BrightyMenuDelegate" type="class"/>
+        <dataEntry label="globals/UiUtils" offset="1745" parentId="globals" symbolId="UiUtils" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1789" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1824" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="1859" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1894" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="1965" parentId="Menus" symbolId="MainMenu" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435471" name="&lt;init&gt;" parent="BrightyDelegate" startPc="268435460">
@@ -923,85 +972,121 @@
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439481" name="getInitialView" parent="BrightyApp" startPc="268439422">
+        <functionEntry accessMode="public" endPc="268439465" name="onSettingsChanged" parent="BrightyApp" startPc="268439422">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439496" name="initialize" parent="BrightyApp" startPc="268439482">
+        <functionEntry accessMode="public" endPc="268439525" name="getInitialView" parent="BrightyApp" startPc="268439466">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439525" name="setAutoOff" parent="SettingsModel" startPc="268439497">
+        <functionEntry accessMode="public" endPc="268439540" name="initialize" parent="BrightyApp" startPc="268439526">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439569" name="setAutoOff" parent="SettingsModel" startPc="268439541">
             <param id="sec"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439572" name="getSelectedColors" parent="SettingsModel" startPc="268439526">
+        <functionEntry accessMode="public" endPc="268439616" name="getSelectedColors" parent="SettingsModel" startPc="268439570">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439608" name="getColor" parent="SettingsModel" startPc="268439573">
+        <functionEntry accessMode="public" endPc="268439652" name="getColor" parent="SettingsModel" startPc="268439617">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439663" name="isColorSelected" parent="SettingsModel" startPc="268439609">
+        <functionEntry accessMode="public" endPc="268439707" name="isColorSelected" parent="SettingsModel" startPc="268439653">
             <param id="val"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439864" name="colorsSummaryLabel" parent="SettingsModel" startPc="268439664">
+        <functionEntry accessMode="public" endPc="268439908" name="colorsSummaryLabel" parent="SettingsModel" startPc="268439708">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439912" name="indexOfValue" parent="SettingsModel" startPc="268439865">
+        <functionEntry accessMode="public" endPc="268439956" name="indexOfValue" parent="SettingsModel" startPc="268439909">
             <param id="arr"/>
             <param id="value"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439941" name="setSelectedColors" parent="SettingsModel" startPc="268439913">
+        <functionEntry accessMode="public" endPc="268439985" name="setSelectedColors" parent="SettingsModel" startPc="268439957">
             <param id="list"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439984" name="getAutoOff" parent="SettingsModel" startPc="268439942">
+        <functionEntry accessMode="public" endPc="268440028" name="getAutoOff" parent="SettingsModel" startPc="268439986">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440005" name="setColor" parent="SettingsModel" startPc="268439985">
+        <functionEntry accessMode="public" endPc="268440049" name="setColor" parent="SettingsModel" startPc="268440029">
             <param id="c"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440098" name="toggleColor" parent="SettingsModel" startPc="268440006">
+        <functionEntry accessMode="public" endPc="268440142" name="toggleColor" parent="SettingsModel" startPc="268440050">
             <param id="val"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="initialize" parent="SettingsModel">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440127" name="setHints" parent="SettingsModel" startPc="268440099">
+        <functionEntry accessMode="public" endPc="268440171" name="setHints" parent="SettingsModel" startPc="268440143">
             <param id="on"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440170" name="getHints" parent="SettingsModel" startPc="268440128">
+        <functionEntry accessMode="public" endPc="268440214" name="getHints" parent="SettingsModel" startPc="268440172">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="initialize" parent="SettingsIds">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440234" name="getHintsEnabled" parent="SettingsService" startPc="268440171">
+        <functionEntry accessMode="public" endPc="268440231" name="getHintsEnabled" parent="SettingsService" startPc="268440215">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440277" name="getAutoOffSeconds" parent="SettingsService" startPc="268440235">
+        <functionEntry accessMode="public" endPc="268440248" name="getAutoOffSeconds" parent="SettingsService" startPc="268440232">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440337" name="getSelectedColors" parent="SettingsService" startPc="268440278">
+        <functionEntry accessMode="public" endPc="268440267" name="setHintsEnabled" parent="SettingsService" startPc="268440249">
+            <param id="on"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440276" name="getSelectedColors" parent="SettingsService" startPc="268440268">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440292" name="getPrimaryColor" parent="SettingsService" startPc="268440277">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440343" name="_getBool" parent="SettingsService" startPc="268440293">
+            <param id="key"/>
+            <param id="def"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440362" name="setAutoOffSeconds" parent="SettingsService" startPc="268440344">
+            <param id="sec"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="refreshCacheFromProperties" parent="SettingsService">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440405" name="_set" parent="SettingsService" startPc="268440363">
+            <param id="key"/>
+            <param id="val"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440575" name="toggleColor" parent="SettingsService" startPc="268440406">
+            <param id="color"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440626" name="_getNum" parent="SettingsService" startPc="268440576">
+            <param id="key"/>
+            <param id="def"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440770" name="_composeSelectedColors" parent="SettingsService" startPc="268440627">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="initialize" parent="SettingsService">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440353" name="getPrimaryColor" parent="SettingsService" startPc="268440338">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268440420" name="onMenuItem" parent="BrightyMenuDelegate" startPc="268440354">
+        <functionEntry accessMode="public" endPc="268440837" name="onMenuItem" parent="BrightyMenuDelegate" startPc="268440771">
             <param id="item"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440435" name="initialize" parent="BrightyMenuDelegate" startPc="268440421">
+        <functionEntry accessMode="public" endPc="268440852" name="initialize" parent="BrightyMenuDelegate" startPc="268440838">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440548" name="drawLabel" parent="UiUtils" startPc="268440436">
+        <functionEntry accessMode="public" endPc="268440965" name="drawLabel" parent="UiUtils" startPc="268440853">
             <param id="dc"/>
             <param id="cx"/>
             <param id="cy"/>
@@ -1014,7 +1099,7 @@
             <param id="offset"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440633" name="drawSoftKeyStrip" parent="UiUtils" startPc="268440549">
+        <functionEntry accessMode="public" endPc="268441050" name="drawSoftKeyStrip" parent="UiUtils" startPc="268440966">
             <param id="dc"/>
             <param id="cx"/>
             <param id="cy"/>
@@ -1026,14 +1111,14 @@
             <param id="segColor"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440646" name="MainLayout" parent="Layouts" startPc="268440634">
+        <functionEntry accessMode="public" endPc="268441063" name="MainLayout" parent="Layouts" startPc="268441051">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440658" name="&lt;init&gt;" parent="MainMenu" startPc="268440647">
+        <functionEntry accessMode="public" endPc="268441075" name="&lt;init&gt;" parent="MainMenu" startPc="268441064">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440763" name="initialize" parent="MainMenu" startPc="268440659">
+        <functionEntry accessMode="public" endPc="268441180" name="initialize" parent="MainMenu" startPc="268441076">
             <documentation/>
         </functionEntry>
     </functions>

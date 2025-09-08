@@ -15,4 +15,12 @@ class BrightyApp extends Application.AppBase {
         var d = new BrightyDelegate(v);
         return [v, d];
     }
+
+    function onSettingsChanged() {
+        // Přepočítej lokální cache nastavení (pokud nějakou máš)
+        SettingsService.refreshCacheFromProperties();
+
+        // Pokud jsi v nastavení na hodinkách nebo hlavním view, refreshni UI
+        WatchUi.requestUpdate();
+    }
 }

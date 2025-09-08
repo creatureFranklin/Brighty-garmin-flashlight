@@ -1,52 +1,27 @@
 <settings>
-    <group id="colors" title="@Strings.colors" description="@Strings.colors_description">
-        <!-- <setting id="colorWhite" type="boolean" label="White" default="true" />
-    <setting id="colorLightGray" type="boolean" label="Light gray" default="true" />
-    <setting id="colorDarkGray" type="boolean" label="Dark gray" default="true" />
-    <setting id="colorRed" type="boolean" label="Red" default="true" />
-    <setting id="colorGreen" type="boolean" label="Green" default="false" /> -->
+    <setting propertyKey="@Properties.colorWhite" title="Barva: White">
+        <settingConfig type="boolean" />
+    </setting>
 
-        <!-- 0xffffff, // bílá
-        0xcccccc, // světle šedá
-        0x999999, // tmavší šedá
-        0xFF0000
-        	0x000000 -->
+    <setting propertyKey="@Properties.colorRed" title="Barva: Red">
+        <settingConfig type="boolean" />
+    </setting>
 
+    <setting propertyKey="@Properties.colorGreen" title="Barva: Green">
+        <settingConfig type="boolean" />
+    </setting>
 
-        <setting propertyKey="@Properties.colorWhite" title="@Strings.settings_colors_colorWhite">
-            <settingConfig type="boolean" required="true" readonly="true" />
-        </setting>
+    <setting propertyKey="@Properties.showHints" title="Zobrazovat hinty">
+        <settingConfig type="boolean" />
+    </setting>
 
-        <setting propertyKey="@Properties.colorRed" title="@Strings.settings_colors_colorRed">
-            <settingConfig type="boolean" required="false" />
-        </setting>
-
-        <setting propertyKey="@Properties.colorBlack" title="@Strings.settings_colors_colorBlack">
-            <settingConfig type="boolean" required="true" readonly="true" />
-        </setting>
-    </group>
-
-    <group id="main" title="@Strings.main" description="@Strings.main_description">
-        <setting propertyKey="@Properties.autoOffSec" title="@Strings.settings_auto_off">
-            <settingConfig type="list">
-                <listEntry value="15">15s</listEntry>
-                <listEntry value="30">30s</listEntry>
-                <listEntry value="60">60s</listEntry>
-                <listEntry value="90">90s</listEntry>
-                <listEntry value="120s">120s</listEntry>
-            </settingConfig>
-        </setting>
-
-        <!-- <setting propertyKey="@Properties.timeout" title="@Strings.settings_timeout_title">
-            <settingConfig type="numeric" required="true" min="1" />
-        </setting>
-
-        <setting propertyKey="@Properties.startColor" title="@Strings.settings_start_color_title">
-            <settingConfig type="list">
-                <listEntry value="white">@Strings.white</listEntry>
-                <listEntry value="red">@Strings.red</listEntry>
-                <listEntry value="black">@Strings.black</listEntry>
-            </settingConfig>
-        </setting> -->
-    </group>
+    <setting propertyKey="@Properties.autoOffSec" title="Auto-vypnutí">
+        <settingConfig type="list">
+            <listEntry value="0">Never</listEntry>
+            <listEntry value="5">5 s</listEntry>
+            <listEntry value="10">10 s</listEntry>
+            <listEntry value="30">30 s</listEntry>
+            <listEntry value="60">60 s</listEntry>
+        </settingConfig>
+    </setting>
 </settings>

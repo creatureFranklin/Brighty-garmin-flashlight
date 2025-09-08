@@ -183,9 +183,9 @@ C__develop_garmin_Brighty_source_FlashlightView_mc_23_22_38_4_stop:
     }
     [ @file = "C:\develop\garmin\Brighty\source\FlashlightView.mc"; @line = 40; @symbol_functiondef = [onUpdate,40,13,21]; @symbol_param<0> = [dc,40,22,24]; @symbol_param<0>_type<0> = [Graphics,40,28,36]; @symbol_param<0>_type<1> = [Dc,40,37,39]; ]
     function onUpdate(dc as Graphics.Dc) {
-C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_77_4_start:
+C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_74_4_start:
 [ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 42 8 ]
-        [ "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_77_4_start" "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_77_4_stop" ]
+        [ "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_74_4_start" "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_74_4_stop" ]
         %bg.1 = local;
         symbol [ bg %bg.1 42 12 14 ];
         symbol [ _colors %tmp.2 42 17 24 ];
@@ -196,7 +196,7 @@ C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_77_4_start:
         lputv %bg.1 %tmp.5;
         symbol [ bg %bg.1 42 12 14 ];
 [ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 43 8 ]
-        [ "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_77_4_start" "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_77_4_stop" ]
+        [ "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_74_4_start" "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_74_4_stop" ]
         %fg.2 = local;
         symbol [ fg %fg.2 43 12 14 ];
         %tmp.6 = self;
@@ -226,7 +226,7 @@ C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_77_4_start:
         %tmp.16 = getv function %tmp.15 :clear;
         invoke %tmp.15 %tmp.16();
 [ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 49 8 ]
-        [ "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_77_4_start" "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_77_4_stop" ]
+        [ "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_74_4_start" "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_74_4_stop" ]
         %w.3 = local;
         symbol [ w %w.3 49 12 13 ];
         %tmp.17 = lgetv %dc;
@@ -236,7 +236,7 @@ C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_77_4_start:
         %tmp.19 = invoke %tmp.17 %tmp.18();
         lputv %w.3 %tmp.19;
         symbol [ w %w.3 49 12 13 ];
-        [ "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_77_4_start" "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_77_4_stop" ]
+        [ "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_74_4_start" "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_74_4_stop" ]
         %h.4 = local;
         symbol [ h %h.4 50 12 13 ];
         %tmp.20 = lgetv %dc;
@@ -247,7 +247,7 @@ C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_77_4_start:
         lputv %h.4 %tmp.22;
         symbol [ h %h.4 50 12 13 ];
 [ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 51 8 ]
-        [ "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_77_4_start" "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_77_4_stop" ]
+        [ "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_74_4_start" "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_74_4_stop" ]
         %cx.5 = local;
         symbol [ cx %cx.5 51 12 14 ];
         %tmp.23 = lgetv %w.3;
@@ -256,7 +256,7 @@ C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_77_4_start:
         %tmp.25 = div %tmp.23 %tmp.24;
         lputv %cx.5 %tmp.25;
         symbol [ cx %cx.5 51 12 14 ];
-        [ "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_77_4_start" "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_77_4_stop" ]
+        [ "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_74_4_start" "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_74_4_stop" ]
         %cy.6 = local;
         symbol [ cy %cy.6 52 12 14 ];
         %tmp.26 = lgetv %h.4;
@@ -266,7 +266,7 @@ C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_77_4_start:
         lputv %cy.6 %tmp.28;
         symbol [ cy %cy.6 52 12 14 ];
 [ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 53 8 ]
-        [ "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_77_4_start" "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_77_4_stop" ]
+        [ "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_74_4_start" "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_74_4_stop" ]
         %rOuter.7 = local;
         symbol [ rOuter %rOuter.7 53 12 18 ];
 C__develop_garmin_Brighty_source_FlashlightView_mc_53_22_53_34_begin:
@@ -294,7 +294,7 @@ C__develop_garmin_Brighty_source_FlashlightView_mc_53_22_53_34_end:
         lputv %rOuter.7 %tmp.38;
         symbol [ rOuter %rOuter.7 53 12 18 ];
 [ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 56 8 ]
-        [ "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_77_4_start" "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_77_4_stop" ]
+        [ "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_74_4_start" "C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_74_4_stop" ]
         %showHintsFlag.8 = local;
         symbol [ showHintsFlag %showHintsFlag.8 56 12 25 ];
         symbol [ SettingsService %tmp.40 56 28 43 ];
@@ -305,566 +305,529 @@ C__develop_garmin_Brighty_source_FlashlightView_mc_53_22_53_34_end:
         lputv %showHintsFlag.8 %tmp.42;
         symbol [ showHintsFlag %showHintsFlag.8 56 12 25 ];
 [ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 58 8 ]
-        symbol [ System %tmp.43 58 8 14 ];
-        %tmp.43 = getm $.Toybox.System;
-        symbol [ println %tmp.44 58 15 22 ];
-        %tmp.44 = getv function %tmp.43 :println;
-        %tmp.45 = "DEBUG setting: ";
-        %tmp.46 = lgetv %showHintsFlag.8;
-        symbol [ showHintsFlag %tmp.46 58 43 56 ];
-        %tmp.47 = add %tmp.45 %tmp.46;
-        invoke %tmp.43 %tmp.44(%tmp.47);
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 59 8 ]
-        symbol [ System %tmp.48 59 8 14 ];
-        %tmp.48 = getm $.Toybox.System;
-        symbol [ println %tmp.49 59 15 22 ];
-        %tmp.49 = getv function %tmp.48 :println;
-        %tmp.50 = "DEBUG raw setting: ";
-        symbol [ Application %tmp.51 59 47 58 ];
-        %tmp.51 = getm $.Toybox.Application;
-        symbol [ getApp %tmp.52 59 59 65 ];
-        %tmp.52 = getv function %tmp.51 :getApp;
-        %tmp.53 = invoke %tmp.51 %tmp.52();
-        symbol [ getProperty %tmp.54 59 68 79 ];
-        %tmp.54 = getv function %tmp.53 :getProperty;
-        %tmp.55 = "showHints";
-        %tmp.56 = invoke %tmp.53 %tmp.54(%tmp.55);
-        %tmp.57 = add %tmp.50 %tmp.56;
-        invoke %tmp.48 %tmp.49(%tmp.57);
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 61 8 ]
-C__develop_garmin_Brighty_source_FlashlightView_mc_61_8_76_8_if_stmt:
-        %tmp.58 = lgetv %showHintsFlag.8;
-        symbol [ showHintsFlag %tmp.58 61 12 25 ];
-        %tmp.59 = true;
-        %tmp.60 = eq %tmp.58 %tmp.59;
-        bf %tmp.60 @C__develop_garmin_Brighty_source_FlashlightView_mc_61_8_76_8_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_61_8_76_8_if_true:
-C__develop_garmin_Brighty_source_FlashlightView_mc_61_35_76_8_start:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 62 12 ]
-        [ "C__develop_garmin_Brighty_source_FlashlightView_mc_61_35_76_8_start" "C__develop_garmin_Brighty_source_FlashlightView_mc_61_35_76_8_stop" ]
+C__develop_garmin_Brighty_source_FlashlightView_mc_58_8_73_8_if_stmt:
+        %tmp.43 = lgetv %showHintsFlag.8;
+        symbol [ showHintsFlag %tmp.43 58 12 25 ];
+        %tmp.44 = true;
+        %tmp.45 = eq %tmp.43 %tmp.44;
+        bf %tmp.45 @C__develop_garmin_Brighty_source_FlashlightView_mc_58_8_73_8_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_58_8_73_8_if_true:
+C__develop_garmin_Brighty_source_FlashlightView_mc_58_35_73_8_start:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 59 12 ]
+        [ "C__develop_garmin_Brighty_source_FlashlightView_mc_58_35_73_8_start" "C__develop_garmin_Brighty_source_FlashlightView_mc_58_35_73_8_stop" ]
         %last.9 = local;
-        symbol [ last %last.9 62 16 20 ];
-        symbol [ _colors %tmp.62 62 23 30 ];
-        %tmp.62 = getv ? :_colors;
-        symbol [ size %tmp.63 62 31 35 ];
-        %tmp.63 = getv function %tmp.62 :size;
-        %tmp.64 = invoke %tmp.62 %tmp.63();
-        %tmp.65 = 1;
-        %tmp.66 = sub %tmp.64 %tmp.65;
-        lputv %last.9 %tmp.66;
-        symbol [ last %last.9 62 16 20 ];
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 63 12 ]
-        [ "C__develop_garmin_Brighty_source_FlashlightView_mc_61_35_76_8_start" "C__develop_garmin_Brighty_source_FlashlightView_mc_61_35_76_8_stop" ]
+        symbol [ last %last.9 59 16 20 ];
+        symbol [ _colors %tmp.47 59 23 30 ];
+        %tmp.47 = getv ? :_colors;
+        symbol [ size %tmp.48 59 31 35 ];
+        %tmp.48 = getv function %tmp.47 :size;
+        %tmp.49 = invoke %tmp.47 %tmp.48();
+        %tmp.50 = 1;
+        %tmp.51 = sub %tmp.49 %tmp.50;
+        lputv %last.9 %tmp.51;
+        symbol [ last %last.9 59 16 20 ];
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 60 12 ]
+        [ "C__develop_garmin_Brighty_source_FlashlightView_mc_58_35_73_8_start" "C__develop_garmin_Brighty_source_FlashlightView_mc_58_35_73_8_stop" ]
         %canGoNext.10 = local;
-        symbol [ canGoNext %canGoNext.10 63 16 25 ];
-        symbol [ _index %tmp.68 63 28 34 ];
-        %tmp.68 = getv ? :_index;
-        %tmp.69 = 0;
-        %tmp.70 = gt %tmp.68 %tmp.69;
-        lputv %canGoNext.10 %tmp.70;
-        symbol [ canGoNext %canGoNext.10 63 16 25 ];
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 64 12 ]
-        [ "C__develop_garmin_Brighty_source_FlashlightView_mc_61_35_76_8_start" "C__develop_garmin_Brighty_source_FlashlightView_mc_61_35_76_8_stop" ]
+        symbol [ canGoNext %canGoNext.10 60 16 25 ];
+        symbol [ _index %tmp.53 60 28 34 ];
+        %tmp.53 = getv ? :_index;
+        %tmp.54 = 0;
+        %tmp.55 = gt %tmp.53 %tmp.54;
+        lputv %canGoNext.10 %tmp.55;
+        symbol [ canGoNext %canGoNext.10 60 16 25 ];
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 61 12 ]
+        [ "C__develop_garmin_Brighty_source_FlashlightView_mc_58_35_73_8_start" "C__develop_garmin_Brighty_source_FlashlightView_mc_58_35_73_8_stop" ]
         %canGoPrev.11 = local;
-        symbol [ canGoPrev %canGoPrev.11 64 16 25 ];
-        symbol [ _index %tmp.72 64 28 34 ];
-        %tmp.72 = getv ? :_index;
-        %tmp.73 = lgetv %last.9;
-        symbol [ last %tmp.73 64 37 41 ];
-        %tmp.74 = lt %tmp.72 %tmp.73;
-        lputv %canGoPrev.11 %tmp.74;
-        symbol [ canGoPrev %canGoPrev.11 64 16 25 ];
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 66 12 ]
-C__develop_garmin_Brighty_source_FlashlightView_mc_66_12_69_12_if_stmt:
-        %tmp.75 = lgetv %canGoNext.10;
-        symbol [ canGoNext %tmp.75 66 16 25 ];
-        bf %tmp.75 @C__develop_garmin_Brighty_source_FlashlightView_mc_66_12_69_12_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_66_12_69_12_if_true:
-C__develop_garmin_Brighty_source_FlashlightView_mc_66_27_69_12_start:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 67 16 ]
-        symbol [ UiUtils %tmp.77 67 16 23 ];
-        %tmp.77 = getv ? :UiUtils;
-        symbol [ drawSoftKeyStrip %tmp.78 67 24 40 ];
-        %tmp.78 = getv function %tmp.77 :drawSoftKeyStrip;
-        %tmp.79 = lgetv %dc;
-        symbol [ dc %tmp.79 67 41 43 ];
-        %tmp.80 = lgetv %cx.5;
-        symbol [ cx %tmp.80 67 45 47 ];
-        %tmp.81 = lgetv %cy.6;
-        symbol [ cy %tmp.81 67 49 51 ];
-        %tmp.82 = lgetv %rOuter.7;
-        symbol [ rOuter %tmp.82 67 53 59 ];
-        %tmp.83 = 180;
-        %tmp.84 = 15;
-        %tmp.85 = 6;
-        %tmp.86 = lgetv %bg.1;
-        symbol [ bg %tmp.86 67 73 75 ];
-        %tmp.87 = lgetv %fg.2;
-        symbol [ fg %tmp.87 67 77 79 ];
-        invoke %tmp.77 %tmp.78(%tmp.79, %tmp.80, %tmp.81, %tmp.82, %tmp.83, %tmp.84, %tmp.85, %tmp.86, %tmp.87);
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 68 16 ]
-        symbol [ UiUtils %tmp.89 68 16 23 ];
+        symbol [ canGoPrev %canGoPrev.11 61 16 25 ];
+        symbol [ _index %tmp.57 61 28 34 ];
+        %tmp.57 = getv ? :_index;
+        %tmp.58 = lgetv %last.9;
+        symbol [ last %tmp.58 61 37 41 ];
+        %tmp.59 = lt %tmp.57 %tmp.58;
+        lputv %canGoPrev.11 %tmp.59;
+        symbol [ canGoPrev %canGoPrev.11 61 16 25 ];
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 63 12 ]
+C__develop_garmin_Brighty_source_FlashlightView_mc_63_12_66_12_if_stmt:
+        %tmp.60 = lgetv %canGoNext.10;
+        symbol [ canGoNext %tmp.60 63 16 25 ];
+        bf %tmp.60 @C__develop_garmin_Brighty_source_FlashlightView_mc_63_12_66_12_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_63_12_66_12_if_true:
+C__develop_garmin_Brighty_source_FlashlightView_mc_63_27_66_12_start:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 64 16 ]
+        symbol [ UiUtils %tmp.62 64 16 23 ];
+        %tmp.62 = getv ? :UiUtils;
+        symbol [ drawSoftKeyStrip %tmp.63 64 24 40 ];
+        %tmp.63 = getv function %tmp.62 :drawSoftKeyStrip;
+        %tmp.64 = lgetv %dc;
+        symbol [ dc %tmp.64 64 41 43 ];
+        %tmp.65 = lgetv %cx.5;
+        symbol [ cx %tmp.65 64 45 47 ];
+        %tmp.66 = lgetv %cy.6;
+        symbol [ cy %tmp.66 64 49 51 ];
+        %tmp.67 = lgetv %rOuter.7;
+        symbol [ rOuter %tmp.67 64 53 59 ];
+        %tmp.68 = 180;
+        %tmp.69 = 15;
+        %tmp.70 = 6;
+        %tmp.71 = lgetv %bg.1;
+        symbol [ bg %tmp.71 64 73 75 ];
+        %tmp.72 = lgetv %fg.2;
+        symbol [ fg %tmp.72 64 77 79 ];
+        invoke %tmp.62 %tmp.63(%tmp.64, %tmp.65, %tmp.66, %tmp.67, %tmp.68, %tmp.69, %tmp.70, %tmp.71, %tmp.72);
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 65 16 ]
+        symbol [ UiUtils %tmp.74 65 16 23 ];
+        %tmp.74 = getv ? :UiUtils;
+        symbol [ drawLabel %tmp.75 65 24 33 ];
+        %tmp.75 = getv function %tmp.74 :drawLabel;
+        %tmp.76 = lgetv %dc;
+        symbol [ dc %tmp.76 65 34 36 ];
+        %tmp.77 = lgetv %cx.5;
+        symbol [ cx %tmp.77 65 38 40 ];
+        %tmp.78 = lgetv %cy.6;
+        symbol [ cy %tmp.78 65 42 44 ];
+        %tmp.79 = 180;
+        %tmp.80 = lgetv %rOuter.7;
+        symbol [ rOuter %tmp.80 65 51 57 ];
+        %tmp.81 = "+";
+        %tmp.82 = lgetv %fg.2;
+        symbol [ fg %tmp.82 65 64 66 ];
+        %tmp.83 = lgetv %bg.1;
+        symbol [ bg %tmp.83 65 68 70 ];
+        symbol [ Graphics %tmp.84 65 72 80 ];
+        %tmp.84 = getm $.Toybox.Graphics;
+        symbol [ FONT_TINY %tmp.85 65 81 90 ];
+        %tmp.85 = getv %tmp.84 :FONT_TINY;
+        %tmp.86 = 20;
+        invoke %tmp.74 %tmp.75(%tmp.76, %tmp.77, %tmp.78, %tmp.79, %tmp.80, %tmp.81, %tmp.82, %tmp.83, %tmp.85, %tmp.86);
+C__develop_garmin_Brighty_source_FlashlightView_mc_63_27_66_12_stop:
+        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_63_12_66_12_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_63_12_66_12_if_end:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 68 12 ]
+C__develop_garmin_Brighty_source_FlashlightView_mc_68_12_71_12_if_stmt:
+        %tmp.87 = lgetv %canGoPrev.11;
+        symbol [ canGoPrev %tmp.87 68 16 25 ];
+        bf %tmp.87 @C__develop_garmin_Brighty_source_FlashlightView_mc_68_12_71_12_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_68_12_71_12_if_true:
+C__develop_garmin_Brighty_source_FlashlightView_mc_68_27_71_12_start:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 69 16 ]
+        symbol [ UiUtils %tmp.89 69 16 23 ];
         %tmp.89 = getv ? :UiUtils;
-        symbol [ drawLabel %tmp.90 68 24 33 ];
-        %tmp.90 = getv function %tmp.89 :drawLabel;
+        symbol [ drawSoftKeyStrip %tmp.90 69 24 40 ];
+        %tmp.90 = getv function %tmp.89 :drawSoftKeyStrip;
         %tmp.91 = lgetv %dc;
-        symbol [ dc %tmp.91 68 34 36 ];
+        symbol [ dc %tmp.91 69 41 43 ];
         %tmp.92 = lgetv %cx.5;
-        symbol [ cx %tmp.92 68 38 40 ];
+        symbol [ cx %tmp.92 69 45 47 ];
         %tmp.93 = lgetv %cy.6;
-        symbol [ cy %tmp.93 68 42 44 ];
-        %tmp.94 = 180;
-        %tmp.95 = lgetv %rOuter.7;
-        symbol [ rOuter %tmp.95 68 51 57 ];
-        %tmp.96 = "+";
-        %tmp.97 = lgetv %fg.2;
-        symbol [ fg %tmp.97 68 64 66 ];
+        symbol [ cy %tmp.93 69 49 51 ];
+        %tmp.94 = lgetv %rOuter.7;
+        symbol [ rOuter %tmp.94 69 53 59 ];
+        %tmp.95 = 210;
+        %tmp.96 = 15;
+        %tmp.97 = 6;
         %tmp.98 = lgetv %bg.1;
-        symbol [ bg %tmp.98 68 68 70 ];
-        symbol [ Graphics %tmp.99 68 72 80 ];
-        %tmp.99 = getm $.Toybox.Graphics;
-        symbol [ FONT_TINY %tmp.100 68 81 90 ];
-        %tmp.100 = getv %tmp.99 :FONT_TINY;
-        %tmp.101 = 20;
-        invoke %tmp.89 %tmp.90(%tmp.91, %tmp.92, %tmp.93, %tmp.94, %tmp.95, %tmp.96, %tmp.97, %tmp.98, %tmp.100, %tmp.101);
-C__develop_garmin_Brighty_source_FlashlightView_mc_66_27_69_12_stop:
-        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_66_12_69_12_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_66_12_69_12_if_end:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 71 12 ]
-C__develop_garmin_Brighty_source_FlashlightView_mc_71_12_74_12_if_stmt:
-        %tmp.102 = lgetv %canGoPrev.11;
-        symbol [ canGoPrev %tmp.102 71 16 25 ];
-        bf %tmp.102 @C__develop_garmin_Brighty_source_FlashlightView_mc_71_12_74_12_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_71_12_74_12_if_true:
-C__develop_garmin_Brighty_source_FlashlightView_mc_71_27_74_12_start:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 72 16 ]
-        symbol [ UiUtils %tmp.104 72 16 23 ];
-        %tmp.104 = getv ? :UiUtils;
-        symbol [ drawSoftKeyStrip %tmp.105 72 24 40 ];
-        %tmp.105 = getv function %tmp.104 :drawSoftKeyStrip;
-        %tmp.106 = lgetv %dc;
-        symbol [ dc %tmp.106 72 41 43 ];
-        %tmp.107 = lgetv %cx.5;
-        symbol [ cx %tmp.107 72 45 47 ];
-        %tmp.108 = lgetv %cy.6;
-        symbol [ cy %tmp.108 72 49 51 ];
-        %tmp.109 = lgetv %rOuter.7;
-        symbol [ rOuter %tmp.109 72 53 59 ];
-        %tmp.110 = 210;
-        %tmp.111 = 15;
-        %tmp.112 = 6;
-        %tmp.113 = lgetv %bg.1;
-        symbol [ bg %tmp.113 72 73 75 ];
-        %tmp.114 = lgetv %fg.2;
-        symbol [ fg %tmp.114 72 77 79 ];
-        invoke %tmp.104 %tmp.105(%tmp.106, %tmp.107, %tmp.108, %tmp.109, %tmp.110, %tmp.111, %tmp.112, %tmp.113, %tmp.114);
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 73 16 ]
-        symbol [ UiUtils %tmp.116 73 16 23 ];
-        %tmp.116 = getv ? :UiUtils;
-        symbol [ drawLabel %tmp.117 73 24 33 ];
-        %tmp.117 = getv function %tmp.116 :drawLabel;
-        %tmp.118 = lgetv %dc;
-        symbol [ dc %tmp.118 73 34 36 ];
-        %tmp.119 = lgetv %cx.5;
-        symbol [ cx %tmp.119 73 38 40 ];
-        %tmp.120 = lgetv %cy.6;
-        symbol [ cy %tmp.120 73 42 44 ];
-        %tmp.121 = 210;
-        %tmp.122 = lgetv %rOuter.7;
-        symbol [ rOuter %tmp.122 73 51 57 ];
-        %tmp.123 = "-";
-        %tmp.124 = lgetv %fg.2;
-        symbol [ fg %tmp.124 73 64 66 ];
-        %tmp.125 = lgetv %bg.1;
-        symbol [ bg %tmp.125 73 68 70 ];
-        symbol [ Graphics %tmp.126 73 72 80 ];
-        %tmp.126 = getm $.Toybox.Graphics;
-        symbol [ FONT_LARGE %tmp.127 73 81 91 ];
-        %tmp.127 = getv %tmp.126 :FONT_LARGE;
-        %tmp.128 = 20;
-        invoke %tmp.116 %tmp.117(%tmp.118, %tmp.119, %tmp.120, %tmp.121, %tmp.122, %tmp.123, %tmp.124, %tmp.125, %tmp.127, %tmp.128);
-C__develop_garmin_Brighty_source_FlashlightView_mc_71_27_74_12_stop:
-        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_71_12_74_12_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_71_12_74_12_if_end:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 75 12 ]
-        symbol [ UiUtils %tmp.130 75 12 19 ];
-        %tmp.130 = getv ? :UiUtils;
-        symbol [ drawSoftKeyStrip %tmp.131 75 20 36 ];
-        %tmp.131 = getv function %tmp.130 :drawSoftKeyStrip;
-        %tmp.132 = lgetv %dc;
-        symbol [ dc %tmp.132 75 37 39 ];
-        %tmp.133 = lgetv %cx.5;
-        symbol [ cx %tmp.133 75 41 43 ];
-        %tmp.134 = lgetv %cy.6;
-        symbol [ cy %tmp.134 75 45 47 ];
-        %tmp.135 = lgetv %rOuter.7;
-        symbol [ rOuter %tmp.135 75 49 55 ];
-        %tmp.136 = 30;
-        %tmp.137 = 15;
-        %tmp.138 = 6;
-        %tmp.139 = lgetv %bg.1;
-        symbol [ bg %tmp.139 75 68 70 ];
-        %tmp.140 = lgetv %fg.2;
-        symbol [ fg %tmp.140 75 72 74 ];
-        invoke %tmp.130 %tmp.131(%tmp.132, %tmp.133, %tmp.134, %tmp.135, %tmp.136, %tmp.137, %tmp.138, %tmp.139, %tmp.140);
-C__develop_garmin_Brighty_source_FlashlightView_mc_61_35_76_8_stop:
-        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_61_8_76_8_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_61_8_76_8_if_end:
-C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_77_4_stop:
+        symbol [ bg %tmp.98 69 73 75 ];
+        %tmp.99 = lgetv %fg.2;
+        symbol [ fg %tmp.99 69 77 79 ];
+        invoke %tmp.89 %tmp.90(%tmp.91, %tmp.92, %tmp.93, %tmp.94, %tmp.95, %tmp.96, %tmp.97, %tmp.98, %tmp.99);
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 70 16 ]
+        symbol [ UiUtils %tmp.101 70 16 23 ];
+        %tmp.101 = getv ? :UiUtils;
+        symbol [ drawLabel %tmp.102 70 24 33 ];
+        %tmp.102 = getv function %tmp.101 :drawLabel;
+        %tmp.103 = lgetv %dc;
+        symbol [ dc %tmp.103 70 34 36 ];
+        %tmp.104 = lgetv %cx.5;
+        symbol [ cx %tmp.104 70 38 40 ];
+        %tmp.105 = lgetv %cy.6;
+        symbol [ cy %tmp.105 70 42 44 ];
+        %tmp.106 = 210;
+        %tmp.107 = lgetv %rOuter.7;
+        symbol [ rOuter %tmp.107 70 51 57 ];
+        %tmp.108 = "-";
+        %tmp.109 = lgetv %fg.2;
+        symbol [ fg %tmp.109 70 64 66 ];
+        %tmp.110 = lgetv %bg.1;
+        symbol [ bg %tmp.110 70 68 70 ];
+        symbol [ Graphics %tmp.111 70 72 80 ];
+        %tmp.111 = getm $.Toybox.Graphics;
+        symbol [ FONT_LARGE %tmp.112 70 81 91 ];
+        %tmp.112 = getv %tmp.111 :FONT_LARGE;
+        %tmp.113 = 20;
+        invoke %tmp.101 %tmp.102(%tmp.103, %tmp.104, %tmp.105, %tmp.106, %tmp.107, %tmp.108, %tmp.109, %tmp.110, %tmp.112, %tmp.113);
+C__develop_garmin_Brighty_source_FlashlightView_mc_68_27_71_12_stop:
+        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_68_12_71_12_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_68_12_71_12_if_end:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 72 12 ]
+        symbol [ UiUtils %tmp.115 72 12 19 ];
+        %tmp.115 = getv ? :UiUtils;
+        symbol [ drawSoftKeyStrip %tmp.116 72 20 36 ];
+        %tmp.116 = getv function %tmp.115 :drawSoftKeyStrip;
+        %tmp.117 = lgetv %dc;
+        symbol [ dc %tmp.117 72 37 39 ];
+        %tmp.118 = lgetv %cx.5;
+        symbol [ cx %tmp.118 72 41 43 ];
+        %tmp.119 = lgetv %cy.6;
+        symbol [ cy %tmp.119 72 45 47 ];
+        %tmp.120 = lgetv %rOuter.7;
+        symbol [ rOuter %tmp.120 72 49 55 ];
+        %tmp.121 = 30;
+        %tmp.122 = 15;
+        %tmp.123 = 6;
+        %tmp.124 = lgetv %bg.1;
+        symbol [ bg %tmp.124 72 68 70 ];
+        %tmp.125 = lgetv %fg.2;
+        symbol [ fg %tmp.125 72 72 74 ];
+        invoke %tmp.115 %tmp.116(%tmp.117, %tmp.118, %tmp.119, %tmp.120, %tmp.121, %tmp.122, %tmp.123, %tmp.124, %tmp.125);
+C__develop_garmin_Brighty_source_FlashlightView_mc_58_35_73_8_stop:
+        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_58_8_73_8_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_58_8_73_8_if_end:
+C__develop_garmin_Brighty_source_FlashlightView_mc_40_41_74_4_stop:
     }
-    [ @file = "C:\develop\garmin\Brighty\source\FlashlightView.mc"; @line = 79; @symbol_functiondef = [onKey,79,13,18]; @symbol_param<0> = [key,79,19,22]; @symbol_param<0>_type<0> = [WatchUi,79,26,33]; @symbol_param<0>_type<1> = [Key,79,34,37]; @symbol_return<0> = [Boolean,79,42,49]; ]
+    [ @file = "C:\develop\garmin\Brighty\source\FlashlightView.mc"; @line = 76; @symbol_functiondef = [onKey,76,13,18]; @symbol_param<0> = [key,76,19,22]; @symbol_param<0>_type<0> = [WatchUi,76,26,33]; @symbol_param<0>_type<1> = [Key,76,34,37]; @symbol_return<0> = [Boolean,76,42,49]; ]
     function onKey(key as WatchUi.Key) as Boolean {
-C__develop_garmin_Brighty_source_FlashlightView_mc_79_50_94_4_start:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 80 8 ]
-C__develop_garmin_Brighty_source_FlashlightView_mc_80_8_83_8_if_stmt:
+C__develop_garmin_Brighty_source_FlashlightView_mc_76_50_91_4_start:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 77 8 ]
+C__develop_garmin_Brighty_source_FlashlightView_mc_77_8_80_8_if_stmt:
         %tmp.1 = lgetv %key;
-        symbol [ key %tmp.1 80 12 15 ];
-        symbol [ WatchUi %tmp.2 80 19 26 ];
+        symbol [ key %tmp.1 77 12 15 ];
+        symbol [ WatchUi %tmp.2 77 19 26 ];
         %tmp.2 = getm $.Toybox.WatchUi;
-        symbol [ KEY_ENTER %tmp.3 80 27 36 ];
+        symbol [ KEY_ENTER %tmp.3 77 27 36 ];
         %tmp.3 = getv %tmp.2 :KEY_ENTER;
         %tmp.4 = eq %tmp.1 %tmp.3;
-        bf %tmp.4 @C__develop_garmin_Brighty_source_FlashlightView_mc_80_8_83_8_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_80_8_83_8_if_true:
-C__develop_garmin_Brighty_source_FlashlightView_mc_80_38_83_8_start:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 81 12 ]
+        bf %tmp.4 @C__develop_garmin_Brighty_source_FlashlightView_mc_77_8_80_8_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_77_8_80_8_if_true:
+C__develop_garmin_Brighty_source_FlashlightView_mc_77_38_80_8_start:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 78 12 ]
         %tmp.5 = self;
-        symbol [ openSettings %tmp.6 81 12 24 ];
+        symbol [ openSettings %tmp.6 78 12 24 ];
         %tmp.6 = getv function %tmp.5 :openSettings;
         invoke %tmp.5 %tmp.6();
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 82 12 ]
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 79 12 ]
         %tmp.7 = true;
         ret %tmp.7;
-C__develop_garmin_Brighty_source_FlashlightView_mc_80_38_83_8_stop:
-        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_80_8_83_8_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_80_8_83_8_if_end:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 84 8 ]
-C__develop_garmin_Brighty_source_FlashlightView_mc_84_8_87_8_if_stmt:
+C__develop_garmin_Brighty_source_FlashlightView_mc_77_38_80_8_stop:
+        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_77_8_80_8_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_77_8_80_8_if_end:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 81 8 ]
+C__develop_garmin_Brighty_source_FlashlightView_mc_81_8_84_8_if_stmt:
         %tmp.8 = lgetv %key;
-        symbol [ key %tmp.8 84 12 15 ];
-        symbol [ WatchUi %tmp.9 84 19 26 ];
+        symbol [ key %tmp.8 81 12 15 ];
+        symbol [ WatchUi %tmp.9 81 19 26 ];
         %tmp.9 = getm $.Toybox.WatchUi;
-        symbol [ KEY_UP %tmp.10 84 27 33 ];
+        symbol [ KEY_UP %tmp.10 81 27 33 ];
         %tmp.10 = getv %tmp.9 :KEY_UP;
         %tmp.11 = eq %tmp.8 %tmp.10;
-        bf %tmp.11 @C__develop_garmin_Brighty_source_FlashlightView_mc_84_8_87_8_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_84_8_87_8_if_true:
-C__develop_garmin_Brighty_source_FlashlightView_mc_84_35_87_8_start:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 85 12 ]
+        bf %tmp.11 @C__develop_garmin_Brighty_source_FlashlightView_mc_81_8_84_8_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_81_8_84_8_if_true:
+C__develop_garmin_Brighty_source_FlashlightView_mc_81_35_84_8_start:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 82 12 ]
         %tmp.12 = self;
-        symbol [ nextColor %tmp.13 85 12 21 ];
+        symbol [ nextColor %tmp.13 82 12 21 ];
         %tmp.13 = getv function %tmp.12 :nextColor;
         invoke %tmp.12 %tmp.13();
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 86 12 ]
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 83 12 ]
         %tmp.14 = true;
         ret %tmp.14;
-C__develop_garmin_Brighty_source_FlashlightView_mc_84_35_87_8_stop:
-        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_84_8_87_8_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_84_8_87_8_if_end:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 88 8 ]
-C__develop_garmin_Brighty_source_FlashlightView_mc_88_8_91_8_if_stmt:
+C__develop_garmin_Brighty_source_FlashlightView_mc_81_35_84_8_stop:
+        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_81_8_84_8_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_81_8_84_8_if_end:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 85 8 ]
+C__develop_garmin_Brighty_source_FlashlightView_mc_85_8_88_8_if_stmt:
         %tmp.15 = lgetv %key;
-        symbol [ key %tmp.15 88 12 15 ];
-        symbol [ WatchUi %tmp.16 88 19 26 ];
+        symbol [ key %tmp.15 85 12 15 ];
+        symbol [ WatchUi %tmp.16 85 19 26 ];
         %tmp.16 = getm $.Toybox.WatchUi;
-        symbol [ KEY_DOWN %tmp.17 88 27 35 ];
+        symbol [ KEY_DOWN %tmp.17 85 27 35 ];
         %tmp.17 = getv %tmp.16 :KEY_DOWN;
         %tmp.18 = eq %tmp.15 %tmp.17;
-        bf %tmp.18 @C__develop_garmin_Brighty_source_FlashlightView_mc_88_8_91_8_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_88_8_91_8_if_true:
-C__develop_garmin_Brighty_source_FlashlightView_mc_88_37_91_8_start:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 89 12 ]
+        bf %tmp.18 @C__develop_garmin_Brighty_source_FlashlightView_mc_85_8_88_8_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_85_8_88_8_if_true:
+C__develop_garmin_Brighty_source_FlashlightView_mc_85_37_88_8_start:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 86 12 ]
         %tmp.19 = self;
-        symbol [ prevColor %tmp.20 89 12 21 ];
+        symbol [ prevColor %tmp.20 86 12 21 ];
         %tmp.20 = getv function %tmp.19 :prevColor;
         invoke %tmp.19 %tmp.20();
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 90 12 ]
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 87 12 ]
         %tmp.21 = true;
         ret %tmp.21;
-C__develop_garmin_Brighty_source_FlashlightView_mc_88_37_91_8_stop:
-        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_88_8_91_8_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_88_8_91_8_if_end:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 93 8 ]
+C__develop_garmin_Brighty_source_FlashlightView_mc_85_37_88_8_stop:
+        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_85_8_88_8_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_85_8_88_8_if_end:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 90 8 ]
         %tmp.22 = false;
         ret %tmp.22;
-C__develop_garmin_Brighty_source_FlashlightView_mc_79_50_94_4_stop:
+C__develop_garmin_Brighty_source_FlashlightView_mc_76_50_91_4_stop:
     }
-    [ @file = "C:\develop\garmin\Brighty\source\FlashlightView.mc"; @line = 103; @symbol_functiondef = [onHide,103,13,19]; ]
+    [ @file = "C:\develop\garmin\Brighty\source\FlashlightView.mc"; @line = 100; @symbol_functiondef = [onHide,100,13,19]; ]
     function onHide() {
-C__develop_garmin_Brighty_source_FlashlightView_mc_103_22_107_4_start:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 104 8 ]
-C__develop_garmin_Brighty_source_FlashlightView_mc_104_8_106_8_if_stmt:
-        symbol [ _autoOff %tmp.2 104 12 20 ];
+C__develop_garmin_Brighty_source_FlashlightView_mc_100_22_104_4_start:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 101 8 ]
+C__develop_garmin_Brighty_source_FlashlightView_mc_101_8_103_8_if_stmt:
+        symbol [ _autoOff %tmp.2 101 12 20 ];
         %tmp.2 = getv ? :_autoOff;
         %tmp.3 = null;
         %tmp.4 = ne %tmp.2 %tmp.3;
-        bf %tmp.4 @C__develop_garmin_Brighty_source_FlashlightView_mc_104_8_106_8_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_104_8_106_8_if_true:
-C__develop_garmin_Brighty_source_FlashlightView_mc_104_30_106_8_start:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 105 12 ]
-        symbol [ _autoOff %tmp.6 105 12 20 ];
+        bf %tmp.4 @C__develop_garmin_Brighty_source_FlashlightView_mc_101_8_103_8_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_101_8_103_8_if_true:
+C__develop_garmin_Brighty_source_FlashlightView_mc_101_30_103_8_start:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 102 12 ]
+        symbol [ _autoOff %tmp.6 102 12 20 ];
         %tmp.6 = getv ? :_autoOff;
         %tmp.7 = as %tmp.6 { (!Null) };
-        symbol [ cancel %tmp.8 105 21 27 ];
+        symbol [ cancel %tmp.8 102 21 27 ];
         %tmp.8 = getv function %tmp.7 :cancel;
         invoke %tmp.7 %tmp.8();
-C__develop_garmin_Brighty_source_FlashlightView_mc_104_30_106_8_stop:
-        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_104_8_106_8_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_104_8_106_8_if_end:
-C__develop_garmin_Brighty_source_FlashlightView_mc_103_22_107_4_stop:
+C__develop_garmin_Brighty_source_FlashlightView_mc_101_30_103_8_stop:
+        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_101_8_103_8_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_101_8_103_8_if_end:
+C__develop_garmin_Brighty_source_FlashlightView_mc_100_22_104_4_stop:
     }
-    [ @file = "C:\develop\garmin\Brighty\source\FlashlightView.mc"; @line = 109; @symbol_functiondef = [setActiveColor,109,13,27]; @symbol_param<0> = [colorIndex,109,28,38]; @symbol_param<0>_type<0> = [Number,109,42,48]; ]
+    [ @file = "C:\develop\garmin\Brighty\source\FlashlightView.mc"; @line = 106; @symbol_functiondef = [setActiveColor,106,13,27]; @symbol_param<0> = [colorIndex,106,28,38]; @symbol_param<0>_type<0> = [Number,106,42,48]; ]
     function setActiveColor(colorIndex as Number) as Void {
-C__develop_garmin_Brighty_source_FlashlightView_mc_109_58_117_4_start:
+C__develop_garmin_Brighty_source_FlashlightView_mc_106_58_113_4_start:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 107 8 ]
+        %tmp.1 = lgetv %colorIndex;
+        symbol [ colorIndex %tmp.1 107 17 27 ];
+        symbol [ _index ? 107 8 14 ];
+        putv self :_index %tmp.1;
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 108 8 ]
+        symbol [ _colors %tmp.3 108 17 24 ];
+        %tmp.3 = getv ? :_colors;
+        symbol [ _index %tmp.5 108 25 31 ];
+        %tmp.5 = getv ? :_index;
+        %tmp.6 = agetv %tmp.3 %tmp.5;
+        symbol [ _color ? 108 8 14 ];
+        putv self :_color %tmp.6;
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 109 8 ]
+        symbol [ WatchUi %tmp.7 109 8 15 ];
+        %tmp.7 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.8 109 16 29 ];
+        %tmp.8 = getv function %tmp.7 :requestUpdate;
+        invoke %tmp.7 %tmp.8();
 [ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 110 8 ]
-        symbol [ System %tmp.1 110 8 14 ];
-        %tmp.1 = getm $.Toybox.System;
-        symbol [ println %tmp.2 110 15 22 ];
-        %tmp.2 = getv function %tmp.1 :println;
-        %tmp.3 = "DEBUG setActiveColor: ";
-        %tmp.4 = lgetv %colorIndex;
-        symbol [ colorIndex %tmp.4 110 50 60 ];
-        %tmp.5 = add %tmp.3 %tmp.4;
-        invoke %tmp.1 %tmp.2(%tmp.5);
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 111 8 ]
-        %tmp.6 = lgetv %colorIndex;
-        symbol [ colorIndex %tmp.6 111 17 27 ];
-        symbol [ _index ? 111 8 14 ];
-        putv self :_index %tmp.6;
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 112 8 ]
-        symbol [ _colors %tmp.8 112 17 24 ];
-        %tmp.8 = getv ? :_colors;
-        symbol [ _index %tmp.10 112 25 31 ];
-        %tmp.10 = getv ? :_index;
-        %tmp.11 = agetv %tmp.8 %tmp.10;
-        symbol [ _color ? 112 8 14 ];
-        putv self :_color %tmp.11;
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 113 8 ]
-        symbol [ WatchUi %tmp.12 113 8 15 ];
-        %tmp.12 = getm $.Toybox.WatchUi;
-        symbol [ requestUpdate %tmp.13 113 16 29 ];
-        %tmp.13 = getv function %tmp.12 :requestUpdate;
-        invoke %tmp.12 %tmp.13();
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 114 8 ]
-C__develop_garmin_Brighty_source_FlashlightView_mc_114_8_116_8_if_stmt:
-        symbol [ _autoOff %tmp.15 114 12 20 ];
-        %tmp.15 = getv ? :_autoOff;
-        %tmp.16 = null;
-        %tmp.17 = ne %tmp.15 %tmp.16;
-        bf %tmp.17 @C__develop_garmin_Brighty_source_FlashlightView_mc_114_8_116_8_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_114_8_116_8_if_true:
-C__develop_garmin_Brighty_source_FlashlightView_mc_114_30_116_8_start:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 115 12 ]
-        symbol [ _autoOff %tmp.19 115 12 20 ];
-        %tmp.19 = getv ? :_autoOff;
-        %tmp.20 = as %tmp.19 { (!Null) };
-        symbol [ rearm %tmp.21 115 21 26 ];
-        %tmp.21 = getv function %tmp.20 :rearm;
-        symbol [ _color %tmp.23 115 27 33 ];
-        %tmp.23 = getv ? :_color;
-        invoke %tmp.20 %tmp.21(%tmp.23);
-C__develop_garmin_Brighty_source_FlashlightView_mc_114_30_116_8_stop:
-        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_114_8_116_8_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_114_8_116_8_if_end:
-C__develop_garmin_Brighty_source_FlashlightView_mc_109_58_117_4_stop:
+C__develop_garmin_Brighty_source_FlashlightView_mc_110_8_112_8_if_stmt:
+        symbol [ _autoOff %tmp.10 110 12 20 ];
+        %tmp.10 = getv ? :_autoOff;
+        %tmp.11 = null;
+        %tmp.12 = ne %tmp.10 %tmp.11;
+        bf %tmp.12 @C__develop_garmin_Brighty_source_FlashlightView_mc_110_8_112_8_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_110_8_112_8_if_true:
+C__develop_garmin_Brighty_source_FlashlightView_mc_110_30_112_8_start:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 111 12 ]
+        symbol [ _autoOff %tmp.14 111 12 20 ];
+        %tmp.14 = getv ? :_autoOff;
+        %tmp.15 = as %tmp.14 { (!Null) };
+        symbol [ rearm %tmp.16 111 21 26 ];
+        %tmp.16 = getv function %tmp.15 :rearm;
+        symbol [ _color %tmp.18 111 27 33 ];
+        %tmp.18 = getv ? :_color;
+        invoke %tmp.15 %tmp.16(%tmp.18);
+C__develop_garmin_Brighty_source_FlashlightView_mc_110_30_112_8_stop:
+        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_110_8_112_8_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_110_8_112_8_if_end:
+C__develop_garmin_Brighty_source_FlashlightView_mc_106_58_113_4_stop:
     }
-    [ @file = "C:\develop\garmin\Brighty\source\FlashlightView.mc"; @line = 119; @symbol_functiondef = [nextColor,119,13,22]; ]
+    [ @file = "C:\develop\garmin\Brighty\source\FlashlightView.mc"; @line = 115; @symbol_functiondef = [nextColor,115,13,22]; ]
     function nextColor() {
-C__develop_garmin_Brighty_source_FlashlightView_mc_119_25_125_4_start:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 121 8 ]
-C__develop_garmin_Brighty_source_FlashlightView_mc_121_8_124_8_if_stmt:
-        symbol [ _index %tmp.2 121 12 18 ];
+C__develop_garmin_Brighty_source_FlashlightView_mc_115_25_121_4_start:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 117 8 ]
+C__develop_garmin_Brighty_source_FlashlightView_mc_117_8_120_8_if_stmt:
+        symbol [ _index %tmp.2 117 12 18 ];
         %tmp.2 = getv ? :_index;
         %tmp.3 = 0;
         %tmp.4 = gt %tmp.2 %tmp.3;
-        bf %tmp.4 @C__develop_garmin_Brighty_source_FlashlightView_mc_121_8_124_8_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_121_8_124_8_if_true:
-C__develop_garmin_Brighty_source_FlashlightView_mc_121_24_124_8_start:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 122 12 ]
-        symbol [ _index %tmp.5 122 12 18 ];
+        bf %tmp.4 @C__develop_garmin_Brighty_source_FlashlightView_mc_117_8_120_8_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_117_8_120_8_if_true:
+C__develop_garmin_Brighty_source_FlashlightView_mc_117_24_120_8_start:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 118 12 ]
+        symbol [ _index %tmp.5 118 12 18 ];
         %tmp.5 = getv self :_index;
         %tmp.6 = 1;
         %tmp.7 = sub %tmp.5 %tmp.6;
-        symbol [ _index ? 122 12 18 ];
+        symbol [ _index ? 118 12 18 ];
         putv self :_index dup %tmp.7;
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 123 12 ]
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 119 12 ]
         %tmp.8 = self;
-        symbol [ setActiveColor %tmp.9 123 12 26 ];
+        symbol [ setActiveColor %tmp.9 119 12 26 ];
         %tmp.9 = getv function %tmp.8 :setActiveColor;
-        symbol [ _index %tmp.11 123 27 33 ];
+        symbol [ _index %tmp.11 119 27 33 ];
         %tmp.11 = getv ? :_index;
         invoke %tmp.8 %tmp.9(%tmp.11);
-C__develop_garmin_Brighty_source_FlashlightView_mc_121_24_124_8_stop:
-        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_121_8_124_8_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_121_8_124_8_if_end:
-C__develop_garmin_Brighty_source_FlashlightView_mc_119_25_125_4_stop:
+C__develop_garmin_Brighty_source_FlashlightView_mc_117_24_120_8_stop:
+        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_117_8_120_8_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_117_8_120_8_if_end:
+C__develop_garmin_Brighty_source_FlashlightView_mc_115_25_121_4_stop:
     }
-    [ @file = "C:\develop\garmin\Brighty\source\FlashlightView.mc"; @line = 127; @symbol_functiondef = [prevColor,127,13,22]; ]
+    [ @file = "C:\develop\garmin\Brighty\source\FlashlightView.mc"; @line = 123; @symbol_functiondef = [prevColor,123,13,22]; ]
     function prevColor() {
-C__develop_garmin_Brighty_source_FlashlightView_mc_127_25_134_4_start:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 129 8 ]
-        [ "C__develop_garmin_Brighty_source_FlashlightView_mc_127_25_134_4_start" "C__develop_garmin_Brighty_source_FlashlightView_mc_127_25_134_4_stop" ]
+C__develop_garmin_Brighty_source_FlashlightView_mc_123_25_130_4_start:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 125 8 ]
+        [ "C__develop_garmin_Brighty_source_FlashlightView_mc_123_25_130_4_start" "C__develop_garmin_Brighty_source_FlashlightView_mc_123_25_130_4_stop" ]
         %last.1 = local;
-        symbol [ last %last.1 129 12 16 ];
-        symbol [ _colors %tmp.2 129 19 26 ];
+        symbol [ last %last.1 125 12 16 ];
+        symbol [ _colors %tmp.2 125 19 26 ];
         %tmp.2 = getv ? :_colors;
-        symbol [ size %tmp.3 129 27 31 ];
+        symbol [ size %tmp.3 125 27 31 ];
         %tmp.3 = getv function %tmp.2 :size;
         %tmp.4 = invoke %tmp.2 %tmp.3();
         %tmp.5 = 1;
         %tmp.6 = sub %tmp.4 %tmp.5;
         lputv %last.1 %tmp.6;
-        symbol [ last %last.1 129 12 16 ];
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 130 8 ]
-C__develop_garmin_Brighty_source_FlashlightView_mc_130_8_133_8_if_stmt:
-        symbol [ _index %tmp.8 130 12 18 ];
+        symbol [ last %last.1 125 12 16 ];
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 126 8 ]
+C__develop_garmin_Brighty_source_FlashlightView_mc_126_8_129_8_if_stmt:
+        symbol [ _index %tmp.8 126 12 18 ];
         %tmp.8 = getv ? :_index;
         %tmp.9 = lgetv %last.1;
-        symbol [ last %tmp.9 130 21 25 ];
+        symbol [ last %tmp.9 126 21 25 ];
         %tmp.10 = lt %tmp.8 %tmp.9;
-        bf %tmp.10 @C__develop_garmin_Brighty_source_FlashlightView_mc_130_8_133_8_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_130_8_133_8_if_true:
-C__develop_garmin_Brighty_source_FlashlightView_mc_130_27_133_8_start:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 131 12 ]
-        symbol [ _index %tmp.11 131 12 18 ];
+        bf %tmp.10 @C__develop_garmin_Brighty_source_FlashlightView_mc_126_8_129_8_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_126_8_129_8_if_true:
+C__develop_garmin_Brighty_source_FlashlightView_mc_126_27_129_8_start:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 127 12 ]
+        symbol [ _index %tmp.11 127 12 18 ];
         %tmp.11 = getv self :_index;
         %tmp.12 = 1;
         %tmp.13 = add %tmp.11 %tmp.12;
-        symbol [ _index ? 131 12 18 ];
+        symbol [ _index ? 127 12 18 ];
         putv self :_index dup %tmp.13;
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 132 12 ]
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 128 12 ]
         %tmp.14 = self;
-        symbol [ setActiveColor %tmp.15 132 12 26 ];
+        symbol [ setActiveColor %tmp.15 128 12 26 ];
         %tmp.15 = getv function %tmp.14 :setActiveColor;
-        symbol [ _index %tmp.17 132 27 33 ];
+        symbol [ _index %tmp.17 128 27 33 ];
         %tmp.17 = getv ? :_index;
         invoke %tmp.14 %tmp.15(%tmp.17);
-C__develop_garmin_Brighty_source_FlashlightView_mc_130_27_133_8_stop:
-        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_130_8_133_8_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_130_8_133_8_if_end:
-C__develop_garmin_Brighty_source_FlashlightView_mc_127_25_134_4_stop:
+C__develop_garmin_Brighty_source_FlashlightView_mc_126_27_129_8_stop:
+        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_126_8_129_8_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_126_8_129_8_if_end:
+C__develop_garmin_Brighty_source_FlashlightView_mc_123_25_130_4_stop:
     }
-    [ @file = "C:\develop\garmin\Brighty\source\FlashlightView.mc"; @line = 139; @symbol_functiondef = [openSettings,139,13,25]; ]
+    [ @file = "C:\develop\garmin\Brighty\source\FlashlightView.mc"; @line = 135; @symbol_functiondef = [openSettings,135,13,25]; ]
     function openSettings() {
-C__develop_garmin_Brighty_source_FlashlightView_mc_139_28_141_4_start:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 140 8 ]
-        symbol [ SettingsMenu %tmp.2 140 8 20 ];
+C__develop_garmin_Brighty_source_FlashlightView_mc_135_28_137_4_start:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 136 8 ]
+        symbol [ SettingsMenu %tmp.2 136 8 20 ];
         %tmp.2 = getv ? :SettingsMenu;
-        symbol [ open %tmp.3 140 21 25 ];
+        symbol [ open %tmp.3 136 21 25 ];
         %tmp.3 = getv function %tmp.2 :open;
         invoke %tmp.2 %tmp.3();
-C__develop_garmin_Brighty_source_FlashlightView_mc_139_28_141_4_stop:
+C__develop_garmin_Brighty_source_FlashlightView_mc_135_28_137_4_stop:
     }
-    [ @file = "C:\develop\garmin\Brighty\source\FlashlightView.mc"; @line = 143; @symbol_functiondef = [contrastColor,143,13,26]; @symbol_param<0> = [bg,143,27,29]; @symbol_param<0>_type<0> = [Number,143,33,39]; @symbol_return<0> = [Number,143,44,50]; ]
+    [ @file = "C:\develop\garmin\Brighty\source\FlashlightView.mc"; @line = 139; @symbol_functiondef = [contrastColor,139,13,26]; @symbol_param<0> = [bg,139,27,29]; @symbol_param<0>_type<0> = [Number,139,33,39]; @symbol_return<0> = [Number,139,44,50]; ]
     function contrastColor(bg as Number) as Number {
-C__develop_garmin_Brighty_source_FlashlightView_mc_143_51_156_4_start:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 144 8 ]
-C__develop_garmin_Brighty_source_FlashlightView_mc_144_8_154_8_if_stmt:
+C__develop_garmin_Brighty_source_FlashlightView_mc_139_51_152_4_start:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 140 8 ]
+C__develop_garmin_Brighty_source_FlashlightView_mc_140_8_150_8_if_stmt:
         %tmp.1 = lgetv %bg;
-        symbol [ bg %tmp.1 144 12 14 ];
+        symbol [ bg %tmp.1 140 12 14 ];
         %tmp.2 = 0xffffff;
         %tmp.3 = eq %tmp.1 %tmp.2;
-        bf %tmp.3 @C__develop_garmin_Brighty_source_FlashlightView_mc_144_8_154_8_if_false;
-C__develop_garmin_Brighty_source_FlashlightView_mc_144_8_154_8_if_true:
-C__develop_garmin_Brighty_source_FlashlightView_mc_144_28_146_8_start:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 145 12 ]
-        symbol [ Graphics %tmp.4 145 19 27 ];
+        bf %tmp.3 @C__develop_garmin_Brighty_source_FlashlightView_mc_140_8_150_8_if_false;
+C__develop_garmin_Brighty_source_FlashlightView_mc_140_8_150_8_if_true:
+C__develop_garmin_Brighty_source_FlashlightView_mc_140_28_142_8_start:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 141 12 ]
+        symbol [ Graphics %tmp.4 141 19 27 ];
         %tmp.4 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLACK %tmp.5 145 28 39 ];
+        symbol [ COLOR_BLACK %tmp.5 141 28 39 ];
         %tmp.5 = getv %tmp.4 :COLOR_BLACK;
         ret %tmp.5;
-C__develop_garmin_Brighty_source_FlashlightView_mc_144_28_146_8_stop:
-        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_144_8_154_8_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_144_8_154_8_if_false:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 146 15 ]
-C__develop_garmin_Brighty_source_FlashlightView_mc_146_15_154_8_if_stmt:
+C__develop_garmin_Brighty_source_FlashlightView_mc_140_28_142_8_stop:
+        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_140_8_150_8_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_140_8_150_8_if_false:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 142 15 ]
+C__develop_garmin_Brighty_source_FlashlightView_mc_142_15_150_8_if_stmt:
         %tmp.6 = lgetv %bg;
-        symbol [ bg %tmp.6 146 19 21 ];
+        symbol [ bg %tmp.6 142 19 21 ];
         %tmp.7 = 0xcccccc;
         %tmp.8 = eq %tmp.6 %tmp.7;
-        bf %tmp.8 @C__develop_garmin_Brighty_source_FlashlightView_mc_146_15_154_8_if_false;
-C__develop_garmin_Brighty_source_FlashlightView_mc_146_15_154_8_if_true:
-C__develop_garmin_Brighty_source_FlashlightView_mc_146_35_148_8_start:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 147 12 ]
-        symbol [ Graphics %tmp.9 147 19 27 ];
+        bf %tmp.8 @C__develop_garmin_Brighty_source_FlashlightView_mc_142_15_150_8_if_false;
+C__develop_garmin_Brighty_source_FlashlightView_mc_142_15_150_8_if_true:
+C__develop_garmin_Brighty_source_FlashlightView_mc_142_35_144_8_start:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 143 12 ]
+        symbol [ Graphics %tmp.9 143 19 27 ];
         %tmp.9 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLACK %tmp.10 147 28 39 ];
+        symbol [ COLOR_BLACK %tmp.10 143 28 39 ];
         %tmp.10 = getv %tmp.9 :COLOR_BLACK;
         ret %tmp.10;
-C__develop_garmin_Brighty_source_FlashlightView_mc_146_35_148_8_stop:
-        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_146_15_154_8_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_146_15_154_8_if_false:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 148 15 ]
-C__develop_garmin_Brighty_source_FlashlightView_mc_148_15_154_8_if_stmt:
+C__develop_garmin_Brighty_source_FlashlightView_mc_142_35_144_8_stop:
+        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_142_15_150_8_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_142_15_150_8_if_false:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 144 15 ]
+C__develop_garmin_Brighty_source_FlashlightView_mc_144_15_150_8_if_stmt:
         %tmp.11 = lgetv %bg;
-        symbol [ bg %tmp.11 148 19 21 ];
+        symbol [ bg %tmp.11 144 19 21 ];
         %tmp.12 = 0x999999;
         %tmp.13 = eq %tmp.11 %tmp.12;
-        bf %tmp.13 @C__develop_garmin_Brighty_source_FlashlightView_mc_148_15_154_8_if_false;
-C__develop_garmin_Brighty_source_FlashlightView_mc_148_15_154_8_if_true:
-C__develop_garmin_Brighty_source_FlashlightView_mc_148_35_150_8_start:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 149 12 ]
-        symbol [ Graphics %tmp.14 149 19 27 ];
+        bf %tmp.13 @C__develop_garmin_Brighty_source_FlashlightView_mc_144_15_150_8_if_false;
+C__develop_garmin_Brighty_source_FlashlightView_mc_144_15_150_8_if_true:
+C__develop_garmin_Brighty_source_FlashlightView_mc_144_35_146_8_start:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 145 12 ]
+        symbol [ Graphics %tmp.14 145 19 27 ];
         %tmp.14 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.15 149 28 39 ];
+        symbol [ COLOR_WHITE %tmp.15 145 28 39 ];
         %tmp.15 = getv %tmp.14 :COLOR_WHITE;
         ret %tmp.15;
-C__develop_garmin_Brighty_source_FlashlightView_mc_148_35_150_8_stop:
-        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_148_15_154_8_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_148_15_154_8_if_false:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 150 15 ]
-C__develop_garmin_Brighty_source_FlashlightView_mc_150_15_154_8_if_stmt:
+C__develop_garmin_Brighty_source_FlashlightView_mc_144_35_146_8_stop:
+        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_144_15_150_8_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_144_15_150_8_if_false:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 146 15 ]
+C__develop_garmin_Brighty_source_FlashlightView_mc_146_15_150_8_if_stmt:
         %tmp.16 = lgetv %bg;
-        symbol [ bg %tmp.16 150 19 21 ];
-        symbol [ Graphics %tmp.17 150 25 33 ];
+        symbol [ bg %tmp.16 146 19 21 ];
+        symbol [ Graphics %tmp.17 146 25 33 ];
         %tmp.17 = getm $.Toybox.Graphics;
-        symbol [ COLOR_RED %tmp.18 150 34 43 ];
+        symbol [ COLOR_RED %tmp.18 146 34 43 ];
         %tmp.18 = getv %tmp.17 :COLOR_RED;
         %tmp.19 = eq %tmp.16 %tmp.18;
-        bf %tmp.19 @C__develop_garmin_Brighty_source_FlashlightView_mc_150_15_154_8_if_false;
-C__develop_garmin_Brighty_source_FlashlightView_mc_150_15_154_8_if_true:
-C__develop_garmin_Brighty_source_FlashlightView_mc_150_45_152_8_start:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 151 12 ]
-        symbol [ Graphics %tmp.20 151 19 27 ];
+        bf %tmp.19 @C__develop_garmin_Brighty_source_FlashlightView_mc_146_15_150_8_if_false;
+C__develop_garmin_Brighty_source_FlashlightView_mc_146_15_150_8_if_true:
+C__develop_garmin_Brighty_source_FlashlightView_mc_146_45_148_8_start:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 147 12 ]
+        symbol [ Graphics %tmp.20 147 19 27 ];
         %tmp.20 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.21 151 28 39 ];
+        symbol [ COLOR_WHITE %tmp.21 147 28 39 ];
         %tmp.21 = getv %tmp.20 :COLOR_WHITE;
         ret %tmp.21;
-C__develop_garmin_Brighty_source_FlashlightView_mc_150_45_152_8_stop:
-        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_150_15_154_8_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_150_15_154_8_if_false:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 152 15 ]
-C__develop_garmin_Brighty_source_FlashlightView_mc_152_15_154_8_if_stmt:
+C__develop_garmin_Brighty_source_FlashlightView_mc_146_45_148_8_stop:
+        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_146_15_150_8_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_146_15_150_8_if_false:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 148 15 ]
+C__develop_garmin_Brighty_source_FlashlightView_mc_148_15_150_8_if_stmt:
         %tmp.22 = lgetv %bg;
-        symbol [ bg %tmp.22 152 19 21 ];
-        symbol [ Graphics %tmp.23 152 25 33 ];
+        symbol [ bg %tmp.22 148 19 21 ];
+        symbol [ Graphics %tmp.23 148 25 33 ];
         %tmp.23 = getm $.Toybox.Graphics;
-        symbol [ COLOR_BLACK %tmp.24 152 34 45 ];
+        symbol [ COLOR_BLACK %tmp.24 148 34 45 ];
         %tmp.24 = getv %tmp.23 :COLOR_BLACK;
         %tmp.25 = eq %tmp.22 %tmp.24;
-        bf %tmp.25 @C__develop_garmin_Brighty_source_FlashlightView_mc_152_15_154_8_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_152_15_154_8_if_true:
-C__develop_garmin_Brighty_source_FlashlightView_mc_152_47_154_8_start:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 153 12 ]
-        symbol [ Graphics %tmp.26 153 19 27 ];
+        bf %tmp.25 @C__develop_garmin_Brighty_source_FlashlightView_mc_148_15_150_8_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_148_15_150_8_if_true:
+C__develop_garmin_Brighty_source_FlashlightView_mc_148_47_150_8_start:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 149 12 ]
+        symbol [ Graphics %tmp.26 149 19 27 ];
         %tmp.26 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.27 153 28 39 ];
+        symbol [ COLOR_WHITE %tmp.27 149 28 39 ];
         %tmp.27 = getv %tmp.26 :COLOR_WHITE;
         ret %tmp.27;
-C__develop_garmin_Brighty_source_FlashlightView_mc_152_47_154_8_stop:
-        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_152_15_154_8_if_end;
-C__develop_garmin_Brighty_source_FlashlightView_mc_152_15_154_8_if_end:
-C__develop_garmin_Brighty_source_FlashlightView_mc_150_15_154_8_if_end:
-C__develop_garmin_Brighty_source_FlashlightView_mc_148_15_154_8_if_end:
-C__develop_garmin_Brighty_source_FlashlightView_mc_146_15_154_8_if_end:
-C__develop_garmin_Brighty_source_FlashlightView_mc_144_8_154_8_if_end:
-[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 155 8 ]
-        symbol [ Graphics %tmp.28 155 15 23 ];
+C__develop_garmin_Brighty_source_FlashlightView_mc_148_47_150_8_stop:
+        goto @C__develop_garmin_Brighty_source_FlashlightView_mc_148_15_150_8_if_end;
+C__develop_garmin_Brighty_source_FlashlightView_mc_148_15_150_8_if_end:
+C__develop_garmin_Brighty_source_FlashlightView_mc_146_15_150_8_if_end:
+C__develop_garmin_Brighty_source_FlashlightView_mc_144_15_150_8_if_end:
+C__develop_garmin_Brighty_source_FlashlightView_mc_142_15_150_8_if_end:
+C__develop_garmin_Brighty_source_FlashlightView_mc_140_8_150_8_if_end:
+[ "C:\develop\garmin\Brighty\source\FlashlightView.mc" 151 8 ]
+        symbol [ Graphics %tmp.28 151 15 23 ];
         %tmp.28 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.29 155 24 35 ];
+        symbol [ COLOR_WHITE %tmp.29 151 24 35 ];
         %tmp.29 = getv %tmp.28 :COLOR_WHITE;
         ret %tmp.29;
-C__develop_garmin_Brighty_source_FlashlightView_mc_143_51_156_4_stop:
+C__develop_garmin_Brighty_source_FlashlightView_mc_139_51_152_4_stop:
     }
 }
 [ @file = "C:\develop\garmin\Brighty\source\FlashlightView.mc"; @line = 1; ]

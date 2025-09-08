@@ -142,9 +142,9 @@ C__develop_garmin_Brighty_source_AutoOffController_mc_28_43_42_4_stop:
     }
     [ @file = "C:\develop\garmin\Brighty\source\AutoOffController.mc"; @line = 45; @symbol_functiondef = [_onExpire,45,13,22]; ]
     function _onExpire() as Void {
-C__develop_garmin_Brighty_source_AutoOffController_mc_45_33_58_4_start:
+C__develop_garmin_Brighty_source_AutoOffController_mc_45_33_57_4_start:
 [ "C:\develop\garmin\Brighty\source\AutoOffController.mc" 46 8 ]
-        [ "C__develop_garmin_Brighty_source_AutoOffController_mc_45_33_58_4_start" "C__develop_garmin_Brighty_source_AutoOffController_mc_45_33_58_4_stop" ]
+        [ "C__develop_garmin_Brighty_source_AutoOffController_mc_45_33_57_4_start" "C__develop_garmin_Brighty_source_AutoOffController_mc_45_33_57_4_stop" ]
         %colors.1 = local;
         symbol [ colors %colors.1 46 12 18 ];
         symbol [ SettingsService %tmp.2 46 21 36 ];
@@ -154,98 +154,85 @@ C__develop_garmin_Brighty_source_AutoOffController_mc_45_33_58_4_start:
         %tmp.4 = invoke %tmp.2 %tmp.3();
         lputv %colors.1 %tmp.4;
         symbol [ colors %colors.1 46 12 18 ];
-[ "C:\develop\garmin\Brighty\source\AutoOffController.mc" 47 8 ]
-        symbol [ System %tmp.6 47 8 14 ];
-        %tmp.6 = getv ? :System;
-        symbol [ println %tmp.7 47 15 22 ];
-        %tmp.7 = getv function %tmp.6 :println;
-        %tmp.8 = "DEBUG: ";
-        %tmp.9 = lgetv %colors.1;
-        symbol [ colors %tmp.9 47 35 41 ];
-        symbol [ size %tmp.10 47 42 46 ];
-        %tmp.10 = getv function %tmp.9 :size;
-        %tmp.11 = invoke %tmp.9 %tmp.10();
-        %tmp.12 = add %tmp.8 %tmp.11;
-        invoke %tmp.6 %tmp.7(%tmp.12);
-[ "C:\develop\garmin\Brighty\source\AutoOffController.mc" 49 8 ]
-C__develop_garmin_Brighty_source_AutoOffController_mc_49_8_51_8_if_stmt:
-        symbol [ _applyColor %tmp.14 49 12 23 ];
-        %tmp.14 = getv ? :_applyColor;
-        %tmp.15 = null;
-        %tmp.16 = ne %tmp.14 %tmp.15;
-        bf %tmp.16 @C__develop_garmin_Brighty_source_AutoOffController_mc_49_8_51_8_if_end;
-C__develop_garmin_Brighty_source_AutoOffController_mc_49_8_51_8_if_true:
-C__develop_garmin_Brighty_source_AutoOffController_mc_49_33_51_8_start:
-[ "C:\develop\garmin\Brighty\source\AutoOffController.mc" 50 12 ]
-        symbol [ _applyColor %tmp.18 50 12 23 ];
-        %tmp.18 = getv ? :_applyColor;
-        %tmp.19 = as %tmp.18 { (!Null) };
-        symbol [ invoke %tmp.20 50 24 30 ];
-        %tmp.20 = getv function %tmp.19 :invoke;
-        %tmp.21 = lgetv %colors.1;
-        symbol [ colors %tmp.21 50 31 37 ];
-        symbol [ size %tmp.22 50 38 42 ];
-        %tmp.22 = getv function %tmp.21 :size;
-        %tmp.23 = invoke %tmp.21 %tmp.22();
-        invoke %tmp.19 %tmp.20(%tmp.23);
-C__develop_garmin_Brighty_source_AutoOffController_mc_49_33_51_8_stop:
-        goto @C__develop_garmin_Brighty_source_AutoOffController_mc_49_8_51_8_if_end;
-C__develop_garmin_Brighty_source_AutoOffController_mc_49_8_51_8_if_end:
-[ "C:\develop\garmin\Brighty\source\AutoOffController.mc" 53 8 ]
-C__develop_garmin_Brighty_source_AutoOffController_mc_53_8_57_8_if_stmt:
-        symbol [ _vibrateOnExp %tmp.25 53 12 25 ];
-        %tmp.25 = getv ? :_vibrateOnExp;
-        bf %tmp.25 @C__develop_garmin_Brighty_source_AutoOffController_mc_53_8_57_8_if_end;
-C__develop_garmin_Brighty_source_AutoOffController_mc_53_8_57_8_if_true:
-C__develop_garmin_Brighty_source_AutoOffController_mc_53_27_57_8_start:
-[ "C:\develop\garmin\Brighty\source\AutoOffController.mc" 54 12 ]
-        try @C__develop_garmin_Brighty_source_AutoOffController_mc_54_12_56_25_beginTry @C__develop_garmin_Brighty_source_AutoOffController_mc_54_12_56_25_endTry @C__develop_garmin_Brighty_source_AutoOffController_mc_54_12_56_25_catch @C__develop_garmin_Brighty_source_AutoOffController_mc_54_12_56_25_finally;
-C__develop_garmin_Brighty_source_AutoOffController_mc_54_12_56_25_beginTry:
-C__develop_garmin_Brighty_source_AutoOffController_mc_54_16_56_12_start:
-[ "C:\develop\garmin\Brighty\source\AutoOffController.mc" 55 16 ]
-        symbol [ Attention %tmp.26 55 16 25 ];
-        %tmp.26 = getm $.Toybox.Attention;
-        symbol [ vibrate %tmp.27 55 26 33 ];
-        %tmp.27 = getv function %tmp.26 :vibrate;
-        %tmp.28 = newa 1;
-        symbol [ Attention %tmp.31 55 39 48 ];
-        %tmp.31 = getm $.Toybox.Attention;
-        symbol [ VibeProfile %tmp.32 55 49 60 ];
-        %tmp.32 = getv function ? %tmp.31 :VibeProfile;
-        %tmp.33 = 50;
-        %tmp.34 = 2000;
-        %tmp.29 = newc %tmp.32 (%tmp.33, %tmp.34);
-        %tmp.35 = dup %tmp.28;
-        %tmp.36 = aputv %tmp.35 0 %tmp.29;
-        invoke %tmp.26 %tmp.27(%tmp.36);
-C__develop_garmin_Brighty_source_AutoOffController_mc_54_16_56_12_stop:
-C__develop_garmin_Brighty_source_AutoOffController_mc_54_12_56_25_endTry:
-        jsr @C__develop_garmin_Brighty_source_AutoOffController_mc_54_12_56_25_finally;
-        goto @C__develop_garmin_Brighty_source_AutoOffController_mc_54_12_56_25_end;
-C__develop_garmin_Brighty_source_AutoOffController_mc_54_12_56_25_catch:
-        %tmp.37 = exception;
-        push %tmp.37;
-[ "C:\develop\garmin\Brighty\source\AutoOffController.mc" 56 14 ]
-        [ "C__develop_garmin_Brighty_source_AutoOffController_mc_54_12_56_25_catch" "C__develop_garmin_Brighty_source_AutoOffController_mc_56_14_56_25_end" ]
+[ "C:\develop\garmin\Brighty\source\AutoOffController.mc" 48 8 ]
+C__develop_garmin_Brighty_source_AutoOffController_mc_48_8_50_8_if_stmt:
+        symbol [ _applyColor %tmp.6 48 12 23 ];
+        %tmp.6 = getv ? :_applyColor;
+        %tmp.7 = null;
+        %tmp.8 = ne %tmp.6 %tmp.7;
+        bf %tmp.8 @C__develop_garmin_Brighty_source_AutoOffController_mc_48_8_50_8_if_end;
+C__develop_garmin_Brighty_source_AutoOffController_mc_48_8_50_8_if_true:
+C__develop_garmin_Brighty_source_AutoOffController_mc_48_33_50_8_start:
+[ "C:\develop\garmin\Brighty\source\AutoOffController.mc" 49 12 ]
+        symbol [ _applyColor %tmp.10 49 12 23 ];
+        %tmp.10 = getv ? :_applyColor;
+        %tmp.11 = as %tmp.10 { (!Null) };
+        symbol [ invoke %tmp.12 49 24 30 ];
+        %tmp.12 = getv function %tmp.11 :invoke;
+        %tmp.13 = lgetv %colors.1;
+        symbol [ colors %tmp.13 49 31 37 ];
+        symbol [ size %tmp.14 49 38 42 ];
+        %tmp.14 = getv function %tmp.13 :size;
+        %tmp.15 = invoke %tmp.13 %tmp.14();
+        invoke %tmp.11 %tmp.12(%tmp.15);
+C__develop_garmin_Brighty_source_AutoOffController_mc_48_33_50_8_stop:
+        goto @C__develop_garmin_Brighty_source_AutoOffController_mc_48_8_50_8_if_end;
+C__develop_garmin_Brighty_source_AutoOffController_mc_48_8_50_8_if_end:
+[ "C:\develop\garmin\Brighty\source\AutoOffController.mc" 52 8 ]
+C__develop_garmin_Brighty_source_AutoOffController_mc_52_8_56_8_if_stmt:
+        symbol [ _vibrateOnExp %tmp.17 52 12 25 ];
+        %tmp.17 = getv ? :_vibrateOnExp;
+        bf %tmp.17 @C__develop_garmin_Brighty_source_AutoOffController_mc_52_8_56_8_if_end;
+C__develop_garmin_Brighty_source_AutoOffController_mc_52_8_56_8_if_true:
+C__develop_garmin_Brighty_source_AutoOffController_mc_52_27_56_8_start:
+[ "C:\develop\garmin\Brighty\source\AutoOffController.mc" 53 12 ]
+        try @C__develop_garmin_Brighty_source_AutoOffController_mc_53_12_55_25_beginTry @C__develop_garmin_Brighty_source_AutoOffController_mc_53_12_55_25_endTry @C__develop_garmin_Brighty_source_AutoOffController_mc_53_12_55_25_catch @C__develop_garmin_Brighty_source_AutoOffController_mc_53_12_55_25_finally;
+C__develop_garmin_Brighty_source_AutoOffController_mc_53_12_55_25_beginTry:
+C__develop_garmin_Brighty_source_AutoOffController_mc_53_16_55_12_start:
+[ "C:\develop\garmin\Brighty\source\AutoOffController.mc" 54 16 ]
+        symbol [ Attention %tmp.18 54 16 25 ];
+        %tmp.18 = getm $.Toybox.Attention;
+        symbol [ vibrate %tmp.19 54 26 33 ];
+        %tmp.19 = getv function %tmp.18 :vibrate;
+        %tmp.20 = newa 1;
+        symbol [ Attention %tmp.23 54 39 48 ];
+        %tmp.23 = getm $.Toybox.Attention;
+        symbol [ VibeProfile %tmp.24 54 49 60 ];
+        %tmp.24 = getv function ? %tmp.23 :VibeProfile;
+        %tmp.25 = 50;
+        %tmp.26 = 2000;
+        %tmp.21 = newc %tmp.24 (%tmp.25, %tmp.26);
+        %tmp.27 = dup %tmp.20;
+        %tmp.28 = aputv %tmp.27 0 %tmp.21;
+        invoke %tmp.18 %tmp.19(%tmp.28);
+C__develop_garmin_Brighty_source_AutoOffController_mc_53_16_55_12_stop:
+C__develop_garmin_Brighty_source_AutoOffController_mc_53_12_55_25_endTry:
+        jsr @C__develop_garmin_Brighty_source_AutoOffController_mc_53_12_55_25_finally;
+        goto @C__develop_garmin_Brighty_source_AutoOffController_mc_53_12_55_25_end;
+C__develop_garmin_Brighty_source_AutoOffController_mc_53_12_55_25_catch:
+        %tmp.29 = exception;
+        push %tmp.29;
+[ "C:\develop\garmin\Brighty\source\AutoOffController.mc" 55 14 ]
+        [ "C__develop_garmin_Brighty_source_AutoOffController_mc_53_12_55_25_catch" "C__develop_garmin_Brighty_source_AutoOffController_mc_55_14_55_25_end" ]
         %e.2 = local;
-        symbol [ e %e.2 56 21 22 ];
-        %tmp.38 = dup %tmp.37;
-        lputv %e.2 %tmp.38;
-        symbol [ e %e.2 56 21 22 ];
-        jsr @C__develop_garmin_Brighty_source_AutoOffController_mc_54_12_56_25_finally;
+        symbol [ e %e.2 55 21 22 ];
+        %tmp.30 = dup %tmp.29;
+        lputv %e.2 %tmp.30;
+        symbol [ e %e.2 55 21 22 ];
+        jsr @C__develop_garmin_Brighty_source_AutoOffController_mc_53_12_55_25_finally;
         pop;
-        goto @C__develop_garmin_Brighty_source_AutoOffController_mc_54_12_56_25_end;
-C__develop_garmin_Brighty_source_AutoOffController_mc_56_14_56_25_end:
-        try @C__develop_garmin_Brighty_source_AutoOffController_mc_54_12_56_25_catch @C__develop_garmin_Brighty_source_AutoOffController_mc_56_14_56_25_end @C__develop_garmin_Brighty_source_AutoOffController_mc_56_14_56_25_end @C__develop_garmin_Brighty_source_AutoOffController_mc_54_12_56_25_finally;
-        jsr @C__develop_garmin_Brighty_source_AutoOffController_mc_54_12_56_25_finally;
-        throw %tmp.37;
-C__develop_garmin_Brighty_source_AutoOffController_mc_54_12_56_25_finally:
+        goto @C__develop_garmin_Brighty_source_AutoOffController_mc_53_12_55_25_end;
+C__develop_garmin_Brighty_source_AutoOffController_mc_55_14_55_25_end:
+        try @C__develop_garmin_Brighty_source_AutoOffController_mc_53_12_55_25_catch @C__develop_garmin_Brighty_source_AutoOffController_mc_55_14_55_25_end @C__develop_garmin_Brighty_source_AutoOffController_mc_55_14_55_25_end @C__develop_garmin_Brighty_source_AutoOffController_mc_53_12_55_25_finally;
+        jsr @C__develop_garmin_Brighty_source_AutoOffController_mc_53_12_55_25_finally;
+        throw %tmp.29;
+C__develop_garmin_Brighty_source_AutoOffController_mc_53_12_55_25_finally:
         jsrret;
-C__develop_garmin_Brighty_source_AutoOffController_mc_54_12_56_25_end:
-C__develop_garmin_Brighty_source_AutoOffController_mc_53_27_57_8_stop:
-        goto @C__develop_garmin_Brighty_source_AutoOffController_mc_53_8_57_8_if_end;
-C__develop_garmin_Brighty_source_AutoOffController_mc_53_8_57_8_if_end:
-C__develop_garmin_Brighty_source_AutoOffController_mc_45_33_58_4_stop:
+C__develop_garmin_Brighty_source_AutoOffController_mc_53_12_55_25_end:
+C__develop_garmin_Brighty_source_AutoOffController_mc_52_27_56_8_stop:
+        goto @C__develop_garmin_Brighty_source_AutoOffController_mc_52_8_56_8_if_end;
+C__develop_garmin_Brighty_source_AutoOffController_mc_52_8_56_8_if_end:
+C__develop_garmin_Brighty_source_AutoOffController_mc_45_33_57_4_stop:
     }
 }
 [ @file = "C:\develop\garmin\Brighty\source\AutoOffController.mc"; @line = 1; ]

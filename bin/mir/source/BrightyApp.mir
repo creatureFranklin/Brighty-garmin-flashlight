@@ -65,6 +65,23 @@ C__develop_garmin_Brighty_source_BrightyApp_mc_13_30_17_4_start:
         ret %tmp.16;
 C__develop_garmin_Brighty_source_BrightyApp_mc_13_30_17_4_stop:
     }
+    [ @file = "C:\develop\garmin\Brighty\source\BrightyApp.mc"; @line = 19; @symbol_functiondef = [onSettingsChanged,19,13,30]; ]
+    function onSettingsChanged() {
+C__develop_garmin_Brighty_source_BrightyApp_mc_19_33_25_4_start:
+[ "C:\develop\garmin\Brighty\source\BrightyApp.mc" 21 8 ]
+        symbol [ SettingsService %tmp.2 21 8 23 ];
+        %tmp.2 = getv ? :SettingsService;
+        symbol [ refreshCacheFromProperties %tmp.3 21 24 50 ];
+        %tmp.3 = getv function %tmp.2 :refreshCacheFromProperties;
+        invoke %tmp.2 %tmp.3();
+[ "C:\develop\garmin\Brighty\source\BrightyApp.mc" 24 8 ]
+        symbol [ WatchUi %tmp.4 24 8 15 ];
+        %tmp.4 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.5 24 16 29 ];
+        %tmp.5 = getv function %tmp.4 :requestUpdate;
+        invoke %tmp.4 %tmp.5();
+C__develop_garmin_Brighty_source_BrightyApp_mc_19_33_25_4_stop:
+    }
 }
 [ @file = "C:\develop\garmin\Brighty\source\BrightyApp.mc"; @line = 1; ]
 <init> {

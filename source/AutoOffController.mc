@@ -44,7 +44,6 @@ class AutoOffController {
     /** Interní callback po vypršení času */
     function _onExpire() as Void {
         var colors = SettingsService.getSelectedColors();
-        System.println("DEBUG: " + colors.size());
 
         if (_applyColor != null) {
             _applyColor.invoke(colors.size());
