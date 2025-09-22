@@ -9,12 +9,16 @@ class FlashlightView extends WatchUi.View {
     var _colors = prepareColors();
     var _color as Number;
     var _index as Number = 0;
-    // var currentColor as Number;
+
+    var _deviceHeight as Number = 0;
+    var _deviceWidth as Number = 0;
     var _autoOff as AutoOffController;
 
     function initialize() {
         View.initialize();
         _color = _colors[_index];
+
+        Utils.turnOnBacklight(1.0, 2);
 
         _autoOff = new AutoOffController(method(:setActiveColor), /*vibrateOnExpire=*/ true);
         _autoOff.rearm(_color);
@@ -35,6 +39,9 @@ class FlashlightView extends WatchUi.View {
     }
 
     function onUpdate(dc as Graphics.Dc) {
+        _deviceHeight = dc.getHeight();
+        _deviceWidth = dc.getWidth();
+
         // 1) Fill background
         var bg = _colors[_index];
         var fg = contrastColor(bg);
@@ -51,22 +58,41 @@ class FlashlightView extends WatchUi.View {
 
         // 3) hints
         var showHintsFlag = SettingsService.getHintsEnabled();
+        System.println(UiUtils.isRound(dc));
+        // On round displays
+        var last = _colors.size() - 1;
+        var canGoNext = _index > 0; // KEY_UP
+        var canGoPrev = _index < last; // KEY_DOWN
 
-        if (showHintsFlag == true) {
-            var last = _colors.size() - 1;
-            var canGoNext = _index > 0; // KEY_UP
-            var canGoPrev = _index < last; // KEY_DOWN
-
+        if (showHintsFlag == true && UiUtils.isRound(dc) == true) {
             if (canGoNext) {
-                UiUtils.drawSoftKeyStrip(dc, cx, cy, rOuter, 180, 15, 6, bg, fg);
-                UiUtils.drawLabel(dc, cx, cy, 180, rOuter, "+", fg, bg, Graphics.FONT_TINY, 20);
+                if (DeviceButtons.hasUpButton()) {
+                    UiUtils.drawSoftKeyStrip(dc, cx, cy, rOuter, 180, 15, 6, bg, fg);
+                    UiUtils.drawLabelPolar(dc, cx, cy, 180, rOuter, "+", fg, Graphics.FONT_TINY, 20);
+                } else {
+                    UiUtils.drawLabelRect(dc, "+", fg, Graphics.FONT_LARGE, 0.25, 0);
+                }
             }
 
             if (canGoPrev) {
-                UiUtils.drawSoftKeyStrip(dc, cx, cy, rOuter, 210, 15, 6, bg, fg);
-                UiUtils.drawLabel(dc, cx, cy, 210, rOuter, "-", fg, bg, Graphics.FONT_LARGE, 20);
+                if (DeviceButtons.hasDownButton()) {
+                    UiUtils.drawSoftKeyStrip(dc, cx, cy, rOuter, 210, 15, 6, bg, fg);
+                    UiUtils.drawLabelPolar(dc, cx, cy, 210, rOuter, "-", fg, Graphics.FONT_LARGE, 20);
+                } else {
+                    UiUtils.drawLabelRect(dc, "-", fg, Graphics.FONT_LARGE, 0.75, 0);
+                }
             }
             UiUtils.drawSoftKeyStrip(dc, cx, cy, rOuter, 30, 15, 6, bg, fg);
+        }
+        // On rect displays
+        if (showHintsFlag == true && UiUtils.isRound(dc) == false) {
+            if (canGoNext) {
+                UiUtils.drawLabelRect(dc, "+", fg, Graphics.FONT_LARGE, 0.25, 0);
+            }
+
+            if (canGoPrev) {
+                UiUtils.drawLabelRect(dc, "-", fg, Graphics.FONT_LARGE, 0.75, 0);
+            }
         }
     }
 
@@ -104,6 +130,19 @@ class FlashlightView extends WatchUi.View {
         return false;
     }
 
+    function onTap(clickEvent as WatchUi.ClickEvent) {
+        var h = _deviceHeight > 0 ? _deviceHeight : 100;
+        var y = clickEvent.getCoordinates()[1];
+
+        if (y < h / 2) {
+            nextColor();
+        } else {
+            prevColor();
+        }
+
+        return true;
+    }
+
     function setActiveColor(colorIndex as Number) as Void {
         _index = colorIndex;
         _color = _colors[_index];
@@ -138,26 +177,7 @@ class FlashlightView extends WatchUi.View {
     }
 
     function prepareColors() as Array<Number> {
-        var settingColors = SettingsService.getSelectedColors();
-        var whiteShades = [0xbfbfbf, 0x808080];
-
-        var result = [] as Array<Number>;
-
-        for (var i = 0; i < settingColors.size(); i += 1) {
-            var col = settingColors[i];
-            result.add(col);
-
-            if (col == Graphics.COLOR_WHITE) {
-                // insert white shades after white color
-                for (var j = 0; j < whiteShades.size(); j += 1) {
-                    result.add(whiteShades[j]);
-                }
-            }
-        }
-
-        result.add(Graphics.COLOR_BLACK);
-
-        return result;
+        return SettingsService.getSelectedColors();
     }
 
     function contrastColor(bg as Number) as Number {

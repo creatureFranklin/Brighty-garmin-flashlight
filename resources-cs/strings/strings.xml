@@ -1,0 +1,48 @@
+<strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+
+    <string id="AppName">Brighty</string>
+    
+    <string id="SettingsTitle">Nastavení</string>
+    <string id="ColorLabel">Barva</string>
+    
+    <string
+        id="selected">vybráno</string>
+    <string id="save">Uložit</string>
+    <string id="back">Zpět</string>
+
+    <string
+        id="settings">Nastavení</string>
+    <string id="colors">Barvy</string>
+    <string id="on">Zapnuto</string>
+    <string
+        id="off">Vypnuto</string>
+    <string id="hints">Hinty</string>
+    <string id="autoOff">Auto-vypnutí</string>
+    <string
+        id="colorsMultipleSelection">Barvy (více výběrů)</string>
+    
+    <string id="supportMe">Podpoř mě</string>
+    <string
+        id="donateOpenTheCamera">Otevři foťák/QR čtečku</string>
+    <string id="donateInfo">Podpora</string>
+    <string
+        id="donateInfoTitle">Podpoř mě</string>
+    <string id="donateInfoPrompt">Otevři v aplikaci na hodinkách: Menu → Podpoř mě</string>
+
+    <string id="colorWhite">Barva: Bílá</string>
+    <string
+        id="colorRed">Barva: Červená</string>
+    <string id="colorGreen">Barva: Zelená</string>
+    <string id="showHints">Zobrazovat hinty</string>
+    <string
+        id="autoOff">Auto-vypnutí</string>
+
+    <string id="autoOffNever">Nikdy</string>
+    <string id="autoOff5">5 s</string>
+    <string
+        id="autoOff10">10 s</string>
+    <string id="autoOff30">30 s</string>
+    <string id="autoOff60">60 s</string>
+
+</strings>

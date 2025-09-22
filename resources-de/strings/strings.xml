@@ -1,0 +1,48 @@
+<strings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+
+    <string id="AppName">Brighty</string>
+    
+    <string id="SettingsTitle">Einstellungen</string>
+    <string id="ColorLabel">Farbe</string>
+    
+    <string
+        id="selected">ausgewählt</string>
+    <string id="save">Speichern</string>
+    <string id="back">Zurück</string>
+
+    <string
+        id="settings">Einstellungen</string>
+    <string id="colors">Farben</string>
+    <string id="on">Ein</string>
+    <string
+        id="off">Aus</string>
+    <string id="hints">Hinweise</string>
+    <string id="autoOff">Autom. Ausschalten</string>
+    <string
+        id="colorsMultipleSelection">Farben (Mehrfachauswahl)</string>
+    
+    <string id="supportMe">Unterstütze mich</string>
+    <string
+        id="donateOpenTheCamera">Kamera/QR-Scanner öffnen</string>
+    <string id="donateInfo">Spenden</string>
+    <string
+        id="donateInfoTitle">Unterstütze mich</string>
+    <string id="donateInfoPrompt">Öffne in der Uhren-App: Menü → Unterstütze mich</string>
+
+    <string id="colorWhite">Farbe: Weiß</string>
+    <string
+        id="colorRed">Farbe: Rot</string>
+    <string id="colorGreen">Farbe: Grün</string>
+    <string id="showHints">Hinweise anzeigen</string>
+    <string
+        id="autoOff">Autom. Ausschalten</string>
+
+    <string id="autoOffNever">Nie</string>
+    <string id="autoOff5">5 s</string>
+    <string
+        id="autoOff10">10 s</string>
+    <string id="autoOff30">30 s</string>
+    <string id="autoOff60">60 s</string>
+
+</strings>

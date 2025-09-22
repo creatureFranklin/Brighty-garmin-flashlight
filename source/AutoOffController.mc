@@ -50,7 +50,7 @@ class AutoOffController {
         var colors = SettingsService.getSelectedColors();
 
         if (_applyColor != null) {
-            _applyColor.invoke(colors.size());
+            _applyColor.invoke(colors.size() - 1);
         }
 
         if (_vibrateOnExp) {

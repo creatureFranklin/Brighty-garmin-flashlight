@@ -13,4 +13,8 @@ class BrightyDelegate extends WatchUi.InputDelegate {
     function onKey(keyEvent as WatchUi.KeyEvent) as Lang.Boolean {
         return _view.onKey(keyEvent.getKey());
     }
+
+    function onTap(clickEvent as WatchUi.ClickEvent) as Boolean {
+        return _view.onTap(clickEvent);
+    }
 }

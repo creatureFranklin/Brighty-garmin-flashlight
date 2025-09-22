@@ -27,15 +27,11 @@ class SettingsModel {
 
     // ---- Colors multiselect ----
     function getSelectedColors() {
-        var arr = Application.getApp().getProperty("mainColors");
-        if (arr == null) {
-            arr = [Graphics.COLOR_WHITE]; // Default color
-        }
-        return arr;
+        return SettingsService.getSelectedColors();
     }
 
     function setSelectedColors(list) {
-        Application.getApp().setProperty("mainColors", list);
+        SettingsService.setSelectedColorsList(list as Array<Number>);
     }
 
     function isColorSelected(val as Number) {
@@ -65,11 +61,13 @@ class SettingsModel {
         setSelectedColors(sel);
     }
 
-    function colorsSummaryLabel() {
+    function colorsSummaryLabel() as String {
         var sel = getSelectedColors();
-        var names = [];
+        var names = [] as Array<String>;
+
         for (var i = 0; i < colorValues.size(); i += 1) {
             var cv = colorValues[i];
+
             var picked = false;
             for (var j = 0; j < sel.size(); j += 1) {
                 if (sel[j] == cv) {
@@ -81,19 +79,18 @@ class SettingsModel {
                 names.add(colorLabels[i]);
             }
         }
-        if (names.size() == 0) {
+
+        var n = names.size();
+        if (n == 0) {
             return "—";
         }
-        if (names.size() <= 2) {
+        if (n <= 2) {
             return Utils.joinArray(names, ", ");
         }
 
-        return names.size() + " " + Rez.Strings.selected;
+        return names[0] + ", " + names[1] + " +" + (n - 2).toString();
     }
 
-    /**
-     * Kompatibilita se single-select
-     */
     function getColor() {
         // returns first color from all selected colors
         var sel = getSelectedColors();
@@ -104,26 +101,19 @@ class SettingsModel {
     }
 
     function getHints() {
-        var v = Application.getApp().getProperty("showHints");
-        if (v == null) {
-            v = true;
-        }
-        return v;
+        return SettingsService.getHintsEnabled();
     }
+
     function setHints(on) {
-        Application.getApp().setProperty("showHints", on);
+        SettingsService.setHintsEnabled(on);
     }
 
     function getAutoOff() {
-        var v = Application.getApp().getProperty("autoOffSec");
-        if (v == null) {
-            v = 0;
-        }
-        return v;
+        return SettingsService.getAutoOffSeconds();
     }
 
     function setAutoOff(sec) {
-        Application.getApp().setProperty("autoOffSec", sec);
+        SettingsService.setAutoOffSeconds(sec);
     }
 
     function indexOfValue(arr, value) {
@@ -144,30 +134,27 @@ class SettingsMenuBuilder {
         model = new SettingsModel();
     }
 
-    function buildMainMenu() {
-        var m = new WatchUi.Menu();
-        m.setTitle(Rez.Strings.settings);
+    function buildMainMenu() as WatchUi.Menu2 {
+        var m = new WatchUi.Menu2({
+            :title => Rez.Strings.settings,
+        });
 
-        // Colors (multiselect) – show summary
-        m.addItem(Rez.Strings.colors + ": " + model.colorsSummaryLabel(), SettingsIds.ID_COLOR);
+        m.addItem(new WatchUi.MenuItem(Rez.Strings.colors, model.colorsSummaryLabel() as String, SettingsIds.ID_COLOR, null));
 
-        // Hints
-        var hintsTxt = model.getHints() ? Rez.Strings.on : Rez.Strings.off;
-        m.addItem(Rez.Strings.hints + ": " + hintsTxt, SettingsIds.ID_HINTS);
+        var hintsRes = model.getHints() ? "On" : "Off";
+        m.addItem(new WatchUi.MenuItem(Rez.Strings.hints, hintsRes, SettingsIds.ID_HINTS, null));
 
-        // Auto-off
         var tIdx = model.indexOfValue(model.timeoutValues, model.getAutoOff());
-        m.addItem(Rez.Strings.autoOff + ": " + model.timeoutLabels[tIdx], SettingsIds.ID_TIMEOUT);
+        var timeoutLabel = model.timeoutLabels[tIdx];
+        m.addItem(new WatchUi.MenuItem(Rez.Strings.autoOff, timeoutLabel, SettingsIds.ID_TIMEOUT, null));
 
-        m.addItem(Rez.Strings.supportMe, SettingsIds.ID_DONATE);
+        m.addItem(new WatchUi.MenuItem(Rez.Strings.supportMe, null, SettingsIds.ID_DONATE, null));
 
-        // m.addItem("Zpět", SettingsIds.ID_BACK);
         return m;
     }
 
-    function buildColorMenu(currentSel as Array) {
-        var m = new WatchUi.Menu();
-        m.setTitle(Rez.Strings.colorsMultipleSelection);
+    function buildColorMenu(currentSel as Array) as WatchUi.Menu2 {
+        var m = new WatchUi.Menu2({ :title => Rez.Strings.colorsMultipleSelection });
 
         var n = model.colorLabels.size();
         if (n > SettingsIds.COLOR_IDS.size()) {
@@ -177,43 +164,47 @@ class SettingsMenuBuilder {
         for (var i = 0; i < n; i += 1) {
             var val = model.colorValues[i];
             var picked = false;
-
             for (var j = 0; j < currentSel.size(); j += 1) {
                 if (currentSel[j] == val) {
                     picked = true;
                     break;
                 }
             }
-            var mark = picked ? "[x] " : "[ ] ";
-            m.addItem(mark + model.colorLabels[i], SettingsIds.COLOR_IDS[i]);
+
+            var mark = picked ? "[x]" : "[ ]";
+            m.addItem(new WatchUi.MenuItem(mark + " " + model.colorLabels[i], null, SettingsIds.COLOR_IDS[i], null));
         }
 
-        m.addItem(Rez.Strings.save, SettingsIds.ID_SAVE_COLORS);
-        m.addItem(Rez.Strings.back, SettingsIds.ID_BACK);
+        m.addItem(new WatchUi.MenuItem(Rez.Strings.save, null, SettingsIds.ID_SAVE_COLORS, null));
+        m.addItem(new WatchUi.MenuItem(Rez.Strings.back, null, SettingsIds.ID_BACK, null));
+
         return m;
     }
 
-    function buildTimeoutMenu() {
-        var m = new WatchUi.Menu();
-        m.setTitle(Rez.Strings.autoOff);
+    function buildTimeoutMenu() as WatchUi.Menu2 {
+        var m = new WatchUi.Menu2({ :title => Rez.Strings.autoOff });
 
         var n = model.timeoutLabels.size();
         if (n > SettingsIds.TIMEOUT_IDS.size()) {
             n = SettingsIds.TIMEOUT_IDS.size();
         }
 
+        var current = model.getAutoOff();
         for (var i = 0; i < n; i += 1) {
-            m.addItem(model.timeoutLabels[i], SettingsIds.TIMEOUT_IDS[i]);
+            var isCurr = model.timeoutValues[i] == current;
+            var mark = isCurr ? "[x]" : "[ ]"; // highlight current choose
+            m.addItem(new WatchUi.MenuItem(mark + " " + model.timeoutLabels[i], null, SettingsIds.TIMEOUT_IDS[i], null));
         }
-        m.addItem(Rez.Strings.back, SettingsIds.ID_BACK);
+
+        m.addItem(new WatchUi.MenuItem(Rez.Strings.back, null, SettingsIds.ID_BACK, null));
         return m;
     }
 
     function refreshMainMenu() {
         WatchUi.popView(WatchUi.SLIDE_IMMEDIATE);
-        var menu = buildMainMenu();
-        var dlg = new SettingsMenuDelegate(self);
-        WatchUi.pushView(menu, dlg, WatchUi.SLIDE_IMMEDIATE);
+        var mainView = new FlashlightView();
+        var delegate = new BrightyDelegate(mainView);
+        WatchUi.switchToView(mainView, delegate, WatchUi.SLIDE_IMMEDIATE);
     }
 
     function refreshColorsMenu(currentSel as Array) {
@@ -225,40 +216,46 @@ class SettingsMenuBuilder {
 }
 
 // ---------- Delegates ----------
-class SettingsMenuDelegate extends WatchUi.MenuInputDelegate {
+
+class SettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
     private var builder;
     private var model;
 
     function initialize(b) {
-        MenuInputDelegate.initialize();
+        Menu2InputDelegate.initialize();
         builder = b;
         model = new SettingsModel();
     }
 
-    function onMenuItem(item) {
-        var startSel = model.getSelectedColors();
-        if (item == SettingsIds.ID_COLOR) {
+    function onSelect(item as WatchUi.MenuItem) as Void {
+        var id = item.getId();
+
+        if (id == SettingsIds.ID_COLOR) {
+            var startSel = model.getSelectedColors();
             WatchUi.pushView(builder.buildColorMenu(startSel), new ColorsMenuDelegate(builder, startSel), WatchUi.SLIDE_LEFT);
             return;
         }
-        if (item == SettingsIds.ID_SAVE_COLORS) {
-            WatchUi.pushView(builder.buildColorMenu(startSel), new ColorsMenuDelegate(builder, startSel), WatchUi.SLIDE_LEFT);
-            return;
-        }
-        if (item == SettingsIds.ID_HINTS) {
+
+        if (id == SettingsIds.ID_HINTS) {
             model.setHints(!model.getHints());
-            builder.refreshMainMenu();
+
+            var txt = model.getHints() ? Rez.Strings.on : Rez.Strings.off;
+            item.setSubLabel(txt);
+            WatchUi.requestUpdate();
             return;
         }
-        if (item == SettingsIds.ID_TIMEOUT) {
+
+        if (id == SettingsIds.ID_TIMEOUT) {
             WatchUi.pushView(builder.buildTimeoutMenu(), new TimeoutMenuDelegate(builder), WatchUi.SLIDE_LEFT);
             return;
         }
-        if (item == SettingsIds.ID_DONATE) {
+
+        if (id == SettingsIds.ID_DONATE) {
             (new DonateHelper()).openBuyMeACoffee();
             return;
         }
-        if (item == SettingsIds.ID_BACK) {
+
+        if (id == SettingsIds.ID_BACK) {
             WatchUi.popView(WatchUi.SLIDE_DOWN);
             return;
         }
@@ -266,48 +263,32 @@ class SettingsMenuDelegate extends WatchUi.MenuInputDelegate {
 
     function onBack() {
         WatchUi.popView(WatchUi.SLIDE_DOWN);
-        return true;
+        return;
     }
 }
 
-class ColorsMenuDelegate extends WatchUi.MenuInputDelegate {
+class ColorsMenuDelegate extends WatchUi.Menu2InputDelegate {
     private var builder;
     private var model;
     private var tempSel;
 
     function initialize(b, initialSel as Array) {
-        MenuInputDelegate.initialize();
+        Menu2InputDelegate.initialize();
         builder = b;
         model = new SettingsModel();
-        // Create a copy so that changes can be clicked/selected without being saved immediately
+
         tempSel = [];
         for (var i = 0; i < initialSel.size(); i += 1) {
             tempSel.add(initialSel[i]);
         }
     }
 
-    function toggleInTemp(val as Number) {
-        var idx = Utils.indexOfArray(tempSel, val);
-        if (idx >= 0) {
-            // remove
-            var newArr = [];
-            for (var i = 0; i < tempSel.size(); i += 1) {
-                if (i != idx) {
-                    newArr.add(tempSel[i]);
-                }
-            }
-            tempSel = newArr;
-        } else {
-            // add
-            tempSel.add(val);
-        }
-    }
+    function onSelect(item as WatchUi.MenuItem) as Void {
+        var id = item.getId();
 
-    function onMenuItem(item) {
-        // Save: confirm selections and return to the main menu
-        if (item == SettingsIds.ID_SAVE_COLORS) {
+        // Save
+        if (id == SettingsIds.ID_SAVE_COLORS) {
             if (tempSel.size() == 0) {
-                // always at least one color, default is white
                 tempSel.add(Graphics.COLOR_WHITE);
             }
             model.setSelectedColors(tempSel);
@@ -315,13 +296,13 @@ class ColorsMenuDelegate extends WatchUi.MenuInputDelegate {
             return;
         }
 
-        // Back: discard changes (do not save) and return
-        if (item == SettingsIds.ID_BACK) {
+        // Back
+        if (id == SettingsIds.ID_BACK) {
             builder.refreshMainMenu();
             return;
         }
 
-        // Click on a color → toggle in tempSel and refresh THIS submenu
+        // Change
         var ids = SettingsIds.COLOR_IDS;
         var n = model.colorValues.size();
         if (n > ids.size()) {
@@ -329,9 +310,28 @@ class ColorsMenuDelegate extends WatchUi.MenuInputDelegate {
         }
 
         for (var i = 0; i < n; i += 1) {
-            if (item == ids[i]) {
-                toggleInTemp(model.colorValues[i]);
-                builder.refreshColorsMenu(tempSel); // stay in the submenu, but redraw
+            if (id == ids[i]) {
+                var val = model.colorValues[i];
+
+                // toggle in tempSel
+                var idx = Utils.indexOfArray(tempSel, val);
+                if (idx >= 0) {
+                    // remove
+                    var tmp = [] as Array<Number>;
+                    for (var k = 0; k < tempSel.size(); k += 1) {
+                        if (k != idx) {
+                            tmp.add(tempSel[k]);
+                        }
+                    }
+                    tempSel = tmp;
+                } else {
+                    tempSel.add(val);
+                }
+
+                var picked = Utils.indexOfArray(tempSel, val) >= 0;
+                var mark = picked ? "[x]" : "[ ]";
+                item.setLabel(mark + " " + model.colorLabels[i]);
+                WatchUi.requestUpdate();
                 return;
             }
         }
@@ -339,22 +339,24 @@ class ColorsMenuDelegate extends WatchUi.MenuInputDelegate {
 
     function onBack() {
         builder.refreshMainMenu();
-        return true;
+        return;
     }
 }
 
-class TimeoutMenuDelegate extends WatchUi.MenuInputDelegate {
+class TimeoutMenuDelegate extends WatchUi.Menu2InputDelegate {
     private var builder;
     private var model;
 
     function initialize(b) {
-        MenuInputDelegate.initialize();
+        Menu2InputDelegate.initialize();
         builder = b;
         model = new SettingsModel();
     }
 
-    function onMenuItem(item) {
-        if (item == SettingsIds.ID_BACK) {
+    function onSelect(item as WatchUi.MenuItem) as Void {
+        var id = item.getId();
+
+        if (id == SettingsIds.ID_BACK) {
             builder.refreshMainMenu();
             return;
         }
@@ -366,7 +368,7 @@ class TimeoutMenuDelegate extends WatchUi.MenuInputDelegate {
         }
 
         for (var i = 0; i < n; i += 1) {
-            if (item == ids[i]) {
+            if (id == ids[i]) {
                 model.setAutoOff(model.timeoutValues[i]);
                 builder.refreshMainMenu();
                 return;
@@ -376,10 +378,9 @@ class TimeoutMenuDelegate extends WatchUi.MenuInputDelegate {
 
     function onBack() {
         WatchUi.popView(WatchUi.SLIDE_RIGHT);
-        return true;
+        return;
     }
 }
-
 class SettingsMenu {
     static function open() {
         var builder = new SettingsMenuBuilder();
@@ -414,26 +415,87 @@ class SettingsService {
         }
     }
 
-    // --- Bridge: booleans -> array of colors ---
-    static function _composeSelectedColors() as Array {
-        var res = [];
-        if (_getBool("colorWhite", true)) {
-            res.add(Graphics.COLOR_WHITE);
+    static function _composeSelectedColors() as Array<Number> {
+        var options = [
+            { :key => "colorWhite", :def => true, :color => Graphics.COLOR_WHITE },
+            { :key => "colorGreen", :def => false, :color => Graphics.COLOR_GREEN },
+            { :key => "colorRed", :def => false, :color => Graphics.COLOR_RED },
+        ];
+
+        var baseColors = [] as Array<Number>;
+
+        for (var i = 0; i < options.size(); i += 1) {
+            var opt = options[i];
+            if (_getBool(opt[:key], opt[:def])) {
+                baseColors.add(opt[:color]);
+            }
         }
-        if (_getBool("colorGreen", false)) {
-            res.add(Graphics.COLOR_GREEN);
+
+        if (baseColors.size() == 0) {
+            baseColors.add(Graphics.COLOR_WHITE);
         }
-        if (_getBool("colorRed", false)) {
-            res.add(Graphics.COLOR_RED);
+
+        var result = [] as Array<Number>;
+        var whiteShades = [0xbfbfbf, 0x808080];
+
+        for (var i = 0; i < baseColors.size(); i += 1) {
+            var col = baseColors[i];
+            result.add(col);
+            if (col == Graphics.COLOR_WHITE) {
+                for (var j = 0; j < whiteShades.size(); j += 1) {
+                    result.add(whiteShades[j]);
+                }
+            }
         }
-        if (res.size() == 0) {
-            res.add(Graphics.COLOR_WHITE);
-        }
-        return res;
+
+        result.add(Graphics.COLOR_BLACK);
+
+        return result;
     }
 
     static function getSelectedColors() as Array {
         return _composeSelectedColors();
+    }
+
+    static function setSelectedColorsList(list as Array<Number>) {
+        var hasW = false,
+            hasG = false,
+            hasR = false;
+        if (list != null) {
+            var n = list.size();
+            for (var i = 0; i < n; i += 1) {
+                var c = list[i];
+                if (c == Graphics.COLOR_WHITE) {
+                    hasW = true;
+                    continue;
+                }
+                if (c == Graphics.COLOR_GREEN) {
+                    hasG = true;
+                    continue;
+                }
+                if (c == Graphics.COLOR_RED) {
+                    hasR = true;
+                }
+            }
+        }
+
+        if (!hasW && !hasG && !hasR) {
+            hasW = true;
+        }
+
+        var curW = _getBool("colorWhite", true);
+        var curG = _getBool("colorGreen", false);
+        var curR = _getBool("colorRed", false);
+
+        if (curW != hasW) {
+            _set("colorWhite", hasW);
+        }
+        if (curG != hasG) {
+            _set("colorGreen", hasG);
+        }
+        if (curR != hasR) {
+            _set("colorRed", hasR);
+        }
     }
 
     static function getPrimaryColor() {
