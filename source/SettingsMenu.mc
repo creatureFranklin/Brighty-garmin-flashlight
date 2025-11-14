@@ -17,6 +17,9 @@ class SettingsIds {
     public static const ID_BACKLIGHT_ALLOW = :blAllow; // main menu → backlight submenu → backlight allow toggle
     public static const ID_BACKLIGHT_KEEPALIVE = :blKeepAlive; // main menu → backlight submenu → backlight keepalive toggle
 
+    public static const ID_FLASHING_LIGHTS = :flashingLights; // main menu → flashing lights
+    public static const ID_FLASHING_LIGHTS_SOS = :flash_sos; //  main menu → flashing lights → SOS
+
     public static const ID_BACK = :back; // universal "Back"
 
     public static const ID_DONATE = :donate;
@@ -155,6 +158,8 @@ class SettingsMenuBuilder {
             :title => Rez.Strings.settings,
         });
 
+        m.addItem(new WatchUi.MenuItem(Rez.Strings.flashingLights, null, SettingsIds.ID_FLASHING_LIGHTS, null));
+
         m.addItem(new WatchUi.MenuItem(Rez.Strings.colors, model.colorsSummaryLabel() as String, SettingsIds.ID_COLOR, null));
 
         var hintsRes = model.getHints() ? Utils._t(Rez.Strings.on) : Utils._t(Rez.Strings.off);
@@ -184,18 +189,19 @@ class SettingsMenuBuilder {
 
         for (var i = 0; i < n; i += 1) {
             var val = model.colorValues[i];
-            if (UtilsColorCompat.isLowColorDevice() && val != Graphics.COLOR_ORANGE) {
-                var picked = false;
-                for (var j = 0; j < currentSel.size(); j += 1) {
-                    if (currentSel[j] == val) {
-                        picked = true;
-                        break;
-                    }
-                }
-
-                var mark = picked ? "[x]" : "[ ]";
-                m.addItem(new WatchUi.MenuItem(mark + " " + model.colorLabels[i], null, SettingsIds.COLOR_IDS[i], null));
+            if (UtilsColorCompat.isLowColorDevice() && val == Graphics.COLOR_ORANGE) {
+                continue;
             }
+            var picked = false;
+            for (var j = 0; j < currentSel.size(); j += 1) {
+                if (currentSel[j] == val) {
+                    picked = true;
+                    break;
+                }
+            }
+
+            var mark = picked ? "[x]" : "[ ]";
+            m.addItem(new WatchUi.MenuItem(mark + " " + model.colorLabels[i], null, SettingsIds.COLOR_IDS[i], null));
         }
 
         m.addItem(new WatchUi.MenuItem(Rez.Strings.save, null, SettingsIds.ID_SAVE_COLORS, null));
@@ -237,6 +243,12 @@ class SettingsMenuBuilder {
         return m;
     }
 
+    function buildFlashingMenu() as WatchUi.Menu2 {
+        var m = new WatchUi.Menu2({ :title => Rez.Strings.flashingLights });
+        m.addItem(new WatchUi.MenuItem(Rez.Strings.flashingLightSOS, null, SettingsIds.ID_FLASHING_LIGHTS_SOS, null));
+        return m;
+    }
+
     function refreshMainMenu() {
         WatchUi.popView(WatchUi.SLIDE_IMMEDIATE);
         var mainView = new FlashlightView();
@@ -273,6 +285,11 @@ class SettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
 
     function onSelect(item as WatchUi.MenuItem) as Void {
         var id = item.getId();
+
+        if (id == SettingsIds.ID_FLASHING_LIGHTS) {
+            WatchUi.pushView(builder.buildFlashingMenu(), new FlashingMenuDelegate(builder), WatchUi.SLIDE_LEFT);
+            return;
+        }
 
         if (id == SettingsIds.ID_COLOR) {
             var startSel = model.getSelectedColors();
@@ -316,6 +333,26 @@ class SettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
     }
 }
 
+class FlashingMenuDelegate extends WatchUi.Menu2InputDelegate {
+    function initialize(b) {
+        Menu2InputDelegate.initialize();
+    }
+
+    function onSelect(item as WatchUi.MenuItem) as Void {
+        var id = item.getId();
+
+        if (id == SettingsIds.ID_FLASHING_LIGHTS_SOS) {
+            var v = new FlashingView(:sos);
+            var d = new BrightyDelegate(v);
+            WatchUi.switchToView(v, d, WatchUi.SLIDE_LEFT);
+            return;
+        }
+    }
+
+    function onBack() {
+        WatchUi.popView(WatchUi.SLIDE_RIGHT);
+    }
+}
 class ColorsMenuDelegate extends WatchUi.Menu2InputDelegate {
     private var builder;
     private var model;

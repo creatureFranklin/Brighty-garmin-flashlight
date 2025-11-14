@@ -60,4 +60,8 @@
     <string id="allowBacklight">Beleuchtung zulassen</string>
     <string
         id="backlightKeepAlive">Max. Helligkeit halten</string>
+
+    <string id="flashingLights">Blinklicht</string>
+    <string
+        id="flashingLightSOS">SOS</string>
 </strings>

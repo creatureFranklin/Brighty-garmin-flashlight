@@ -60,4 +60,9 @@
     <string id="allowBacklight">Zapínat podsvit</string>
     <string
         id="backlightKeepAlive">Udržovat jas na max</string>
+
+    <string
+        id="flashingLights">Blikající světlo</string>
+    <string
+        id="flashingLightSOS">SOS</string>
 </strings>
