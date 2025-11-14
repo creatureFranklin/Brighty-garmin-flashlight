@@ -60,4 +60,9 @@
         id="backlight">Backlight</string>
     <string id="allowBacklight">Allow backlight</string>
     <string id="backlightKeepAlive">Keep brightness max</string>
+
+    <string
+        id="flashingLights">Flashing lights</string>
+    <string
+        id="flashingLightSOS">SOS</string>
 </strings>
